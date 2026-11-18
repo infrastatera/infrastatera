@@ -18,6 +18,16 @@ window.INFRASTATERA_DEMOS = [
   {
     status: 'New demo',
     group: 'websites',
+    title: 'Land Surveying Website',
+    description: 'A website for a land surveying firm: a sample boundary plat that draws itself with real bearings and distances, a step-by-step survey quote request, project fees by agency and a capability statement PDF. Built for a fictional company, Benchline Land Surveying.',
+    tags: ['Websites', 'Surveying', 'Quote requests', 'Capability statement'],
+    url: 'https://benchline-survey-demo.vercel.app/',
+    desktop: { src: 'assets/img/benchline-survey-office.jpg', alt: 'Benchline Land Surveying homepage: the headline "We find the lines, then we prove them." beside a photo of a surveyor holding a GPS pole over a monument' },
+    phone: { src: 'assets/img/benchline-survey-phone.jpg', alt: 'Benchline Land Surveying on a phone: headline, request-a-survey-quote button, DBE and WBE certifications and license number' }
+  },
+  {
+    status: 'Live demo',
+    group: 'websites',
     title: 'Underground & Striping Website',
     description: 'A website for a pipeline and striping subcontractor: a to-scale street cross-section of the work, safety record (EMR and incident rate), the equipment fleet by unit number, a job photo gallery and a service-area map. Built for a fictional company, Marrick Underground & Striping.',
     tags: ['Websites', 'Underground', 'Safety record', 'Equipment fleet'],
