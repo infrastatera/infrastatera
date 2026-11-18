@@ -15,6 +15,15 @@
 window.INFRASTATERA_DEMOS = [
   {
     status: 'New demo',
+    title: 'Underground & Striping Website',
+    description: 'A website for a pipeline and striping subcontractor: a to-scale street cross-section of the work, safety record (EMR and incident rate), the equipment fleet by unit number, a job photo gallery and a service-area map. Built for a fictional company, Marrick Underground & Striping.',
+    tags: ['Websites', 'Underground', 'Safety record', 'Equipment fleet'],
+    url: 'https://marrick-underground-demo.vercel.app/',
+    desktop: { src: 'assets/img/marrick-underground-office.jpg', alt: 'Marrick Underground & Striping homepage: the headline "We dig the street, lay the pipe and stripe it back." beside a photo of an excavator digging a water main trench' },
+    phone: { src: 'assets/img/marrick-underground-phone.jpg', alt: 'Marrick Underground & Striping on a phone: trench photo, headline, request-a-bid button and DBE and DVBE certifications' }
+  },
+  {
+    status: 'Live demo',
     title: 'Subcontractor Website',
     description: 'A website for an electrical and ITS subcontractor: DBE and SBE certifications up front, a project list with agency and contract value for each job, a one-page capability statement PDF and a careers page. Built for a fictional company, Tessmer Electric & ITS.',
     tags: ['Websites', 'Subcontractors', 'Capability statement', 'Mobile-first'],
