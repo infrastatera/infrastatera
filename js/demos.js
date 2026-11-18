@@ -15,6 +15,15 @@
 window.INFRASTATERA_DEMOS = [
   {
     status: 'New demo',
+    title: 'Subcontractor Website',
+    description: 'A website for an electrical and ITS subcontractor: DBE and SBE certifications up front, a project list with agency and contract value for each job, a one-page capability statement PDF and a careers page. Built for a fictional company, Tessmer Electric & ITS.',
+    tags: ['Websites', 'Subcontractors', 'Capability statement', 'Mobile-first'],
+    url: 'https://tessmer-electric-demo.vercel.app/',
+    desktop: { src: 'assets/img/tessmer-electric-office.jpg', alt: 'Tessmer Electric & ITS homepage: the headline "Signals, lighting and fiber for public roads." above a photo of a signal crew in an aerial lift, tagged with numbered plan-sheet keynotes' },
+    phone: { src: 'assets/img/tessmer-electric-phone.jpg', alt: 'Tessmer Electric & ITS on a phone: headline, request-a-bid button, keynoted jobsite photo and the DBE and SBE certifications' }
+  },
+  {
+    status: 'Live demo',
     title: 'Supplier Website',
     description: 'A website for a traffic-signal parts distributor: a catalog with stock at each branch, approved-list items, and a quote form that takes a full bid item list. Built for a fictional company, Halden Signal Supply.',
     tags: ['Websites', 'Suppliers', 'Quote requests', 'Mobile-first'],
