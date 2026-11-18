@@ -5,6 +5,7 @@
 // shot about 800x500 and, optionally, a phone shot about 780x1688).
 //
 //   group:       which section it appears in: 'websites' or 'tools' (see INFRASTATERA_DEMO_GROUPS)
+//   need:        optional; which /start answer the "Build one like this" button preselects (default: website or app)
 //   status:      short label shown above the title ("New demo", "Deployed in the field", "Beta"...)
 //   title:       demo name
 //   description: one or two sentences
@@ -47,6 +48,7 @@ window.INFRASTATERA_DEMOS = [
   {
     status: 'Live demo',
     group: 'tools',
+    need: 'bidding',
     title: 'Caltrans Bid Finder',
     description: 'Every advertised Caltrans project in your districts, filtered by estimate and scanned for electrical bid items. Track each bid from new to bidding and get email alerts when a match is posted.',
     tags: ['Bidding', 'Caltrans', 'Electrical', 'Email alerts'],
@@ -57,6 +59,7 @@ window.INFRASTATERA_DEMOS = [
   {
     status: 'Live demo',
     group: 'tools',
+    need: 'automate',
     title: 'Submittal Generator',
     description: 'Fill a short form and download a formatted submittal cover sheet as Word or PDF. Numbering and revisions (004-R1) are handled for you, with a live preview as you type.',
     tags: ['Submittals', 'Caltrans', 'Word & PDF', 'Revisions'],
@@ -176,7 +179,8 @@ window.INFRASTATERA_DEMO_GROUPS = [
     var open = el('a', 'btn btn-primary', 'Open demo');
     open.href = d.url; open.target = '_blank'; open.rel = 'noopener';
     var talk = el('a', 'btn btn-outline', 'Build one like this');
-    talk.href = (base || './') + '#contact';
+    var need = d.need || (d.group === 'websites' ? 'website' : 'app');
+    talk.href = base + 'start/?need=' + need + '&demo=' + encodeURIComponent(d.title);
     actions.appendChild(open); actions.appendChild(talk);
     body.appendChild(actions);
     card.appendChild(body);
