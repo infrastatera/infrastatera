@@ -15,6 +15,15 @@
 window.INFRASTATERA_DEMOS = [
   {
     status: 'New demo',
+    title: 'Supplier Website',
+    description: 'A website for a traffic-signal parts distributor: a catalog with stock at each branch, approved-list items, and a quote form that takes a full bid item list. Built for a fictional company, Halden Signal Supply.',
+    tags: ['Websites', 'Suppliers', 'Quote requests', 'Mobile-first'],
+    url: 'https://halden-signal-supply-demo.vercel.app/',
+    desktop: { src: 'assets/img/halden-supply-office.jpg', alt: 'Halden Signal Supply homepage: a crew on a lift at a traffic signal behind the headline "Signal parts, on the shelf." and a quote form for category, quantity and branch' },
+    phone: { src: 'assets/img/halden-supply-phone.jpg', alt: 'Halden Signal Supply on a phone: headline, short intro and the start-a-quote form' }
+  },
+  {
+    status: 'Live demo',
     title: 'Caltrans Bid Finder',
     description: 'Every advertised Caltrans project in your districts, filtered by estimate and scanned for electrical bid items. Track each bid from new to bidding and get email alerts when a match is posted.',
     tags: ['Bidding', 'Caltrans', 'Electrical', 'Email alerts'],
