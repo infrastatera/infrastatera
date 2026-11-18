@@ -4,6 +4,7 @@
 // builds its cards from this list. Put screenshots in assets/img/ (a desktop
 // shot about 800x500 and, optionally, a phone shot about 780x1688).
 //
+//   group:       which section it appears in: 'websites' or 'tools' (see INFRASTATERA_DEMO_GROUPS)
 //   status:      short label shown above the title ("New demo", "Deployed in the field", "Beta"...)
 //   title:       demo name
 //   description: one or two sentences
@@ -15,6 +16,7 @@
 window.INFRASTATERA_DEMOS = [
   {
     status: 'New demo',
+    group: 'websites',
     title: 'Underground & Striping Website',
     description: 'A website for a pipeline and striping subcontractor: a to-scale street cross-section of the work, safety record (EMR and incident rate), the equipment fleet by unit number, a job photo gallery and a service-area map. Built for a fictional company, Marrick Underground & Striping.',
     tags: ['Websites', 'Underground', 'Safety record', 'Equipment fleet'],
@@ -24,6 +26,7 @@ window.INFRASTATERA_DEMOS = [
   },
   {
     status: 'Live demo',
+    group: 'websites',
     title: 'Subcontractor Website',
     description: 'A website for an electrical and ITS subcontractor: DBE and SBE certifications up front, a project list with agency and contract value for each job, a one-page capability statement PDF and a careers page. Built for a fictional company, Tessmer Electric & ITS.',
     tags: ['Websites', 'Subcontractors', 'Capability statement', 'Mobile-first'],
@@ -33,6 +36,7 @@ window.INFRASTATERA_DEMOS = [
   },
   {
     status: 'Live demo',
+    group: 'websites',
     title: 'Supplier Website',
     description: 'A website for a traffic-signal parts distributor: a catalog with stock at each branch, approved-list items, and a quote form that takes a full bid item list. Built for a fictional company, Halden Signal Supply.',
     tags: ['Websites', 'Suppliers', 'Quote requests', 'Mobile-first'],
@@ -42,6 +46,7 @@ window.INFRASTATERA_DEMOS = [
   },
   {
     status: 'Live demo',
+    group: 'tools',
     title: 'Caltrans Bid Finder',
     description: 'Every advertised Caltrans project in your districts, filtered by estimate and scanned for electrical bid items. Track each bid from new to bidding and get email alerts when a match is posted.',
     tags: ['Bidding', 'Caltrans', 'Electrical', 'Email alerts'],
@@ -51,6 +56,7 @@ window.INFRASTATERA_DEMOS = [
   },
   {
     status: 'Live demo',
+    group: 'tools',
     title: 'Submittal Generator',
     description: 'Fill a short form and download a formatted submittal cover sheet as Word or PDF. Numbering and revisions (004-R1) are handled for you, with a live preview as you type.',
     tags: ['Submittals', 'Caltrans', 'Word & PDF', 'Revisions'],
@@ -60,6 +66,7 @@ window.INFRASTATERA_DEMOS = [
   },
   {
     status: 'Live demo',
+    group: 'tools',
     title: 'Defect Capture',
     description: 'Photograph a concrete defect, rate it with AASHTO condition states and pin it on the map. Engineers review it from the office instantly and flag repair, reinforce or revisit.',
     tags: ['Inspections', 'AASHTO', 'Map review', 'PDF export'],
@@ -69,6 +76,7 @@ window.INFRASTATERA_DEMOS = [
   },
   {
     status: 'Deployed in the field',
+    group: 'tools',
     title: 'Field Management App',
     description: "Daily logs, plans and material requests from the foreman's phone to the office dashboard. In daily use by a Caltrans contractor's crew.",
     tags: ['Daily logs', 'Material requests', 'Submittals & RFIs', 'Multi-project'],
@@ -76,6 +84,12 @@ window.INFRASTATERA_DEMOS = [
     desktop: { src: 'assets/img/field-app-office.jpg', alt: 'Office dashboard of the Field Management App showing projects, working days, submittals, RFIs and material requests' },
     phone: { src: 'assets/img/field-app-phone.jpg', alt: 'Field app on a phone showing working day 60 of 180 and buttons for material requests, tasks, photos and daily reports' }
   }
+];
+
+// Sections on the /demo page, in order. Each demo's `group` must match an id here.
+window.INFRASTATERA_DEMO_GROUPS = [
+  { id: 'tools', title: 'Field and office tools', lead: 'Apps that replace spreadsheets and paperwork for bidding, submittals, inspections and daily logs.' },
+  { id: 'websites', title: 'Websites', lead: 'Sites for subcontractors and suppliers on agency work: certifications, past projects, capability statement and quote or bid forms.' }
 ];
 
 // Renders the catalog into any element with [data-demo-grid].
@@ -101,6 +115,29 @@ window.INFRASTATERA_DEMOS = [
     i.loading = 'lazy';
     return i;
   }
+
+  var groups = window.INFRASTATERA_DEMO_GROUPS || [];
+  var grids = {};
+  if (groups.length) {
+    groups.forEach(function (g) {
+      var items = window.INFRASTATERA_DEMOS.filter(function (d) { return d.group === g.id; });
+      if (!items.length) return;
+      var section = el('section', 'demo-group');
+      section.id = g.id;
+      section.setAttribute('aria-labelledby', g.id + '-h');
+      var head = el('div', 'demo-group-head');
+      var h = el('h2', null, g.title); h.id = g.id + '-h';
+      head.appendChild(h);
+      head.appendChild(el('p', null, g.lead));
+      section.appendChild(head);
+      grids[g.id] = el('div', 'demo-grid');
+      section.appendChild(grids[g.id]);
+      grid.appendChild(section);
+    });
+  } else {
+    grid.classList.add('demo-grid');
+  }
+  var titleTag = groups.length ? 'h3' : 'h2';
 
   window.INFRASTATERA_DEMOS.forEach(function (d) {
     var card = el('article', 'demo-card');
@@ -128,7 +165,7 @@ window.INFRASTATERA_DEMOS = [
 
     var body = el('div', 'demo-card-body');
     body.appendChild(el('p', 'tier', d.status));
-    body.appendChild(el('h2', null, d.title));
+    body.appendChild(el(titleTag, null, d.title));
     body.appendChild(el('p', 'demo-card-text', d.description));
     if (d.tags && d.tags.length) {
       var tags = el('ul', 'tags');
@@ -144,6 +181,6 @@ window.INFRASTATERA_DEMOS = [
     body.appendChild(actions);
     card.appendChild(body);
 
-    grid.appendChild(card);
+    (grids[d.group] || grid).appendChild(card);
   });
 })();
