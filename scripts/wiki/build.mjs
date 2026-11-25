@@ -203,6 +203,37 @@ async function main() {
   const tagsById = new Map(d.tags.map((t) => [t.id, t]));
   const catById = new Map(d.categories.map((c) => [c.id, c]));
 
+  // Left navigation: every section and its articles, with the lifecycle phases in order.
+  // Pages using it all sit at wiki/<page>/, so links are ../<slug>/.
+  const sideNav = (current) => {
+    // Short labels, like a docs menu: the part of the title before its colon.
+    const link = (slug, label) => `<li><a href="../${slug}/"${slug === current ? ' aria-current="page"' : ''}>${esc(label.split(': ')[0])}</a></li>`;
+    const groups = d.categories.filter((c) => c.slug !== 'glossary').map((c) => {
+      let items;
+      if (c.slug === 'project-lifecycle') {
+        const overview = articles.filter((a) => a.category_id === c.id && a.article_type !== 'phase');
+        const phases = articles.filter((a) => a.article_type === 'phase' && a.phase_number).sort((a, b) => a.phase_number - b.phase_number);
+        items = overview.map((a) => link(a.slug, a.slug === 'lifecycle-overview' ? 'Overview of the twelve phases' : a.title)).join('')
+          + phases.map((a) => `<li><a href="../${a.slug}/"${a.slug === current ? ' aria-current="page"' : ''}><span class="wiki-side-n">${a.phase_number}</span>${esc(a.title.replace(/^Phase \d+: /, ''))}</a></li>`).join('');
+      } else {
+        items = articles.filter((a) => a.category_id === c.id && a.article_type !== 'phase').map((a) => link(a.slug, a.title)).join('');
+      }
+      if (!items) return '';
+      return `<div class="wiki-side-group"><p class="wiki-side-h">${esc(c.title)}</p><ul>${items}</ul></div>`;
+    }).join('');
+    const tools = `<div class="wiki-side-group"><p class="wiki-side-h">Reference</p><ul>${link('materials', 'Materials library')}${link('glossary', 'Glossary')}</ul></div>`;
+    return `<details class="wiki-side" data-wiki-side open>
+        <summary>Browse the wiki</summary>
+        <nav aria-label="All wiki articles">${groups}${tools}</nav>
+      </details>`;
+  };
+  const withSide = (current, inner) => `
+    <div class="wiki-layout">
+      ${sideNav(current)}
+      <div class="wiki-main">${inner}
+      </div>
+    </div>`;
+
   await rm(OUT, { recursive: true, force: true });
   await mkdir(OUT, { recursive: true });
 
@@ -298,7 +329,7 @@ async function main() {
         keywords: tags.map((t) => t.label).join(', ') || undefined,
         inLanguage: 'en-US',
       }],
-      body: `
+      body: withSide(a.slug, `
     <div class="wiki-wrap wiki-article">
       <article class="wiki-prose">
         <nav class="wiki-crumbs" aria-label="Breadcrumb"><a href="../">Wiki</a>${cat ? ` <span>/</span> <span>${esc(cat.title)}</span>` : ''}</nav>
@@ -308,7 +339,7 @@ async function main() {
         ${mistakes ? `<section class="wiki-mistakes"><h2>Common mistakes / what Caltrans actually checks</h2>${mistakes}</section>` : ''}
       </article>
       ${side ? `<aside class="wiki-aside">${side}</aside>` : ''}
-    </div>`,
+    </div>`),
     }));
   }
 
@@ -333,12 +364,12 @@ async function main() {
       url: `${SITE}/wiki/glossary/`,
       hasDefinedTerm: d.glossary.map((g) => ({ '@type': 'DefinedTerm', name: g.term, alternateName: g.expansion || undefined, description: g.definition, url: `${SITE}/wiki/glossary/#${anchor(g.term)}` })),
     }],
-    body: `
+    body: withSide('glossary', `
     <div class="wiki-wrap wiki-glossary">
       <nav class="wiki-crumbs" aria-label="Breadcrumb"><a href="../">Wiki</a> <span>/</span> <span>Glossary</span></nav>
       <h1>Glossary</h1>
       ${d.glossary.length ? `<div class="wiki-letters">${letters.map((l) => `<a href="#letter-${l}">${l}</a>`).join('')}</div><dl>${entries}</dl>` : '<p class="wiki-empty">Terms coming soon.</p>'}
-    </div>`,
+    </div>`),
   }));
 
   // Materials library
@@ -372,7 +403,7 @@ async function main() {
       numberOfItems: d.materials.length,
       itemListElement: d.materials.map((m, i) => ({ '@type': 'ListItem', position: i + 1, name: m.name, description: m.function, url: `${SITE}/wiki/materials/#${anchor(m.name)}` })),
     }],
-    body: `
+    body: withSide('materials', `
     <div class="wiki-wrap">
       <nav class="wiki-crumbs" aria-label="Breadcrumb"><a href="../">Wiki</a> <span>/</span> <span>Materials library</span></nav>
       <div class="wiki-prose"><h1>Materials library</h1></div>
@@ -386,7 +417,7 @@ async function main() {
       </div>
       ${matSections}
       <p class="wiki-empty" data-mat-none hidden>No material matches.</p>
-    </div>`,
+    </div>`),
   }));
 
   // Search index for the wiki's search box (read in the browser, nothing else is called)

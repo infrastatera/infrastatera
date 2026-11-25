@@ -114,3 +114,19 @@
   window.addEventListener('hashchange', reveal);
   reveal();
 })();
+
+// Left navigation: open on wide screens, a collapsed "Browse the wiki" panel on phones; keep the current page in view.
+(function () {
+  'use strict';
+  var side = document.querySelector('[data-wiki-side]');
+  if (!side) return;
+  var wide = window.matchMedia('(min-width: 901px)');
+  function sync() { side.open = wide.matches; }
+  sync();
+  if (wide.addEventListener) wide.addEventListener('change', sync);
+  var cur = side.querySelector('[aria-current="page"]');
+  if (cur && wide.matches) {
+    var top = cur.offsetTop - side.clientHeight / 2;
+    if (top > 0) side.scrollTop = top;
+  }
+})();
