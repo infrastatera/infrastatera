@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 225.0" role="img" aria-labelledby="t d">
+  <title id="t">Three documents sureties and banks read</title>
+  <desc id="d">Balance sheet with working capital and net worth, income statement with consistent profit, and the WIP schedule with over and under billing.</desc>
+  <defs><marker id="a" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#0070D5"/></marker><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#C92A06"/></marker><marker id="ag" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#2E7D32"/></marker><marker id="am" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#595959"/></marker><marker id="aa" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#B26A00"/></marker></defs>
+  <style>
+    text { font-family: "Open Sans", Helvetica, Arial, sans-serif; fill: #262626; }
+    .h { font-size: 20px; font-weight: 600; } .l { font-size: 13px; font-weight: 600; } .s { font-size: 12px; fill: #595959; } .n { font-size: 12px; font-weight: 600; fill: #FFFFFF; }
+  </style>
+  <rect width="800" height="225.0" fill="#FFFFFF"/>
+  <text class="h" x="32" y="40">Three documents sureties and banks read</text>
+    <text class="s" x="32" y="74">Prepared by a construction CPA: compilation, review or audit.</text>
+  <rect x="24" y="94" width="239" height="103" rx="12" fill="#EAF3FC" stroke="#0070D5" stroke-width="1.5"/>
+  <text class="l" x="38" y="118" style="fill:#0070D5">Balance sheet</text>
+  <text class="s" x="38" y="137">Working capital</text>
+  <text class="s" x="38" y="153">Net worth</text>
+  <text class="s" x="38" y="169">Old receivables, debt</text>
+  <rect x="281" y="94" width="239" height="103" rx="12" fill="#EAF5EB" stroke="#2E7D32" stroke-width="1.5"/>
+  <text class="l" x="295" y="118" style="fill:#2E7D32">Income statement</text>
+  <text class="s" x="295" y="137">Revenue and gross profit</text>
+  <text class="s" x="295" y="153">Overhead</text>
+  <text class="s" x="295" y="169">Consistent profit over years</text>
+  <rect x="537" y="94" width="239" height="103" rx="12" fill="#FFF4E0" stroke="#B26A00" stroke-width="1.5"/>
+  <text class="l" x="551" y="118" style="fill:#B26A00">WIP schedule</text>
+  <text class="s" x="551" y="137">Every open job</text>
+  <text class="s" x="551" y="153">Percent complete</text>
+  <text class="s" x="551" y="169">Over and under billing</text>
+</svg>

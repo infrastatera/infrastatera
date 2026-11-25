@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" role="img" aria-labelledby="t d">
+  <title id="t">A California construction workday</title>
+  <desc id="d">A ten-hour day: rest break in each four-hour period, first meal break before the end of hour five, second meal break after hour ten, overtime after hour eight.</desc>
+  <defs><marker id="a" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#0070D5"/></marker><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#C92A06"/></marker><marker id="ag" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#2E7D32"/></marker><marker id="am" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#595959"/></marker><marker id="aa" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#B26A00"/></marker></defs>
+  <style>
+    text { font-family: "Open Sans", Helvetica, Arial, sans-serif; fill: #262626; }
+    .h { font-size: 20px; font-weight: 600; } .l { font-size: 13px; font-weight: 600; } .s { font-size: 12px; fill: #595959; } .n { font-size: 12px; font-weight: 600; fill: #FFFFFF; }
+  </style>
+  <rect width="800" height="300" fill="#FFFFFF"/>
+  <text class="h" x="32" y="40">A California construction workday</text>
+    <path d="M60 120 V150" stroke="#D5D9DE"/>
+  <text class="s" x="60" y="170" text-anchor="middle">0h</text>
+  <path d="M128 120 V150" stroke="#D5D9DE"/>
+  <text class="s" x="128" y="170" text-anchor="middle">1h</text>
+  <path d="M196 120 V150" stroke="#D5D9DE"/>
+  <text class="s" x="196" y="170" text-anchor="middle">2h</text>
+  <path d="M264 120 V150" stroke="#D5D9DE"/>
+  <text class="s" x="264" y="170" text-anchor="middle">3h</text>
+  <path d="M332 120 V150" stroke="#D5D9DE"/>
+  <text class="s" x="332" y="170" text-anchor="middle">4h</text>
+  <path d="M400 120 V150" stroke="#D5D9DE"/>
+  <text class="s" x="400" y="170" text-anchor="middle">5h</text>
+  <path d="M468 120 V150" stroke="#D5D9DE"/>
+  <text class="s" x="468" y="170" text-anchor="middle">6h</text>
+  <path d="M536 120 V150" stroke="#D5D9DE"/>
+  <text class="s" x="536" y="170" text-anchor="middle">7h</text>
+  <path d="M604 120 V150" stroke="#D5D9DE"/>
+  <text class="s" x="604" y="170" text-anchor="middle">8h</text>
+  <path d="M672 120 V150" stroke="#D5D9DE"/>
+  <text class="s" x="672" y="170" text-anchor="middle">9h</text>
+  <path d="M740 120 V150" stroke="#D5D9DE"/>
+  <text class="s" x="740" y="170" text-anchor="middle">10h</text>
+  <rect x="60" y="120" width="544" height="30" fill="#EAF3FC" stroke="#0070D5"/>
+  <rect x="604" y="120" width="136" height="30" fill="#FFF4E0" stroke="#B26A00"/>
+  <text class="s" x="332" y="140" text-anchor="middle" style="fill:#0070D5">straight time</text>
+  <text class="s" x="672" y="140" text-anchor="middle" style="fill:#B26A00">overtime 1.5×</text>
+  <path d="M196 112 V84" stroke="#2E7D32" stroke-width="2"/><circle cx="196" cy="80" r="5" fill="#2E7D32"/>
+  <text class="s" x="196" y="70" text-anchor="middle" style="fill:#2E7D32">rest 10 min</text>
+  <path d="M366.0 112 V84" stroke="#C92A06" stroke-width="2"/><circle cx="366.0" cy="80" r="5" fill="#C92A06"/>
+  <text class="s" x="366" y="70" text-anchor="middle" style="fill:#C92A06">meal 30 min, by end of hour 5</text>
+  <path d="M502.0 112 V84" stroke="#2E7D32" stroke-width="2"/><circle cx="502.0" cy="80" r="5" fill="#2E7D32"/>
+  <text class="s" x="502" y="70" text-anchor="middle" style="fill:#2E7D32">rest 10 min</text>
+  <path d="M672 112 V84" stroke="#2E7D32" stroke-width="2"/><circle cx="672" cy="80" r="5" fill="#2E7D32"/>
+  <text class="s" x="672" y="70" text-anchor="middle" style="fill:#2E7D32">rest 10 min</text>
+  <text class="s" x="32" y="210">Rest: 10 paid minutes per 4 hours (or major fraction). Meal: 30 unpaid minutes before the end of the fifth hour;</text>
+  <text class="s" x="32" y="228">a second meal after 10 hours. Overtime 1.5× after 8 hours a day or 40 a week, 2× after 12 hours.</text>
+  <text class="s" x="32" y="260">Prevailing wage jobs: overtime rates from the wage determination.</text>
+</svg>

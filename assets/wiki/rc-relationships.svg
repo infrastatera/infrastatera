@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 218.0" role="img" aria-labelledby="t d">
+  <title id="t">Relationships that bring repeat work</title>
+  <desc id="d">General contractors, agencies and inspectors, suppliers, and staying in touch between jobs.</desc>
+  <defs><marker id="a" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#0070D5"/></marker><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#C92A06"/></marker><marker id="ag" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#2E7D32"/></marker><marker id="am" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#595959"/></marker><marker id="aa" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#B26A00"/></marker></defs>
+  <style>
+    text { font-family: "Open Sans", Helvetica, Arial, sans-serif; fill: #262626; }
+    .h { font-size: 20px; font-weight: 600; } .l { font-size: 13px; font-weight: 600; } .s { font-size: 12px; fill: #595959; } .n { font-size: 12px; font-weight: 600; fill: #FFFFFF; }
+  </style>
+  <rect width="800" height="218.0" fill="#FFFFFF"/>
+  <text class="h" x="32" y="40">Relationships that bring repeat work</text>
+    <rect x="24" y="70" width="174" height="120" rx="12" fill="#EAF3FC" stroke="#0070D5" stroke-width="1.5"/>
+  <text class="l" x="38" y="94" style="fill:#0070D5">General contractors</text>
+  <text class="s" x="38" y="113">Complete bids on time</text>
+  <text class="s" x="38" y="129">Problems early, clean</text>
+  <text class="s" x="38" y="145">closeout</text>
+  <rect x="216" y="70" width="174" height="120" rx="12" fill="#EAF5EB" stroke="#2E7D32" stroke-width="1.5"/>
+  <text class="l" x="230" y="94" style="fill:#2E7D32">Agencies and</text>
+  <text class="l" x="230" y="111" style="fill:#2E7D32">inspectors</text>
+  <text class="s" x="230" y="130">Complete paperwork</text>
+  <text class="s" x="230" y="146">Prepared, factual</text>
+  <text class="s" x="230" y="162">meetings</text>
+  <rect x="409" y="70" width="174" height="120" rx="12" fill="#FFF4E0" stroke="#B26A00" stroke-width="1.5"/>
+  <text class="l" x="423" y="94" style="fill:#B26A00">Suppliers</text>
+  <text class="s" x="423" y="113">Pay on time</text>
+  <text class="s" x="423" y="129">Share bid dates early</text>
+  <rect x="602" y="70" width="174" height="120" rx="12" fill="#F2F3F5" stroke="#595959" stroke-width="1.5"/>
+  <text class="l" x="616" y="94">Between jobs</text>
+  <text class="s" x="616" y="113">Ask for feedback</text>
+  <text class="s" x="616" y="129">Associations,</text>
+  <text class="s" x="616" y="145">outreach events</text>
+</svg>

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 322.0" role="img" aria-labelledby="t d">
+  <title id="t">The office systems a contractor needs</title>
+  <desc id="d">Bank, bookkeeping with job costing, payroll, insurance, shared files and a renewals calendar.</desc>
+  <defs><marker id="a" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#0070D5"/></marker><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#C92A06"/></marker><marker id="ag" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#2E7D32"/></marker><marker id="am" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#595959"/></marker><marker id="aa" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#B26A00"/></marker></defs>
+  <style>
+    text { font-family: "Open Sans", Helvetica, Arial, sans-serif; fill: #262626; }
+    .h { font-size: 20px; font-weight: 600; } .l { font-size: 13px; font-weight: 600; } .s { font-size: 12px; fill: #595959; } .n { font-size: 12px; font-weight: 600; fill: #FFFFFF; }
+  </style>
+  <rect width="800" height="322.0" fill="#FFFFFF"/>
+  <text class="h" x="32" y="40">The office systems a contractor needs</text>
+    <rect x="24" y="70" width="239" height="103" rx="12" fill="#EAF3FC" stroke="#0070D5" stroke-width="1.5"/>
+  <text class="l" x="38" y="94" style="fill:#0070D5">Bank</text>
+  <text class="s" x="38" y="113">Business accounts only</text>
+  <text class="s" x="38" y="129">Often a separate payroll</text>
+  <text class="s" x="38" y="145">account</text>
+  <rect x="281" y="70" width="239" height="103" rx="12" fill="#EAF3FC" stroke="#0070D5" stroke-width="1.5"/>
+  <text class="l" x="295" y="94" style="fill:#0070D5">Books</text>
+  <text class="s" x="295" y="113">Jobs and cost codes from day</text>
+  <text class="s" x="295" y="129">one</text>
+  <rect x="537" y="70" width="239" height="103" rx="12" fill="#EAF3FC" stroke="#0070D5" stroke-width="1.5"/>
+  <text class="l" x="551" y="94" style="fill:#0070D5">Payroll</text>
+  <text class="s" x="551" y="113">California rules, certified</text>
+  <text class="s" x="551" y="129">payroll</text>
+  <rect x="24" y="191" width="239" height="103" rx="12" fill="#EAF5EB" stroke="#2E7D32" stroke-width="1.5"/>
+  <text class="l" x="38" y="215" style="fill:#2E7D32">Insurance</text>
+  <text class="s" x="38" y="234">Workers' comp, liability, auto,</text>
+  <text class="s" x="38" y="250">equipment</text>
+  <rect x="281" y="191" width="239" height="103" rx="12" fill="#EAF5EB" stroke="#2E7D32" stroke-width="1.5"/>
+  <text class="l" x="295" y="215" style="fill:#2E7D32">Files</text>
+  <text class="s" x="295" y="234">One job folder template, backed</text>
+  <text class="s" x="295" y="250">up</text>
+  <rect x="537" y="191" width="239" height="103" rx="12" fill="#FFF4E0" stroke="#B26A00" stroke-width="1.5"/>
+  <text class="l" x="551" y="215" style="fill:#B26A00">Renewals</text>
+  <text class="s" x="551" y="234">License, bonds, insurance, DIR,</text>
+  <text class="s" x="551" y="250">60-day reminders</text>
+</svg>

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 360" role="img" aria-labelledby="t d">
+  <title id="t">From direct cost to bid price</title>
+  <desc id="d">A stacked bar: direct cost at the bottom, overhead recovery above it, profit on top, making the bid price.</desc>
+  <defs><marker id="a" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#0070D5"/></marker><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#C92A06"/></marker><marker id="ag" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#2E7D32"/></marker><marker id="am" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#595959"/></marker><marker id="aa" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#B26A00"/></marker></defs>
+  <style>
+    text { font-family: "Open Sans", Helvetica, Arial, sans-serif; fill: #262626; }
+    .h { font-size: 20px; font-weight: 600; } .l { font-size: 13px; font-weight: 600; } .s { font-size: 12px; fill: #595959; } .n { font-size: 12px; font-weight: 600; fill: #FFFFFF; }
+  </style>
+  <rect width="800" height="360" fill="#FFFFFF"/>
+  <text class="h" x="32" y="40">From direct cost to bid price</text>
+    <rect x="120" y="190" width="200" height="120" fill="#EAF3FC" stroke="#0070D5" stroke-width="1.5"/>
+  <text class="l" x="340" y="248" style="fill:#0070D5">Direct cost</text>
+  <text class="s" x="340" y="265">labor, burden, material, equipment, subs</text>
+  <rect x="120" y="135" width="200" height="55" fill="#FFF4E0" stroke="#B26A00" stroke-width="1.5"/>
+  <text class="l" x="340" y="160" style="fill:#B26A00">Overhead recovery</text>
+  <text class="s" x="340" y="178">office, yard, salaries, insurance</text>
+  <rect x="120" y="95" width="200" height="40" fill="#EAF5EB" stroke="#2E7D32" stroke-width="1.5"/>
+  <text class="l" x="340" y="113" style="fill:#2E7D32">Profit</text>
+  <text class="s" x="340" y="130">growth, bonding, bad years</text>
+  <path d="M100 95 V310" stroke="#262626" stroke-width="1.5"/>
+  <text class="l" x="96" y="107" text-anchor="end">Price</text>
+  <text class="s" x="560" y="120">Markup is a share of cost:</text>
+  <text class="l" x="560" y="138">$100 + 25% = $125</text>
+  <text class="s" x="560" y="172">Margin is a share of price:</text>
+  <text class="l" x="560" y="190">$25 / $125 = 20%</text>
+  <text class="s" x="32" y="345">Overhead recovery rate = next year's overhead / next year's expected direct cost.</text>
+</svg>

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 290.0" role="img" aria-labelledby="t d">
+  <title id="t">A contractor's safety program</title>
+  <desc id="d">The written IIPP, Code of Safe Practices, tailgate meetings every 10 working days, inspections, training records and the experience modification.</desc>
+  <defs><marker id="a" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#0070D5"/></marker><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#C92A06"/></marker><marker id="ag" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#2E7D32"/></marker><marker id="am" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#595959"/></marker><marker id="aa" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#B26A00"/></marker></defs>
+  <style>
+    text { font-family: "Open Sans", Helvetica, Arial, sans-serif; fill: #262626; }
+    .h { font-size: 20px; font-weight: 600; } .l { font-size: 13px; font-weight: 600; } .s { font-size: 12px; fill: #595959; } .n { font-size: 12px; font-weight: 600; fill: #FFFFFF; }
+  </style>
+  <rect width="800" height="290.0" fill="#FFFFFF"/>
+  <text class="h" x="32" y="40">A contractor's safety program</text>
+    <rect x="24" y="70" width="239" height="87" rx="12" fill="#EAF3FC" stroke="#0070D5" stroke-width="1.5"/>
+  <text class="l" x="38" y="94" style="fill:#0070D5">IIPP</text>
+  <text class="s" x="38" y="113">Written, used, assigned to a</text>
+  <text class="s" x="38" y="129">person</text>
+  <rect x="281" y="70" width="239" height="87" rx="12" fill="#EAF3FC" stroke="#0070D5" stroke-width="1.5"/>
+  <text class="l" x="295" y="94" style="fill:#0070D5">Code of Safe Practices</text>
+  <text class="s" x="295" y="113">Posted or given to supervisors</text>
+  <rect x="537" y="70" width="239" height="87" rx="12" fill="#EAF5EB" stroke="#2E7D32" stroke-width="1.5"/>
+  <text class="l" x="551" y="94" style="fill:#2E7D32">Tailgate meetings</text>
+  <text class="s" x="551" y="113">At least every 10 working days</text>
+  <text class="s" x="551" y="129">Recorded</text>
+  <rect x="24" y="175" width="239" height="87" rx="12" fill="#EAF5EB" stroke="#2E7D32" stroke-width="1.5"/>
+  <text class="l" x="38" y="199" style="fill:#2E7D32">Inspections</text>
+  <text class="s" x="38" y="218">Scheduled, corrected, recorded</text>
+  <rect x="281" y="175" width="239" height="87" rx="12" fill="#FFF4E0" stroke="#B26A00" stroke-width="1.5"/>
+  <text class="l" x="295" y="199" style="fill:#B26A00">Training records</text>
+  <text class="s" x="295" y="218">Who, what, when</text>
+  <rect x="537" y="175" width="239" height="87" rx="12" fill="#FDEDEA" stroke="#C92A06" stroke-width="1.5"/>
+  <text class="l" x="551" y="199" style="fill:#C92A06">Experience mod</text>
+  <text class="s" x="551" y="218">1.00 is average</text>
+  <text class="s" x="551" y="234">Asked in prequalification</text>
+</svg>

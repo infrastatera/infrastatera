@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 217.0" role="img" aria-labelledby="t d">
+  <title id="t">Match the financing to the need</title>
+  <desc id="d">Line of credit for timing gaps, equipment loans and leases for long-lived assets, supplier terms, and factoring as a warning sign.</desc>
+  <defs><marker id="a" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#0070D5"/></marker><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#C92A06"/></marker><marker id="ag" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#2E7D32"/></marker><marker id="am" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#595959"/></marker><marker id="aa" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#B26A00"/></marker></defs>
+  <style>
+    text { font-family: "Open Sans", Helvetica, Arial, sans-serif; fill: #262626; }
+    .h { font-size: 20px; font-weight: 600; } .l { font-size: 13px; font-weight: 600; } .s { font-size: 12px; fill: #595959; } .n { font-size: 12px; font-weight: 600; fill: #FFFFFF; }
+  </style>
+  <rect width="800" height="217.0" fill="#FFFFFF"/>
+  <text class="h" x="32" y="40">Match the financing to the need</text>
+    <rect x="24" y="70" width="136" height="119" rx="12" fill="#EAF3FC" stroke="#0070D5" stroke-width="1.5"/>
+  <text class="l" x="38" y="94" style="fill:#0070D5">Line of credit</text>
+  <text class="s" x="38" y="113">Payroll before</text>
+  <text class="s" x="38" y="129">payment</text>
+  <text class="s" x="38" y="145">Draw and repay</text>
+  <rect x="178" y="70" width="136" height="119" rx="12" fill="#EAF5EB" stroke="#2E7D32" stroke-width="1.5"/>
+  <text class="l" x="192" y="94" style="fill:#2E7D32">Equipment loan</text>
+  <text class="s" x="192" y="113">Own the machine</text>
+  <text class="s" x="192" y="129">Term matches its</text>
+  <text class="s" x="192" y="145">life</text>
+  <rect x="332" y="70" width="136" height="119" rx="12" fill="#EAF5EB" stroke="#2E7D32" stroke-width="1.5"/>
+  <text class="l" x="346" y="94" style="fill:#2E7D32">Lease</text>
+  <text class="s" x="346" y="113">Operating or</text>
+  <text class="s" x="346" y="129">finance</text>
+  <text class="s" x="346" y="145">Preserves cash</text>
+  <rect x="486" y="70" width="136" height="119" rx="12" fill="#FFF4E0" stroke="#B26A00" stroke-width="1.5"/>
+  <text class="l" x="500" y="94" style="fill:#B26A00">Supplier terms</text>
+  <text class="s" x="500" y="113">30 to 60 days</text>
+  <text class="s" x="500" y="129">Pay on time to</text>
+  <text class="s" x="500" y="145">keep them</text>
+  <rect x="640" y="70" width="136" height="119" rx="12" fill="#FDEDEA" stroke="#C92A06" stroke-width="1.5"/>
+  <text class="l" x="654" y="94" style="fill:#C92A06">Factoring</text>
+  <text class="s" x="654" y="113">Expensive</text>
+  <text class="s" x="654" y="129">Usually a sign</text>
+  <text class="s" x="654" y="145">of a cash</text>
+  <text class="s" x="654" y="161">problem</text>
+</svg>

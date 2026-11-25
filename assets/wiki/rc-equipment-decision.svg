@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 260" role="img" aria-labelledby="t d">
+  <title id="t">Own or rent, by utilization</title>
+  <desc id="d">A horizontal scale of utilization from a few days a month to most working days; rent on the left, long-term rental or operating lease in the middle, own on the right.</desc>
+  <defs><marker id="a" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#0070D5"/></marker><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#C92A06"/></marker><marker id="ag" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#2E7D32"/></marker><marker id="am" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#595959"/></marker><marker id="aa" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#B26A00"/></marker></defs>
+  <style>
+    text { font-family: "Open Sans", Helvetica, Arial, sans-serif; fill: #262626; }
+    .h { font-size: 20px; font-weight: 600; } .l { font-size: 13px; font-weight: 600; } .s { font-size: 12px; fill: #595959; } .n { font-size: 12px; font-weight: 600; fill: #FFFFFF; }
+  </style>
+  <rect width="800" height="260" fill="#FFFFFF"/>
+  <text class="h" x="32" y="40">Own or rent, by utilization</text>
+    <rect x="60" y="100" width="230" height="44" rx="8" fill="#FFF4E0" stroke="#B26A00"/>
+  <text class="l" x="175" y="127" text-anchor="middle" style="fill:#B26A00">Rent</text>
+  <rect x="290" y="100" width="230" height="44" rx="8" fill="#EAF3FC" stroke="#0070D5"/>
+  <text class="l" x="405" y="127" text-anchor="middle" style="fill:#0070D5">Long rental or operating lease</text>
+  <rect x="520" y="100" width="230" height="44" rx="8" fill="#EAF5EB" stroke="#2E7D32"/>
+  <text class="l" x="635" y="127" text-anchor="middle" style="fill:#2E7D32">Own (cash, loan, finance lease)</text>
+  <path d="M60 170 H748" fill="none" stroke="#595959" stroke-width="2" marker-end="url(#am)"/>
+  <text class="s" x="60" y="192">a few days a month</text>
+  <text class="s" x="750" y="192" text-anchor="end">most working days, for years</text>
+  <text class="s" x="32" y="236">Compare the rental rate with ownership cost per hour actually used: purchase, financing, insurance, repairs, storage.</text>
+</svg>

@@ -99,6 +99,23 @@ const SPACE_CONFIG = {
       ],
     },
   },
+  'running-a-construction-company': {
+    disclaimer: 'For learning only, not legal, tax, accounting or financial advice. Laws, amounts and deadlines change: check the official sources linked in each article, and talk to your CPA, attorney, surety agent or insurance broker before you decide.',
+    mistakes: 'Common mistakes',
+    image: 'rc-cash-gap.svg',
+    library: {
+      title: 'Key business documents', noun: 'documents', item: 'Document', col: 'Who uses it', colPrefix: '', showPhase: false, image: 'rc-statements.svg',
+      filter: 'Filter, e.g. cash, safety, contract',
+      lead: 'The documents a small contractor keeps to run the business, what each one is for, who uses it and the article that explains it.',
+      groups: [
+        ['money', 'Money', 'Costs, cash, statements and bonding'],
+        ['people', 'People', 'Hiring, policies and time'],
+        ['safety', 'Safety', 'The program, its records and your experience mod'],
+        ['work', 'Getting work', 'Prequalification and bidding'],
+        ['contracts', 'Contracts and systems', 'Contracts, changes and written processes'],
+      ],
+    },
+  },
 };
 const cfg = (slug) => ({ ...DEFAULT_SPACE, ...(SPACE_CONFIG[slug] ?? {}) });
 const WIKI_DISCLAIMER = 'For learning only, not professional, legal or engineering advice. Each knowledge base says what to check before you rely on it.';

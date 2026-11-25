@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" role="img" aria-labelledby="t d">
+  <title id="t">The cash gap</title>
+  <desc id="d">A timeline over three months: payroll goes out every week, the first invoice is sent at the end of month one, payment arrives weeks later minus retention, and retention returns only at completion.</desc>
+  <defs><marker id="a" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#0070D5"/></marker><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#C92A06"/></marker><marker id="ag" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#2E7D32"/></marker><marker id="am" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#595959"/></marker><marker id="aa" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#B26A00"/></marker></defs>
+  <style>
+    text { font-family: "Open Sans", Helvetica, Arial, sans-serif; fill: #262626; }
+    .h { font-size: 20px; font-weight: 600; } .l { font-size: 13px; font-weight: 600; } .s { font-size: 12px; fill: #595959; } .n { font-size: 12px; font-weight: 600; fill: #FFFFFF; }
+  </style>
+  <rect width="800" height="300" fill="#FFFFFF"/>
+  <text class="h" x="32" y="40">The cash gap</text>
+    <path d="M60 150 H760" stroke="#D5D9DE" stroke-width="4"/>
+  <text class="l" x="176" y="84" text-anchor="middle">Month 1</text>
+  <path d="M60 92 V230" stroke="#D5D9DE" stroke-dasharray="4 4"/>
+  <text class="l" x="409" y="84" text-anchor="middle">Month 2</text>
+  <path d="M293 92 V230" stroke="#D5D9DE" stroke-dasharray="4 4"/>
+  <text class="l" x="642" y="84" text-anchor="middle">Month 3</text>
+  <path d="M526 92 V230" stroke="#D5D9DE" stroke-dasharray="4 4"/>
+  <path d="M80 150 V185" stroke="#C92A06" stroke-width="3" marker-end="url(#ar)"/>
+  <path d="M138 150 V185" stroke="#C92A06" stroke-width="3" marker-end="url(#ar)"/>
+  <path d="M196 150 V185" stroke="#C92A06" stroke-width="3" marker-end="url(#ar)"/>
+  <path d="M254 150 V185" stroke="#C92A06" stroke-width="3" marker-end="url(#ar)"/>
+  <path d="M312 150 V185" stroke="#C92A06" stroke-width="3" marker-end="url(#ar)"/>
+  <path d="M370 150 V185" stroke="#C92A06" stroke-width="3" marker-end="url(#ar)"/>
+  <path d="M428 150 V185" stroke="#C92A06" stroke-width="3" marker-end="url(#ar)"/>
+  <path d="M486 150 V185" stroke="#C92A06" stroke-width="3" marker-end="url(#ar)"/>
+  <path d="M544 150 V185" stroke="#C92A06" stroke-width="3" marker-end="url(#ar)"/>
+  <path d="M602 150 V185" stroke="#C92A06" stroke-width="3" marker-end="url(#ar)"/>
+  <path d="M660 150 V185" stroke="#C92A06" stroke-width="3" marker-end="url(#ar)"/>
+  <path d="M718 150 V185" stroke="#C92A06" stroke-width="3" marker-end="url(#ar)"/>
+  <text class="s" x="80" y="210" style="fill:#C92A06">payroll every week</text>
+  <path d="M293 150 V110" stroke="#0070D5" stroke-width="3" marker-end="url(#a)"/>
+  <text class="s" x="293" y="100" text-anchor="middle" style="fill:#0070D5">invoice</text>
+  <path d="M560 110 V145" stroke="#2E7D32" stroke-width="3" marker-end="url(#ag)"/>
+  <text class="s" x="560" y="100" text-anchor="middle" style="fill:#2E7D32">payment, minus retention</text>
+  <rect x="300" y="240" width="255" height="18" fill="#FDEDEA"/>
+  <text class="s" x="428" y="253" text-anchor="middle" style="fill:#C92A06">cash gap: you fund the job</text>
+  <text class="s" x="32" y="288">Retention comes back only after completion and acceptance.</text>
+</svg>
