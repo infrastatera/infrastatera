@@ -39,7 +39,7 @@
       hits = search(q);
       active = 0;
       list.innerHTML = hits.length
-        ? hits.map(function (h, i) { return '<a role="option" href="' + base + h.u + '" aria-selected="' + (i === 0) + '"><b>' + esc(h.t) + '</b><small>' + (h.k === 'Glossary' ? 'Glossary · ' : '') + esc(h.s) + '</small></a>'; }).join('')
+        ? hits.map(function (h, i) { return '<a role="option" href="' + base + h.u + '" aria-selected="' + (i === 0) + '"><b>' + esc(h.t) + '</b><small>' + (h.k === 'Article' ? '' : h.k + ' · ') + esc(h.s) + '</small></a>'; }).join('')
         : '<p>Nothing found for “' + esc(q) + '”.</p>';
       list.hidden = false;
       input.setAttribute('aria-expanded', 'true');
@@ -65,4 +65,38 @@
     }
   });
   document.addEventListener('click', function (e) { if (!box.contains(e.target)) list.hidden = true; });
+})();
+
+// Materials library: filter by system and by text.
+(function () {
+  'use strict';
+  var tools = document.querySelector('[data-mat-filter]');
+  if (!tools) return;
+  var input = tools.querySelector('input');
+  var chips = tools.querySelectorAll('button[data-g]');
+  var rows = document.querySelectorAll('table.wiki-mat tbody tr');
+  var groups = document.querySelectorAll('.wiki-mat-group');
+  var none = document.querySelector('[data-mat-none]');
+  var group = 'all';
+
+  function apply() {
+    var words = input.value.toLowerCase().split(/\s+/).filter(Boolean);
+    var shown = 0;
+    rows.forEach(function (r) {
+      var text = r.textContent.toLowerCase();
+      var ok = (group === 'all' || r.getAttribute('data-group') === group) && words.every(function (w) { return text.indexOf(w) >= 0; });
+      r.hidden = !ok;
+      if (ok) shown++;
+    });
+    groups.forEach(function (g) { g.hidden = !g.querySelector('tbody tr:not([hidden])'); });
+    none.hidden = shown > 0;
+  }
+  chips.forEach(function (c) {
+    c.addEventListener('click', function () {
+      group = c.getAttribute('data-g');
+      chips.forEach(function (x) { x.setAttribute('aria-pressed', String(x === c)); });
+      apply();
+    });
+  });
+  input.addEventListener('input', apply);
 })();

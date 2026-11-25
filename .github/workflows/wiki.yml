@@ -27,6 +27,8 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
+      - name: Make share images for new illustrations
+        run: bash scripts/wiki/og-images.sh
       - name: Build the wiki pages
         run: node scripts/wiki/build.mjs
         env:
@@ -37,7 +39,7 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          git add -A wiki sitemap.xml
+          git add -A wiki sitemap.xml assets/wiki/og
           if git diff --cached --quiet; then
             echo "Nothing changed."
             exit 0

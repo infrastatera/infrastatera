@@ -97,6 +97,29 @@ a.wiki-phase:hover { background: #EAF3FC; }
 
 .wiki-disclaimer { max-width: 1200px; margin: 0 auto; padding: 24px 32px 48px; color: var(--ink-3); font-size: 13px; }
 
+/* Materials library */
+.wiki-lead { max-width: 760px; margin: 14px 0 8px; color: var(--ink-2); font-size: 17px; line-height: 1.6; }
+.wiki-mat-tools { position: sticky; top: 133px; z-index: 10; display: flex; flex-wrap: wrap; gap: 12px; align-items: center; justify-content: space-between; margin: 8px 0 8px; padding: 12px 0; background: var(--white); }
+.wiki-chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.wiki-chips button { padding: 7px 14px; border: 1px solid #DADCDE; border-radius: var(--pill); background: var(--white); color: var(--ink); font: inherit; font-size: 14px; cursor: pointer; }
+.wiki-chips button[aria-pressed='true'] { background: var(--ink); border-color: var(--ink); color: var(--white); }
+.wiki-mat-tools input { flex: 1; min-width: 220px; max-width: 360px; height: 38px; padding: 0 14px; border: 1px solid #DADCDE; border-radius: var(--pill); font: inherit; font-size: 14px; }
+.wiki-mat-group h2 small { display: block; margin-top: 4px; font-size: 14px; font-weight: 400; color: var(--ink-2); letter-spacing: 0; }
+table.wiki-mat { width: 100%; border-collapse: collapse; font-size: 15px; line-height: 1.45; }
+table.wiki-mat th, table.wiki-mat td { padding: 11px 14px; text-align: left; vertical-align: top; border-bottom: 1px solid var(--hairline); }
+table.wiki-mat thead th { background: var(--soft); font-size: 13px; font-weight: 600; color: var(--ink-2); }
+table.wiki-mat tbody th { font-weight: 600; width: 28%; }
+table.wiki-mat td:nth-child(3), table.wiki-mat td:nth-child(4) { white-space: nowrap; color: var(--ink-2); font-size: 14px; }
+table.wiki-mat a { text-decoration: none; }
+table.wiki-mat tr:target { background: #EAF3FC; }
+table.wiki-mat tr { scroll-margin-top: 200px; }
+.sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+@media (max-width: 640px) {
+  .wiki-mat-tools { top: 118px; }
+  table.wiki-mat td:nth-child(4) { display: none; }
+  table.wiki-mat thead th:nth-child(4) { display: none; }
+}
+
 /* Home page: the wiki band */
 .wiki-band { background: var(--soft); }
 .wiki-band .container { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 24px; }
