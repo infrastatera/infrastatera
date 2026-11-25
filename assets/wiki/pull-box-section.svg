@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" role="img" aria-labelledby="t d">
+  <title id="t">Pull box, cross-section</title>
+  <desc id="d">A pull box set flush with grade on drain rock, with a cover, conduits entering through the walls with bell ends, cable slack inside, and a ground rod.</desc>
+  <defs>
+    <pattern id="soil" width="14" height="14" patternUnits="userSpaceOnUse"><rect width="14" height="14" fill="#D8C29A"/><circle cx="4" cy="5" r="1.2" fill="#BFA678"/><circle cx="11" cy="11" r="1" fill="#BFA678"/></pattern>
+    <pattern id="rock" width="16" height="16" patternUnits="userSpaceOnUse"><rect width="16" height="16" fill="#C7CACE"/><circle cx="4" cy="4" r="3" fill="#9EA3A9"/><circle cx="12" cy="11" r="3.4" fill="#A9AEB4"/><circle cx="3" cy="13" r="2" fill="#B3B8BE"/></pattern>
+  </defs>
+  <style>
+    text { font-family: "Open Sans", Helvetica, Arial, sans-serif; fill: #262626; }
+    .h { font-size: 20px; font-weight: 600; }
+    .l { font-size: 14px; }
+    .s { font-size: 12px; fill: #595959; }
+    .lead { stroke: #8A8E91; stroke-width: 1.2; fill: none; }
+  </style>
+  <rect width="800" height="480" fill="#FFFFFF"/>
+  <text class="h" x="32" y="40">Pull box, cross-section</text>
+
+  <rect x="20" y="110" width="560" height="330" fill="url(#soil)"/>
+  <path d="M20 110 H580" stroke="#7A6A4C" stroke-width="2"/>
+  <!-- drain rock -->
+  <rect x="190" y="330" width="220" height="46" fill="url(#rock)"/>
+  <!-- box walls -->
+  <path d="M200 110 V330 H214 V124 H386 V330 H400 V110" fill="#BFC3C7" stroke="#6B7178" stroke-width="1.5"/>
+  <rect x="214" y="124" width="172" height="206" fill="#F4F1EA"/>
+  <!-- cover -->
+  <rect x="196" y="100" width="208" height="12" rx="2" fill="#6B7178"/>
+  <text x="300" y="96" text-anchor="middle" class="s">COVER MARKED FOR THE SYSTEM</text>
+  <!-- conduits with bell ends -->
+  <rect x="30" y="276" width="184" height="22" fill="#D5D9DE" stroke="#5F656C" stroke-width="2"/>
+  <path d="M214 272 L226 268 V306 L214 302 Z" fill="#D5D9DE" stroke="#5F656C" stroke-width="2"/>
+  <rect x="386" y="276" width="184" height="22" fill="#D5D9DE" stroke="#5F656C" stroke-width="2"/>
+  <path d="M386 272 L374 268 V306 L386 302 Z" fill="#D5D9DE" stroke="#5F656C" stroke-width="2"/>
+  <!-- cable with slack loop -->
+  <path d="M30 287 H226 C250 287 250 200 300 200 C350 200 350 287 374 287 H570" fill="none" stroke="#C92A06" stroke-width="3.5"/>
+  <!-- ground rod and bond -->
+  <rect x="356" y="240" width="5" height="210" fill="#B87333"/>
+  <path d="M358 242 C358 180 392 160 392 112" fill="none" stroke="#2E7D32" stroke-width="2.5"/>
+
+  <!-- labels -->
+  <path class="lead" d="M404 106 H590"/><text class="l" x="596" y="110">Cover</text><text class="s" x="596" y="127">traffic-rated where driven over</text>
+  <path class="lead" d="M400 170 H590"/><text class="l" x="596" y="166">Box body</text><text class="s" x="596" y="183">size per plans</text>
+  <path class="lead" d="M300 202 C420 205 520 230 590 230"/><text class="l" x="596" y="228">Cable slack</text><text class="s" x="596" y="245">left in the box as specified</text>
+  <path class="lead" d="M380 284 C480 284 540 288 590 288"/><text class="l" x="596" y="286">Bell end</text><text class="s" x="596" y="303">protects the cable at the entry</text>
+  <path class="lead" d="M392 140 C470 140 540 330 590 340"/><text class="l" x="596" y="344">Bonding jumper</text><text class="s" x="596" y="361">metal cover to ground, as detailed</text>
+  <path class="lead" d="M362 420 H590"/><text class="l" x="596" y="416">Ground rod</text><text class="s" x="596" y="433">where the details require it</text>
+  <text class="l" x="36" y="372">Drain rock</text><path class="lead" d="M112 368 H190"/>
+  <text class="l" x="36" y="268">Conduit</text>
+
+  <text class="s" x="32" y="465">Illustration only, not to scale. Box sizes, covers and grounding follow the ES Standard Plans and your contract.</text>
+</svg>

@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img" aria-labelledby="t d">
+  <title id="t">Pole foundation, cross-section</title>
+  <desc id="d">A cast-in-place pole foundation: a reinforcing cage, anchor bolts set with a template, conduit stubs rising into the pole base, the base plate and nuts on top, and a ground rod beside it.</desc>
+  <defs>
+    <pattern id="soil" width="14" height="14" patternUnits="userSpaceOnUse"><rect width="14" height="14" fill="#D8C29A"/><circle cx="4" cy="5" r="1.2" fill="#BFA678"/><circle cx="11" cy="11" r="1" fill="#BFA678"/></pattern>
+    <pattern id="conc" width="12" height="12" patternUnits="userSpaceOnUse"><rect width="12" height="12" fill="#D9DCDF"/><circle cx="3" cy="4" r="1" fill="#B3B8BE"/><circle cx="9" cy="9" r="0.8" fill="#B3B8BE"/></pattern>
+  </defs>
+  <style>
+    text { font-family: "Open Sans", Helvetica, Arial, sans-serif; fill: #262626; }
+    .h { font-size: 20px; font-weight: 600; }
+    .l { font-size: 14px; }
+    .s { font-size: 12px; fill: #595959; }
+    .lead { stroke: #8A8E91; stroke-width: 1.2; fill: none; }
+  </style>
+  <rect width="800" height="520" fill="#FFFFFF"/>
+  <text class="h" x="32" y="40">Pole foundation, cross-section</text>
+
+  <rect x="20" y="150" width="580" height="330" fill="url(#soil)"/>
+  <path d="M20 150 H600" stroke="#7A6A4C" stroke-width="2"/>
+  <!-- foundation -->
+  <rect x="200" y="140" width="200" height="320" fill="url(#conc)" stroke="#6B7178" stroke-width="2"/>
+  <!-- rebar cage -->
+  <g stroke="#8B3A1E" stroke-width="3">
+    <path d="M222 160 V440 M378 160 V440"/>
+  </g>
+  <g stroke="#8B3A1E" stroke-width="2">
+    <path d="M222 180 H378 M222 230 H378 M222 280 H378 M222 330 H378 M222 380 H378 M222 430 H378"/>
+  </g>
+  <!-- conduit stubs -->
+  <path d="M20 400 H262 C282 400 286 380 286 360 V120" fill="none" stroke="#5F656C" stroke-width="14"/>
+  <path d="M20 400 H262 C282 400 286 380 286 360 V120" fill="none" stroke="#D5D9DE" stroke-width="9"/>
+  <path d="M600 370 H338 C318 370 314 350 314 330 V120" fill="none" stroke="#5F656C" stroke-width="14"/>
+  <path d="M600 370 H338 C318 370 314 350 314 330 V120" fill="none" stroke="#D5D9DE" stroke-width="9"/>
+  <!-- anchor bolts -->
+  <g stroke="#262626" stroke-width="5" fill="none">
+    <path d="M244 96 V300 h14"/><path d="M356 96 V300 h-14"/>
+  </g>
+  <!-- base plate, nuts, pole -->
+  <rect x="226" y="122" width="148" height="12" fill="#6B7178"/>
+  <rect x="238" y="110" width="12" height="12" fill="#262626"/><rect x="350" y="110" width="12" height="12" fill="#262626"/>
+  <rect x="238" y="134" width="12" height="8" fill="#262626"/><rect x="350" y="134" width="12" height="8" fill="#262626"/>
+  <path d="M262 122 L270 60 H330 L338 122 Z" fill="#AEB4BA" stroke="#6B7178" stroke-width="1.5"/>
+  <!-- ground rod -->
+  <rect x="460" y="190" width="6" height="270" fill="#B87333"/>
+  <path d="M463 192 C463 160 420 150 380 128" fill="none" stroke="#2E7D32" stroke-width="2.5"/>
+
+  <!-- labels -->
+  <path class="lead" d="M338 90 H610"/><text class="l" x="616" y="94">Pole base</text>
+  <path class="lead" d="M362 116 H610"/><text class="l" x="616" y="120">Leveling and top nuts</text>
+  <path class="lead" d="M374 128 C480 128 520 150 610 150"/><text class="l" x="616" y="154">Base plate</text><text class="s" x="616" y="171">bolt pattern set by a template</text>
+  <path class="lead" d="M356 250 C480 250 520 214 610 214"/><text class="l" x="616" y="218">Anchor bolts</text><text class="s" x="616" y="235">needed before the poles arrive</text>
+  <path class="lead" d="M378 280 H610"/><text class="l" x="616" y="276">Reinforcing cage</text><text class="s" x="616" y="293">inspected before the pour</text>
+  <path class="lead" d="M600 370 H610"/><text class="l" x="616" y="366">Conduit stubs</text><text class="s" x="616" y="383">one spare if the plans call for it</text>
+  <path class="lead" d="M466 440 H610"/><text class="l" x="616" y="436">Ground rod</text><text class="s" x="616" y="453">bonded to the pole, as detailed</text>
+  <text class="l" x="36" y="190">Native soil</text>
+  <text class="l" x="236" y="478">Cast-in-place concrete</text>
+
+  <text class="s" x="32" y="506">Illustration only, not to scale. Diameter, depth, reinforcement and bolts follow the ES Standard Plans and your contract.</text>
+</svg>

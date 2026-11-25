@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 470" role="img" aria-labelledby="t d">
+  <title id="t">Conduit trench, cross-section</title>
+  <desc id="d">A trench cut through pavement: conduits and tracer wire on bedding at the bottom, backfill above with a warning tape, then aggregate base and a pavement patch at the surface.</desc>
+  <defs>
+    <pattern id="sand" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#F1E5C6"/><circle cx="2" cy="3" r="0.9" fill="#C9B587"/><circle cx="7" cy="7" r="0.9" fill="#C9B587"/></pattern>
+    <pattern id="soil" width="14" height="14" patternUnits="userSpaceOnUse"><rect width="14" height="14" fill="#D8C29A"/><circle cx="4" cy="5" r="1.2" fill="#BFA678"/><circle cx="11" cy="11" r="1" fill="#BFA678"/></pattern>
+    <pattern id="base" width="12" height="12" patternUnits="userSpaceOnUse"><rect width="12" height="12" fill="#B9BCC0"/><circle cx="3" cy="4" r="1.6" fill="#8F9399"/><circle cx="9" cy="9" r="1.4" fill="#8F9399"/></pattern>
+  </defs>
+  <style>
+    text { font-family: "Open Sans", Helvetica, Arial, sans-serif; fill: #262626; }
+    .h { font-size: 20px; font-weight: 600; }
+    .l { font-size: 14px; }
+    .s { font-size: 12px; fill: #595959; }
+    .lead { stroke: #8A8E91; stroke-width: 1.2; fill: none; }
+  </style>
+  <rect width="800" height="470" fill="#FFFFFF"/>
+  <text class="h" x="32" y="40">Conduit trench, cross-section</text>
+
+  <!-- native soil and existing pavement -->
+  <rect x="20" y="90" width="520" height="320" fill="url(#soil)"/>
+  <rect x="20" y="90" width="520" height="22" fill="#4A4D52"/>
+  <rect x="20" y="112" width="520" height="30" fill="url(#base)"/>
+
+  <!-- trench -->
+  <rect x="190" y="90" width="180" height="300" fill="#E8DBBB"/>
+  <rect x="190" y="292" width="180" height="98" fill="url(#sand)"/>
+  <rect x="190" y="112" width="180" height="30" fill="url(#base)"/>
+  <rect x="190" y="90" width="180" height="22" fill="#2F3236"/>
+  <path d="M190 90 V390 H370 V90" fill="none" stroke="#7A6A4C" stroke-width="2"/>
+  <!-- warning tape -->
+  <rect x="200" y="196" width="160" height="7" fill="#F2B705"/>
+  <rect x="200" y="196" width="160" height="7" fill="none" stroke="#B98900" stroke-width="1"/>
+  <!-- conduits -->
+  <g stroke="#5F656C" stroke-width="3" fill="#D5D9DE">
+    <circle cx="235" cy="345" r="20"/><circle cx="280" cy="345" r="20"/><circle cx="325" cy="345" r="20"/>
+  </g>
+  <g fill="#FFFFFF"><circle cx="235" cy="345" r="13"/><circle cx="280" cy="345" r="13"/><circle cx="325" cy="345" r="13"/></g>
+  <!-- tracer wire -->
+  <circle cx="280" cy="314" r="4.5" fill="#2E7D32"/>
+
+  <!-- cover dimension -->
+  <path d="M170 92 V322" stroke="#0070D5" stroke-width="1.6"/>
+  <path d="M164 98 L170 90 L176 98 M164 316 L170 324 L176 316" stroke="#0070D5" stroke-width="1.6" fill="none"/>
+  <text class="l" x="40" y="218" fill="#0070D5" style="fill:#0070D5">Cover depth</text>
+  <text class="s" x="40" y="236">per plans and</text>
+  <text class="s" x="40" y="252">Section 86</text>
+
+  <!-- labels -->
+  <path class="lead" d="M352 101 H560"/><text class="l" x="566" y="105">Pavement patch</text><text class="s" x="566" y="122">restored to specification</text>
+  <path class="lead" d="M352 134 C450 134 480 150 560 150"/><text class="l" x="566" y="155">Aggregate base</text>
+  <path class="lead" d="M352 200 H560"/><text class="l" x="566" y="196">Warning tape</text><text class="s" x="566" y="213">warns the next excavator</text>
+  <path class="lead" d="M352 258 H560"/><text class="l" x="566" y="254">Backfill</text><text class="s" x="566" y="271">compacted in layers</text>
+  <path class="lead" d="M285 314 C420 314 470 312 560 312"/><text class="l" x="566" y="308">Tracer wire</text><text class="s" x="566" y="325">lets locators find the run</text>
+  <path class="lead" d="M345 345 H560"/><text class="l" x="566" y="350">Conduits</text><text class="s" x="566" y="367">sizes and types per plans</text>
+  <path class="lead" d="M350 380 C450 380 480 392 560 392"/><text class="l" x="566" y="397">Bedding</text><text class="s" x="566" y="414">sand or slurry, as specified</text>
+  <text class="s" x="36" y="380" style="fill:#7A6A4C">Native soil</text>
+
+  <text class="s" x="32" y="452">Illustration only, not to scale. Depths, materials and layers follow your contract plans and specifications.</text>
+</svg>

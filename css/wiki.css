@@ -70,6 +70,9 @@ a.wiki-phase:hover { background: #EAF3FC; }
 .wiki-prose th, .wiki-prose td { padding: 12px 14px; text-align: left; vertical-align: top; border-bottom: 1px solid var(--hairline); }
 .wiki-prose th { background: var(--soft); font-weight: 600; }
 .wiki-prose tr:last-child td { border-bottom: 0; }
+.wiki-figure { margin: 24px 0 28px; }
+.wiki-figure img { width: 100%; height: auto; border: 1px solid var(--hairline); border-radius: 16px; background: var(--white); }
+.wiki-figure figcaption { margin-top: 8px; color: var(--ink-2); font-size: 14px; line-height: 1.45; }
 .wiki-term { color: inherit; text-decoration: underline dotted var(--blue); text-underline-offset: 3px; }
 .wiki-link-missing { color: var(--ink-2); border-bottom: 1px dashed var(--ink-3); }
 .wiki-mistakes { margin: 32px 0; padding: 20px 24px; background: #FFF6F2; border-radius: 18px; }

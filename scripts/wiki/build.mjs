@@ -217,7 +217,7 @@ async function main() {
   for (const a of articles) {
     const base = '..';
     const body = a.body_md.replace(/^\s*#\s+.*\n/, '');
-    const html = renderMarkdown(body, { articles: bySlug, glossary, base });
+    const html = renderMarkdown(body, { articles: bySlug, glossary, base, assets: '../../assets/wiki/' });
     const mistakes = a.common_mistakes ? renderMarkdown(a.common_mistakes, { articles: bySlug, base }) : '';
     const toc = outline(body);
     const chosen = d.links.filter((l) => l.from_article === a.id && byId.has(l.to_article));

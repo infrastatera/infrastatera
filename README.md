@@ -47,4 +47,5 @@ The homepage shows two featured demos as large tiles (hand-written in `index.htm
 
 - The GitHub Action **Update wiki** (`.github/workflows/wiki.yml`) runs it every night and commits only if something changed. After publishing an article, run it right away from the Actions tab → Update wiki → Run workflow.
 - Preview from a saved copy of the data: `node scripts/wiki/build.mjs --from data.json`.
+- Pictures: put files in `assets/wiki/` and write `![description](file.svg "Caption")` on its own line in an article. The diagrams there are original drawings (not to scale), free to reuse on this site.
 - Styles: `css/wiki.css`. Search box: `js/wiki.js`. The home page links to it from the menu, the Wiki band under the demos and the footer.

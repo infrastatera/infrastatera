@@ -10,8 +10,8 @@ export { esc };
 
 /**
  * @param {string} md
- * @param {{ articles: Record<string, {slug: string, title: string}>, glossary?: {term: string, aliases?: string[]}[], base: string }} opts
- *   base: where the wiki lives, e.g. "/wiki"
+ * @param {{ articles: Record<string, {slug: string, title: string}>, glossary?: {term: string, aliases?: string[]}[], base: string, assets?: string }} opts
+ *   base: where the wiki lives, e.g. "/wiki"; assets: where its pictures live, e.g. "../../assets/wiki/"
  */
 export function renderMarkdown(md, opts) {
   const linked = new Set();
@@ -73,6 +73,15 @@ export function renderMarkdown(md, opts) {
       continue;
     }
     if (/^\s*(---|\*\*\*)\s*$/.test(line)) { html.push('<hr>'); i++; continue; }
+    const img = /^\s*!\[([^\]]*)\]\(([^)\s]+)(?:\s+"([^"]*)")?\)\s*$/.exec(line);
+    if (img) {
+      const [, alt, src, caption] = img;
+      // Relative paths are files in assets/wiki/ of this site; full addresses are allowed as they are.
+      const url = /^https?:\/\//i.test(src) ? src : /^[\w./-]+$/.test(src) && !src.includes('..') ? `${opts.assets ?? ''}${src}` : null;
+      if (url) html.push(`<figure class="wiki-figure"><img src="${esc(url)}" alt="${esc(alt)}" loading="lazy">${caption ? `<figcaption>${inline(caption)}</figcaption>` : ''}</figure>`);
+      i++;
+      continue;
+    }
     if (/^\s*>/.test(line)) {
       const body = [];
       while (i < lines.length && /^\s*>/.test(lines[i])) body.push(lines[i++].replace(/^\s*>\s?/, ''));
@@ -112,5 +121,5 @@ export function outline(md) {
 
 /** Plain text for search snippets and meta descriptions. */
 export function plain(md) {
-  return md.replace(/\[\[([a-z0-9-]+)(?:\|([^\]]*))?\]\]/g, (_, s, l) => l || s.replace(/-/g, ' ')).replace(/\[([^\]]+)\]\([^)]+\)/g, '$1').replace(/[#>*`|_-]+/g, ' ').replace(/\s+/g, ' ').trim();
+  return md.replace(/!\[[^\]]*\]\([^)]*\)/g, '').replace(/\[\[([a-z0-9-]+)(?:\|([^\]]*))?\]\]/g, (_, s, l) => l || s.replace(/-/g, ' ')).replace(/\[([^\]]+)\]\([^)]+\)/g, '$1').replace(/[#>*`|_-]+/g, ' ').replace(/\s+/g, ' ').trim();
 }

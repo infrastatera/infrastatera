@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" role="img" aria-labelledby="t d">
+  <title id="t">A conduit run between two pull boxes</title>
+  <desc id="d">Side view of a conduit between two pull boxes, with couplings, an expansion fitting, bends to pass under an existing utility, bell ends and pull tape left inside.</desc>
+  <defs>
+    <pattern id="soil" width="14" height="14" patternUnits="userSpaceOnUse"><rect width="14" height="14" fill="#E3D1AC"/><circle cx="4" cy="5" r="1.1" fill="#C9B587"/><circle cx="11" cy="11" r="0.9" fill="#C9B587"/></pattern>
+  </defs>
+  <style>
+    text { font-family: "Open Sans", Helvetica, Arial, sans-serif; fill: #262626; }
+    .h { font-size: 20px; font-weight: 600; }
+    .l { font-size: 13px; }
+    .s { font-size: 12px; fill: #595959; }
+    .lead { stroke: #8A8E91; stroke-width: 1.2; fill: none; }
+  </style>
+  <rect width="800" height="400" fill="#FFFFFF"/>
+  <text class="h" x="32" y="36">A conduit run between two pull boxes</text>
+
+  <rect x="20" y="90" width="760" height="230" fill="url(#soil)"/>
+  <path d="M20 90 H780" stroke="#7A6A4C" stroke-width="2"/>
+  <!-- boxes -->
+  <rect x="50" y="90" width="90" height="150" fill="#F4F1EA" stroke="#6B7178" stroke-width="6"/>
+  <rect x="660" y="90" width="90" height="150" fill="#F4F1EA" stroke="#6B7178" stroke-width="6"/>
+  <!-- existing utility -->
+  <circle cx="420" cy="196" r="15" fill="#9CA3AA" stroke="#5F656C" stroke-width="2"/>
+  <!-- conduit path with dip under utility -->
+  <path id="run" d="M140 196 H330 C360 196 362 246 392 246 H448 C478 246 480 196 510 196 H660" fill="none" stroke="#5F656C" stroke-width="20" stroke-linejoin="round"/>
+  <path d="M140 196 H330 C360 196 362 246 392 246 H448 C478 246 480 196 510 196 H660" fill="none" stroke="#D5D9DE" stroke-width="15" stroke-linejoin="round"/>
+  <!-- pull tape -->
+  <path d="M130 196 H330 C360 196 362 246 392 246 H448 C478 246 480 196 510 196 H670" fill="none" stroke="#0070D5" stroke-width="2" stroke-dasharray="7 5"/>
+  <!-- couplings -->
+  <g fill="#9EA4AB" stroke="#5F656C" stroke-width="1.5">
+    <rect x="200" y="184" width="10" height="24"/><rect x="285" y="184" width="10" height="24"/><rect x="590" y="184" width="10" height="24"/>
+  </g>
+  <!-- expansion fitting -->
+  <rect x="540" y="182" width="34" height="28" rx="3" fill="#F2B705" stroke="#B98900" stroke-width="1.5"/>
+  <!-- bell ends -->
+  <path d="M140 184 L152 180 V212 L140 208 Z M660 184 L648 180 V212 L660 208 Z" fill="#D5D9DE" stroke="#5F656C" stroke-width="1.5"/>
+
+  <!-- labels -->
+  <text class="l" x="56" y="80">Pull box</text><text class="l" x="666" y="80">Pull box</text>
+  <path class="lead" d="M205 208 V300"/><text class="l" x="160" y="318">Couplings</text><text class="s" x="160" y="334">join the sections</text>
+  <path class="lead" d="M362 222 C340 290 330 300 320 300"/><path class="lead" d="M478 222 C500 290 510 300 520 300"/>
+  <text class="l" x="330" y="318">Elbows to pass under a utility</text><text class="s" x="330" y="334">every bend adds pulling tension: the total is limited</text>
+  <path class="lead" d="M557 182 V122"/><text class="l" x="520" y="116">Expansion fitting</text>
+  <path class="lead" d="M250 196 V122"/><text class="l" x="200" y="116">Pull tape left inside</text>
+  <path class="lead" d="M146 212 C150 270 120 290 90 300"/><text class="l" x="40" y="318">Bell end</text>
+
+  <text class="s" x="32" y="384">Illustration only, not to scale. Bend limits, fittings and pull box spacing follow your contract plans and Section 86.</text>
+</svg>
