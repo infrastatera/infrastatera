@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" role="img" aria-labelledby="t d">
+  <title id="t">A solar-powered field site</title>
+  <desc id="d">A pole with a solar panel on top, a camera and a cellular antenna, and a battery enclosure at its base holding the charge controller, a DC disconnect and LiFePO4 batteries; arrows show energy from the panel to the controller, into the batteries and out to the loads.</desc>
+  <defs><marker id="a" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#E07A1F"/></marker></defs>
+  <style>
+    text { font-family: "Open Sans", Helvetica, Arial, sans-serif; fill: #262626; }
+    .h { font-size: 20px; font-weight: 600; } .l { font-size: 14px; font-weight: 600; } .s { font-size: 12px; fill: #595959; }
+    .e { stroke: #E07A1F; stroke-width: 3; fill: none; marker-end: url(#a); }
+    .lead { stroke: #8A8E91; stroke-width: 1.2; fill: none; }
+  </style>
+  <rect width="800" height="460" fill="#FFFFFF"/>
+  <text class="h" x="32" y="40">A solar-powered field site</text>
+  <circle cx="90" cy="100" r="26" fill="#F2B705"/>
+  <path d="M90 60 V66 M90 134 V140 M50 100 H56 M124 100 H130 M62 72 L66 76 M114 124 L118 128 M62 128 L66 124 M114 76 L118 72" stroke="#F2B705" stroke-width="3"/>
+  <path d="M20 400 H500" stroke="#7A6A4C" stroke-width="2"/>
+
+  <!-- pole -->
+  <rect x="236" y="120" width="10" height="280" fill="#AEB4BA"/>
+  <path d="M190 112 L300 84 L304 104 L194 132 Z" fill="#1F3F66" stroke="#6B7178"/>
+  <path d="M212 108 L222 128 M240 100 L250 120 M268 93 L278 113" stroke="#5C7EA8"/>
+  <path d="M246 190 H280" stroke="#AEB4BA" stroke-width="4"/><circle cx="286" cy="200" r="11" fill="#262626"/>
+  <path d="M236 160 L210 140" stroke="#262626" stroke-width="3"/>
+  <!-- enclosure -->
+  <rect x="180" y="300" width="130" height="96" rx="4" fill="#C9CED3" stroke="#6B7178" stroke-width="2"/>
+  <rect x="192" y="312" width="44" height="26" rx="2" fill="#0070D5"/>
+  <rect x="250" y="312" width="48" height="26" rx="2" fill="#C92A06"/>
+  <rect x="192" y="348" width="50" height="40" rx="2" fill="#2F3236"/><rect x="248" y="348" width="50" height="40" rx="2" fill="#2F3236"/>
+
+  <!-- energy -->
+  <path class="e" d="M304 96 C380 110 380 260 302 318"/>
+  <path class="e" d="M180 324 C130 330 130 360 190 368"/>
+  <path class="e" d="M310 370 C380 360 360 220 300 204"/>
+
+  <!-- labels -->
+  <path class="lead" d="M300 90 H520"/><text class="l" x="526" y="94">Solar panel</text><text class="s" x="526" y="111">aimed south, unshaded</text>
+  <path class="lead" d="M298 200 H520"/><text class="l" x="526" y="190">Loads</text><text class="s" x="526" y="207">camera, router, radio</text>
+  <path class="lead" d="M214 325 C190 280 400 260 520 262"/><text class="l" x="526" y="258">Charge controller</text><text class="s" x="526" y="275">regulates charging</text>
+  <path class="lead" d="M298 325 H520"/><text class="l" x="526" y="322">DC disconnect</text><text class="s" x="526" y="339">isolates the battery bank</text>
+  <path class="lead" d="M298 380 H520"/><text class="l" x="526" y="378">LiFePO4 batteries</text><text class="s" x="526" y="395">carry the site at night</text>
+  <text class="s" x="40" y="280">Sized from the load and the</text><text class="s" x="40" y="296">days of autonomy required</text>
+
+  <text class="s" x="32" y="440">Illustration only. Panel, battery and controller sizes come from the design and the approved submittal.</text>
+</svg>

@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" role="img" aria-labelledby="t d">
+  <title id="t">Reading an electrical plan sheet</title>
+  <desc id="d">A simplified electrical plan sheet: a roadway with stationing, pull box and conduit symbols, a pole with a callout, a legend in the corner, general notes, a reference to a Standard Plan, and the title block with the sheet number.</desc>
+  <style>
+    text { font-family: "Open Sans", Helvetica, Arial, sans-serif; fill: #262626; }
+    .h { font-size: 20px; font-weight: 600; } .l { font-size: 13px; font-weight: 600; } .s { font-size: 11px; fill: #595959; }
+    .lead { stroke: #C92A06; stroke-width: 1.4; fill: none; }
+    .tag { font-size: 13px; font-weight: 600; fill: #C92A06; }
+  </style>
+  <rect width="800" height="480" fill="#FFFFFF"/>
+  <text class="h" x="32" y="40">Reading an electrical plan sheet</text>
+  <rect x="32" y="60" width="600" height="390" fill="#FBFBF8" stroke="#262626" stroke-width="2"/>
+  <!-- road + stationing -->
+  <path d="M50 190 H520 M50 250 H520" stroke="#262626" stroke-width="1.5"/>
+  <path d="M50 220 H520" stroke="#262626" stroke-width="1" stroke-dasharray="10 6"/>
+  <g stroke="#262626"><path d="M100 214 V226 M200 214 V226 M300 214 V226 M400 214 V226 M500 214 V226"/></g>
+  <g class="s"><text x="88" y="210">10+00</text><text x="188" y="210">11+00</text><text x="288" y="210">12+00</text><text x="388" y="210">13+00</text></g>
+  <!-- conduit + boxes -->
+  <path d="M110 270 H450" stroke="#262626" stroke-width="2" stroke-dasharray="8 4"/>
+  <g fill="#FFFFFF" stroke="#262626" stroke-width="1.5"><rect x="104" y="264" width="12" height="12"/><rect x="274" y="264" width="12" height="12"/><rect x="444" y="264" width="12" height="12"/></g>
+  <!-- pole -->
+  <circle cx="280" cy="300" r="8" fill="none" stroke="#262626" stroke-width="1.5"/><path d="M280 276 V292" stroke="#262626"/>
+  <path d="M288 300 L330 330" stroke="#262626"/><text x="334" y="338" style="font-size:11px">LTG STD, SEE ES-XX</text>
+  <path d="M190 270 L170 300" stroke="#262626"/><text x="96" y="312" style="font-size:11px">2" C (2 #8, 1 #8 GND)</text>
+  <!-- legend -->
+  <rect x="44" y="72" width="170" height="90" fill="#FFFFFF" stroke="#262626"/>
+  <text x="52" y="88" style="font-size:11px;font-weight:600">LEGEND</text>
+  <rect x="52" y="96" width="10" height="10" fill="#FFFFFF" stroke="#262626"/><text x="70" y="105" style="font-size:10px">PULL BOX</text>
+  <path d="M52 120 H62" stroke="#262626" stroke-width="2" stroke-dasharray="4 2"/><text x="70" y="123" style="font-size:10px">CONDUIT</text>
+  <circle cx="57" cy="138" r="5" fill="none" stroke="#262626"/><text x="70" y="141" style="font-size:10px">LIGHTING STANDARD</text>
+  <!-- notes -->
+  <rect x="380" y="72" width="240" height="90" fill="#FFFFFF" stroke="#262626"/>
+  <text x="388" y="88" style="font-size:11px;font-weight:600">NOTES</text>
+  <path d="M388 100 H600 M388 114 H590 M388 128 H600 M388 142 H560" stroke="#8A8E91"/>
+  <!-- title block -->
+  <rect x="44" y="380" width="576" height="60" fill="#FFFFFF" stroke="#262626"/>
+  <path d="M380 380 V440 M520 380 V440" stroke="#262626"/>
+  <text x="56" y="404" style="font-size:12px;font-weight:600">ELECTRICAL PLAN</text><text x="56" y="424" style="font-size:10px">LIGHTING AND CONDUIT</text>
+  <text x="390" y="404" style="font-size:10px">CONTRACT NO.</text><text x="390" y="424" style="font-size:10px">ENGINEER'S STAMP</text>
+  <text x="532" y="404" style="font-size:10px">SHEET</text><text x="532" y="428" style="font-size:16px;font-weight:600">E-3</text>
+
+  <!-- callouts -->
+  <path class="lead" d="M214 80 H660"/><text class="tag" x="666" y="84">Legend first</text><text class="s" x="666" y="100">symbols vary by designer</text>
+  <path class="lead" d="M620 117 H660"/><text class="tag" x="666" y="136">General notes</text><text class="s" x="666" y="152">often change the details</text>
+  <path class="lead" d="M400 205 C500 205 600 200 660 196"/><text class="tag" x="666" y="200">Stationing</text><text class="s" x="666" y="216">locates every item</text>
+  <path class="lead" d="M410 330 C500 330 600 320 660 318"/><text class="tag" x="666" y="322">Standard Plan</text><text class="s" x="666" y="338">detail called by number</text>
+  <path class="lead" d="M210 300 C320 280 560 262 660 258"/><text class="tag" x="666" y="262">Conduit callout</text><text class="s" x="666" y="278">size and conductors</text>
+  <path class="lead" d="M600 420 H660"/><text class="tag" x="666" y="416">Title block</text><text class="s" x="666" y="432">sheet number, stamp</text>
+
+  <text class="s" x="32" y="470">Illustration only, simplified. Every district and designer has its own sheet layout and symbols.</text>
+</svg>

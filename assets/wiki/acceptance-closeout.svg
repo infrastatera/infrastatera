@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" role="img" aria-labelledby="t d">
+  <title id="t">From testing to final payment</title>
+  <desc id="d">A flow: the contractor's own tests, then Caltrans witness tests, the punch list, fixes recorded with photos, acceptance, the closeout package, and final quantities and payment.</desc>
+  <defs><marker id="a" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#2E7D32"/></marker></defs>
+  <style>
+    text { font-family: "Open Sans", Helvetica, Arial, sans-serif; fill: #262626; }
+    .h { font-size: 20px; font-weight: 600; } .l { font-size: 13px; font-weight: 600; } .s { font-size: 12px; fill: #595959; }
+    .box { fill: #F7F9FA; stroke: #D5D9DE; stroke-width: 1.5; }
+    .f { stroke: #2E7D32; stroke-width: 2.5; fill: none; marker-end: url(#a); }
+  </style>
+  <rect width="800" height="300" fill="#FFFFFF"/>
+  <text class="h" x="32" y="40">From testing to final payment</text>
+  <rect class="box" x="24" y="70" width="170" height="76" rx="12"/><text class="l" x="38" y="96">1  Your own tests</text><text class="s" x="38" y="114">electrical, fiber,</text><text class="s" x="38" y="130">functional, recorded</text>
+  <path class="f" d="M196 108 H222"/>
+  <rect class="box" x="226" y="70" width="170" height="76" rx="12"/><text class="l" x="240" y="96">2  Witness tests</text><text class="s" x="240" y="114">Caltrans watches,</text><text class="s" x="240" y="130">reports in hand</text>
+  <path class="f" d="M398 108 H424"/>
+  <rect class="box" x="428" y="70" width="170" height="76" rx="12"/><text class="l" x="442" y="96">3  Punch list</text><text class="s" x="442" y="114">labels, documents,</text><text class="s" x="442" y="130">grounding, network</text>
+  <path class="f" d="M600 108 H626"/>
+  <rect class="box" x="630" y="70" width="146" height="76" rx="12"/><text class="l" x="644" y="96">4  Fix it</text><text class="s" x="644" y="114">grouped by location,</text><text class="s" x="644" y="130">photo each fix</text>
+  <path class="f" d="M703 148 V180 H600"/>
+  <rect x="428" y="170" width="170" height="76" rx="12" fill="#E8F5EA" stroke="#2E7D32"/><text class="l" x="442" y="196" style="fill:#2E7D32">5  Acceptance</text><text class="s" x="442" y="214">Caltrans takes over</text><text class="s" x="442" y="230">operation; warranty starts</text>
+  <path class="f" d="M426 208 H400"/>
+  <rect class="box" x="226" y="170" width="170" height="76" rx="12"/><text class="l" x="240" y="196">6  Closeout package</text><text class="s" x="240" y="214">as-builts, certificates,</text><text class="s" x="240" y="230">tests, warranties</text>
+  <path class="f" d="M224 208 H198"/>
+  <rect x="24" y="170" width="170" height="76" rx="12" fill="#0070D5"/><text class="l" x="38" y="196" style="fill:#FFFFFF">7  Final payment</text><text class="s" x="38" y="214" style="fill:#DCEBFA">after final quantities</text><text class="s" x="38" y="230" style="fill:#DCEBFA">are agreed</text>
+  <text class="s" x="24" y="280">Build the closeout package from day one: it is slow when it starts at the end.</text>
+</svg>

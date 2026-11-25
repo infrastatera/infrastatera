@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" role="img" aria-labelledby="t d">
+  <title id="t">Inside a field equipment cabinet</title>
+  <desc id="d">Front view of an open field cabinet: fan and thermostat at the top, power distribution with breakers and surge protection, terminal blocks, a network switch, a router, a fiber patch panel, a battery backup at the bottom and a door switch.</desc>
+  <style>
+    text { font-family: "Open Sans", Helvetica, Arial, sans-serif; fill: #262626; }
+    .h { font-size: 20px; font-weight: 600; } .l { font-size: 14px; } .s { font-size: 12px; fill: #595959; } .m { font-size: 11px; fill: #FFFFFF; }
+    .lead { stroke: #8A8E91; stroke-width: 1.2; fill: none; }
+  </style>
+  <rect width="800" height="560" fill="#FFFFFF"/>
+  <text class="h" x="32" y="40">Inside a field equipment cabinet</text>
+
+  <!-- cabinet shell -->
+  <rect x="180" y="70" width="300" height="440" rx="6" fill="#C9CED3" stroke="#6B7178" stroke-width="3"/>
+  <rect x="196" y="86" width="268" height="408" fill="#F4F5F6"/>
+  <!-- open door -->
+  <path d="M480 74 L560 100 V480 L480 506 Z" fill="#B7BDC3" stroke="#6B7178" stroke-width="2"/>
+  <rect x="500" y="200" width="40" height="70" fill="#FFFFFF" stroke="#8A8E91"/>
+  <text class="s" x="504" y="222" style="font-size:9px">PRINTS</text>
+  <!-- door switch -->
+  <rect x="466" y="300" width="12" height="22" fill="#C92A06"/>
+  <!-- fan + thermostat -->
+  <circle cx="250" cy="116" r="20" fill="#DDE1E5" stroke="#6B7178" stroke-width="2"/>
+  <path d="M250 98 V134 M232 116 H268 M237 103 L263 129 M263 103 L237 129" stroke="#6B7178" stroke-width="1.5"/>
+  <rect x="300" y="104" width="40" height="24" rx="3" fill="#FFFFFF" stroke="#6B7178"/>
+  <text x="320" y="121" text-anchor="middle" class="s" style="font-size:10px">72°F</text>
+  <!-- power distribution -->
+  <rect x="210" y="150" width="240" height="70" rx="3" fill="#3A3D41"/>
+  <g fill="#E6E8EA"><rect x="222" y="162" width="14" height="30" rx="2"/><rect x="242" y="162" width="14" height="30" rx="2"/><rect x="262" y="162" width="14" height="30" rx="2"/><rect x="282" y="162" width="14" height="30" rx="2"/><rect x="302" y="162" width="14" height="30" rx="2"/></g>
+  <rect x="340" y="160" width="96" height="48" rx="3" fill="#F2B705"/>
+  <text x="388" y="189" text-anchor="middle" class="s" style="fill:#262626;font-size:11px">SURGE</text>
+  <!-- terminal blocks -->
+  <rect x="210" y="234" width="240" height="38" rx="3" fill="#FFFFFF" stroke="#8A8E91"/>
+  <g fill="#8BA4C0"><rect x="218" y="242" width="10" height="22"/><rect x="232" y="242" width="10" height="22"/><rect x="246" y="242" width="10" height="22"/><rect x="260" y="242" width="10" height="22"/><rect x="274" y="242" width="10" height="22"/><rect x="288" y="242" width="10" height="22"/><rect x="302" y="242" width="10" height="22"/><rect x="316" y="242" width="10" height="22"/><rect x="330" y="242" width="10" height="22"/><rect x="344" y="242" width="10" height="22"/><rect x="358" y="242" width="10" height="22"/><rect x="372" y="242" width="10" height="22"/></g>
+  <!-- switch -->
+  <rect x="210" y="288" width="240" height="40" rx="3" fill="#262626"/>
+  <g fill="#7CC4FF"><rect x="222" y="300" width="12" height="10"/><rect x="240" y="300" width="12" height="10"/><rect x="258" y="300" width="12" height="10"/><rect x="276" y="300" width="12" height="10"/><rect x="294" y="300" width="12" height="10"/><rect x="312" y="300" width="12" height="10"/></g>
+  <g fill="#F2B705"><rect x="346" y="300" width="16" height="12"/><rect x="368" y="300" width="16" height="12"/></g>
+  <text class="m" x="400" y="313">SWITCH</text>
+  <!-- router -->
+  <rect x="210" y="340" width="150" height="34" rx="3" fill="#0070D5"/>
+  <path d="M340 340 V316 M350 340 V320" stroke="#262626" stroke-width="3"/>
+  <text class="m" x="222" y="362">CELLULAR ROUTER</text>
+  <!-- patch panel -->
+  <rect x="210" y="386" width="240" height="30" rx="3" fill="#FFFFFF" stroke="#8A8E91"/>
+  <g fill="#2E7D32"><circle cx="230" cy="401" r="5"/><circle cx="250" cy="401" r="5"/><circle cx="270" cy="401" r="5"/><circle cx="290" cy="401" r="5"/><circle cx="310" cy="401" r="5"/><circle cx="330" cy="401" r="5"/></g>
+  <path d="M310 401 C330 360 380 340 362 312" fill="none" stroke="#F2B705" stroke-width="2.5"/>
+  <!-- battery backup -->
+  <rect x="210" y="430" width="240" height="52" rx="3" fill="#5F656C"/>
+  <rect x="222" y="440" width="66" height="32" rx="2" fill="#2F3236"/><rect x="296" y="440" width="66" height="32" rx="2" fill="#2F3236"/>
+  <text class="m" x="372" y="461">BATTERY</text>
+  <!-- ground bar -->
+  <rect x="200" y="488" width="120" height="6" fill="#B87333"/>
+
+  <!-- labels left -->
+  <path class="lead" d="M230 116 H150"/><text class="l" x="32" y="112">Fan</text><text class="s" x="32" y="128">with thermostat</text>
+  <path class="lead" d="M210 185 H150"/><text class="l" x="32" y="181">Power</text><text class="s" x="32" y="197">breakers</text>
+  <path class="lead" d="M210 253 H150"/><text class="l" x="32" y="249">Terminal blocks</text><text class="s" x="32" y="265">field wiring lands here</text>
+  <path class="lead" d="M210 357 H150"/><text class="l" x="32" y="353">Router</text><text class="s" x="32" y="369">where there is no fiber</text>
+  <path class="lead" d="M210 401 H150"/><text class="l" x="32" y="397">Fiber patch panel</text><text class="s" x="32" y="413">jumpers to the switch</text>
+  <path class="lead" d="M200 491 H150"/><text class="l" x="32" y="487">Ground bar</text><text class="s" x="32" y="503">every device bonded here</text>
+  <!-- labels right -->
+  <path class="lead" d="M436 172 C500 150 560 150 590 150"/><text class="l" x="596" y="146">Surge protection</text><text class="s" x="596" y="162">on incoming power</text>
+  <path class="lead" d="M450 308 C520 120 560 120 590 104"/><text class="l" x="596" y="100">Managed switch</text><text class="s" x="596" y="116">copper and SFP fiber ports</text>
+  <path class="lead" d="M478 311 C520 311 560 300 590 300"/><text class="l" x="596" y="296">Door switch</text><text class="s" x="596" y="312">alarms the TMC when opened</text>
+  <path class="lead" d="M540 235 C565 235 575 235 590 235"/><text class="l" x="596" y="231">Wiring prints</text><text class="s" x="596" y="247">stay in the cabinet</text>
+  <path class="lead" d="M450 456 H590"/><text class="l" x="596" y="452">Battery backup</text><text class="s" x="596" y="468">keeps it running in an outage</text>
+
+  <text class="s" x="32" y="545">Illustration only. The equipment in a cabinet depends on the system and the contract.</text>
+</svg>

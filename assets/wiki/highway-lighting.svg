@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 440" role="img" aria-labelledby="t d">
+  <title id="t">Highway lighting at night</title>
+  <desc id="d">A lighting standard on its foundation with a luminaire arm lighting the roadway, an overhead sign with sign lighting, and soffit lights under an overcrossing, all fed by circuits from a service with a photocell.</desc>
+  <style>
+    text { font-family: "Open Sans", Helvetica, Arial, sans-serif; fill: #262626; }
+    .h { font-size: 20px; font-weight: 600; } .l { font-size: 14px; } .s { font-size: 12px; fill: #595959; }
+    .lead { stroke: #8A8E91; stroke-width: 1.2; fill: none; }
+  </style>
+  <rect width="800" height="440" fill="#FFFFFF"/>
+  <text class="h" x="32" y="40">Highway lighting at night</text>
+  <rect x="20" y="60" width="760" height="300" fill="#1E2A3A"/>
+  <rect x="20" y="320" width="760" height="40" fill="#3A3D41"/>
+  <path d="M20 340 H780" stroke="#F4F4F4" stroke-width="2" stroke-dasharray="18 14"/>
+
+  <!-- lighting standard -->
+  <rect x="120" y="140" width="8" height="180" fill="#AEB4BA"/>
+  <path d="M124 146 Q160 120 220 124" stroke="#AEB4BA" stroke-width="6" fill="none"/>
+  <rect x="208" y="120" width="34" height="10" rx="4" fill="#E6E8EA"/>
+  <path d="M212 130 L170 320 H300 L240 130 Z" fill="#FFE7A3" opacity="0.35"/>
+  <rect x="112" y="320" width="24" height="10" fill="#8A8E91"/>
+  <!-- photocell -->
+  <circle cx="124" cy="138" r="5" fill="#F2B705"/>
+
+  <!-- overhead sign -->
+  <rect x="380" y="90" width="8" height="230" fill="#AEB4BA"/><rect x="632" y="90" width="8" height="230" fill="#AEB4BA"/>
+  <rect x="380" y="96" width="260" height="8" fill="#AEB4BA"/>
+  <rect x="430" y="120" width="160" height="70" rx="4" fill="#1F7A3A" stroke="#FFFFFF" stroke-width="2"/>
+  <text x="510" y="152" text-anchor="middle" style="fill:#FFFFFF;font-size:16px;font-weight:600">EXIT 24</text>
+  <text x="510" y="174" text-anchor="middle" style="fill:#FFFFFF;font-size:12px">Main St</text>
+  <g fill="#E6E8EA"><rect x="450" y="196" width="22" height="8" rx="3"/><rect x="498" y="196" width="22" height="8" rx="3"/><rect x="546" y="196" width="22" height="8" rx="3"/></g>
+  <path d="M450 196 L440 120 H600 L568 196 Z" fill="#FFE7A3" opacity="0.18"/>
+
+  <!-- overcrossing with soffit lights -->
+  <rect x="680" y="230" width="100" height="22" fill="#8A8E91"/>
+  <g fill="#FFE7A3"><circle cx="700" cy="256" r="4"/><circle cx="730" cy="256" r="4"/><circle cx="760" cy="256" r="4"/></g>
+
+  <!-- labels -->
+  <path class="lead" d="M225 118 V80"/><text class="l" x="160" y="76" style="fill:#FFFFFF">Luminaire</text>
+  <path class="lead" d="M120 138 H60"/><text class="l" x="30" y="134" style="fill:#FFFFFF">Photocell</text>
+  <text class="l" x="134" y="300" style="fill:#FFFFFF">Lighting standard</text>
+  <text class="l" x="440" y="232" style="fill:#FFFFFF">Sign lighting</text>
+  <text class="l" x="660" y="290" style="fill:#FFFFFF">Soffit lighting</text>
+
+  <text class="s" x="32" y="384">Circuits run from the service through pull boxes to each standard; the photocell or a controller switches them at dusk.</text>
+  <text class="s" x="32" y="404">Illustration only. Luminaire types, pole heights and circuits follow the lighting plans of your contract.</text>
+</svg>

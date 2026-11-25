@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380" role="img" aria-labelledby="t d">
+  <title id="t">From the utility to the circuits</title>
+  <desc id="d">Power flows from the utility's transformer through the service conductors to the meter, the main disconnect and the branch breakers, then out to lighting, signal and communication circuits.</desc>
+  <style>
+    text { font-family: "Open Sans", Helvetica, Arial, sans-serif; fill: #262626; }
+    .h { font-size: 20px; font-weight: 600; } .l { font-size: 14px; font-weight: 600; } .s { font-size: 12px; fill: #595959; }
+    .box { fill: #F7F9FA; stroke: #D5D9DE; stroke-width: 1.5; }
+    .flow { stroke: #0070D5; stroke-width: 3; fill: none; marker-end: url(#a); }
+  </style>
+  <defs><marker id="a" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#0070D5"/></marker></defs>
+  <rect width="800" height="380" fill="#FFFFFF"/>
+  <text class="h" x="32" y="40">From the utility to the circuits</text>
+
+  <rect class="box" x="30" y="90" width="140" height="120" rx="14"/>
+  <text class="l" x="46" y="118">Utility</text><text class="s" x="46" y="138">transformer and</text><text class="s" x="46" y="154">point of connection</text><text class="s" x="46" y="180">the utility decides</text><text class="s" x="46" y="196">where and when</text>
+  <path class="flow" d="M172 150 H214"/>
+  <rect class="box" x="220" y="90" width="140" height="120" rx="14"/>
+  <text class="l" x="236" y="118">Meter</text><text class="s" x="236" y="138">when required,</text><text class="s" x="236" y="154">measures energy</text>
+  <path class="flow" d="M362 150 H404"/>
+  <rect class="box" x="410" y="90" width="140" height="120" rx="14"/>
+  <text class="l" x="426" y="118">Main disconnect</text><text class="s" x="426" y="138">isolates everything</text><text class="s" x="426" y="154">downstream</text>
+  <path class="flow" d="M552 150 H594"/>
+  <rect class="box" x="600" y="90" width="170" height="120" rx="14"/>
+  <text class="l" x="616" y="118">Branch breakers</text><text class="s" x="616" y="138">one per circuit,</text><text class="s" x="616" y="154">protect the conductors</text>
+
+  <path class="flow" d="M685 212 V250 H160 V286"/>
+  <path class="flow" d="M400 250 V286"/><path class="flow" d="M640 250 V286"/>
+  <rect class="box" x="70" y="292" width="180" height="50" rx="12"/><text class="l" x="86" y="322">Lighting circuits</text>
+  <rect class="box" x="310" y="292" width="180" height="50" rx="12"/><text class="l" x="326" y="322">Signal cabinet</text>
+  <rect class="box" x="550" y="292" width="200" height="50" rx="12"/><text class="l" x="566" y="322">Communication cabinet</text>
+
+  <rect x="210" y="76" width="360" height="148" rx="18" fill="none" stroke="#C92A06" stroke-width="1.5" stroke-dasharray="6 5"/>
+  <text class="s" x="300" y="70" style="fill:#C92A06">Service enclosure or pedestal (contractor)</text>
+  <text class="s" x="32" y="368">Illustration only. The service type, metering and circuits follow the plans and the utility's requirements.</text>
+</svg>

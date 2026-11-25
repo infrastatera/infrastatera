@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" role="img" aria-labelledby="t d">
+  <title id="t">The twelve phases of a Caltrans electrical job</title>
+  <desc id="d">Twelve numbered phases in order, grouped into paper, underground, structures and wire, systems, and acceptance, with a procurement bar running under the first six phases and documentation running under all of them.</desc>
+  <style>
+    text { font-family: "Open Sans", Helvetica, Arial, sans-serif; fill: #262626; }
+    .h { font-size: 20px; font-weight: 600; } .g { font-size: 12px; font-weight: 600; fill: #C92A06; letter-spacing: 0.04em; }
+    .n { font-size: 16px; font-weight: 600; fill: #FFFFFF; } .p { font-size: 12px; } .s { font-size: 12px; fill: #595959; }
+  </style>
+  <rect width="800" height="420" fill="#FFFFFF"/>
+  <text class="h" x="32" y="40">The twelve phases of a Caltrans electrical job</text>
+
+  <g class="g"><text x="32" y="80">PAPER</text><text x="128" y="80">UNDERGROUND</text><text x="320" y="80">STRUCTURES</text><text x="448" y="80">SYSTEMS</text><text x="576" y="80">ACCEPTANCE</text></g>
+  <path d="M32 88 H112 M128 88 H304 M320 88 H432 M448 88 H560 M576 88 H768" stroke="#C92A06" stroke-width="2"/>
+
+  <g>
+    <circle cx="64" cy="140" r="20" fill="#0070D5"/><text class="n" x="64" y="146" text-anchor="middle">1</text>
+    <circle cx="160" cy="140" r="20" fill="#0070D5"/><text class="n" x="160" y="146" text-anchor="middle">2</text>
+    <circle cx="256" cy="140" r="20" fill="#0070D5"/><text class="n" x="256" y="146" text-anchor="middle">3</text>
+    <circle cx="352" cy="140" r="20" fill="#0070D5"/><text class="n" x="352" y="146" text-anchor="middle">4</text>
+    <circle cx="416" cy="210" r="20" fill="#0070D5"/><text class="n" x="416" y="216" text-anchor="middle">5</text>
+    <circle cx="480" cy="140" r="20" fill="#0070D5"/><text class="n" x="480" y="146" text-anchor="middle">6</text>
+    <circle cx="544" cy="210" r="20" fill="#0070D5"/><text class="n" x="544" y="216" text-anchor="middle">7</text>
+    <circle cx="512" cy="280" r="20" fill="#0070D5"/><text class="n" x="512" y="286" text-anchor="middle">8</text>
+    <circle cx="608" cy="140" r="20" fill="#2E7D32"/><text class="n" x="608" y="146" text-anchor="middle">9</text>
+    <circle cx="672" cy="210" r="20" fill="#2E7D32"/><text class="n" x="672" y="216" text-anchor="middle">10</text>
+    <circle cx="736" cy="140" r="20" fill="#2E7D32"/><text class="n" x="736" y="146" text-anchor="middle">11</text>
+    <circle cx="736" cy="280" r="20" fill="#2E7D32"/><text class="n" x="736" y="286" text-anchor="middle">12</text>
+  </g>
+  <g class="p">
+    <text x="32" y="182">Preconstruction</text>
+    <text x="126" y="182">Underground</text>
+    <text x="222" y="182">Boxes and</text><text x="222" y="196">foundations</text>
+    <text x="322" y="182">Structures</text>
+    <text x="378" y="250">Cable</text>
+    <text x="446" y="182">Equipment</text>
+    <text x="514" y="250">Splicing</text>
+    <text x="470" y="320">Network</text>
+    <text x="580" y="182">Testing</text>
+    <text x="634" y="250">Acceptance</text>
+    <text x="704" y="182">Punch list</text>
+    <text x="704" y="320">Closeout</text>
+  </g>
+
+  <rect x="32" y="344" width="476" height="22" rx="11" fill="#F2B705" opacity="0.85"/>
+  <text x="44" y="359" style="font-size:12px;font-weight:600">Procurement: quotes, submittals, orders, deliveries</text>
+  <rect x="32" y="374" width="736" height="22" rx="11" fill="#E6E8EA"/>
+  <text x="44" y="389" style="font-size:12px;font-weight:600">Documentation: daily reports, RFIs, test records, as-builts</text>
+</svg>

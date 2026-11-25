@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" role="img" aria-labelledby="t d">
+  <title id="t">Three common electrical tests</title>
+  <desc id="d">Continuity tested end to end on a conductor; insulation resistance measured between a conductor and ground with an insulation tester; ground resistance measured with a tester and test stakes driven away from the ground rod.</desc>
+  <style>
+    text { font-family: "Open Sans", Helvetica, Arial, sans-serif; fill: #262626; }
+    .h { font-size: 20px; font-weight: 600; } .l { font-size: 15px; font-weight: 600; } .s { font-size: 12px; fill: #595959; }
+    .panel { fill: #F7F9FA; }
+    .meter { fill: #F2B705; stroke: #B98900; stroke-width: 1.5; }
+    .lead { stroke: #C92A06; stroke-width: 2; fill: none; }
+  </style>
+  <rect width="800" height="400" fill="#FFFFFF"/>
+  <text class="h" x="32" y="40">Three common electrical tests</text>
+
+  <rect class="panel" x="20" y="64" width="240" height="280" rx="16"/>
+  <text class="l" x="40" y="94">Continuity</text>
+  <path d="M50 200 H230" stroke="#C98B4B" stroke-width="6"/>
+  <rect class="meter" x="105" y="120" width="70" height="44" rx="6"/><text x="140" y="148" text-anchor="middle" class="s" style="fill:#262626">Ω</text>
+  <path class="lead" d="M115 164 C90 180 60 185 52 196 M165 164 C190 180 220 185 228 196"/>
+  <text class="s" x="40" y="250">One end to the other:</text><text class="s" x="40" y="268">the conductor is whole and</text><text class="s" x="40" y="286">lands where the plans say.</text>
+
+  <rect class="panel" x="280" y="64" width="240" height="280" rx="16"/>
+  <text class="l" x="300" y="94">Insulation resistance</text>
+  <path d="M310 200 H490" stroke="#C98B4B" stroke-width="6"/><path d="M310 200 H490" stroke="#262626" stroke-width="12" opacity="0.25"/>
+  <path d="M310 230 H490" stroke="#2E7D32" stroke-width="3"/><text class="s" x="452" y="248" style="fill:#2E7D32">ground</text>
+  <rect class="meter" x="365" y="120" width="70" height="44" rx="6"/><text x="400" y="148" text-anchor="middle" class="s" style="fill:#262626">MΩ</text>
+  <path class="lead" d="M380 164 C370 180 360 190 352 197 M420 164 C440 190 450 220 456 228"/>
+  <text class="s" x="300" y="268">Conductor to ground at test</text><text class="s" x="300" y="286">voltage: no damaged insulation.</text><text class="s" x="300" y="304">Done before energizing.</text>
+
+  <rect class="panel" x="540" y="64" width="240" height="280" rx="16"/>
+  <text class="l" x="560" y="94">Ground resistance</text>
+  <path d="M550 210 H770" stroke="#7A6A4C" stroke-width="2"/>
+  <rect x="572" y="210" width="5" height="70" fill="#B87333"/>
+  <rect x="672" y="210" width="3" height="36" fill="#6B7178"/><rect x="752" y="210" width="3" height="36" fill="#6B7178"/>
+  <rect class="meter" x="620" y="120" width="70" height="44" rx="6"/><text x="655" y="148" text-anchor="middle" class="s" style="fill:#262626">Ω</text>
+  <path class="lead" d="M630 164 C610 190 590 200 576 208 M655 164 V208 L673 210 M680 164 C710 180 740 195 753 208"/>
+  <text class="s" x="560" y="300">Ground rod with test stakes:</text><text class="s" x="560" y="318">must meet the value in</text><text class="s" x="560" y="336">the specifications.</text>
+
+  <text class="s" x="32" y="386">Illustration only. Required tests, methods and pass values follow your contract. Keep calibration certificates for test equipment.</text>
+</svg>

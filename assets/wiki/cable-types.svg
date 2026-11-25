@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 360" role="img" aria-labelledby="t d">
+  <title id="t">Conductors and cables, cut ends</title>
+  <desc id="d">Cross-sections of five cable types: a single power conductor, a bare grounding conductor, a multi-conductor signal cable, a CAT6 data cable with four twisted pairs, and a loose-tube fiber optic cable.</desc>
+  <style>
+    text { font-family: "Open Sans", Helvetica, Arial, sans-serif; fill: #262626; }
+    .h { font-size: 20px; font-weight: 600; } .l { font-size: 14px; font-weight: 600; } .s { font-size: 12px; fill: #595959; }
+  </style>
+  <rect width="800" height="360" fill="#FFFFFF"/>
+  <text class="h" x="32" y="40">Conductors and cables, cut ends</text>
+
+  <!-- power conductor -->
+  <circle cx="90" cy="150" r="40" fill="#262626"/><circle cx="90" cy="150" r="26" fill="#C98B4B"/>
+  <text class="l" x="40" y="230">Power conductor</text><text class="s" x="40" y="248">copper, insulated;</text><text class="s" x="40" y="264">color shows the circuit</text>
+  <!-- ground -->
+  <circle cx="235" cy="150" r="22" fill="#C98B4B" stroke="#9C6634" stroke-width="2"/>
+  <text class="l" x="190" y="230">Grounding</text><text class="s" x="190" y="248">bare or green,</text><text class="s" x="190" y="264">bonds the metal</text>
+  <!-- signal cable -->
+  <circle cx="390" cy="150" r="54" fill="#262626"/>
+  <g stroke="#262626" stroke-width="2">
+    <circle cx="390" cy="122" r="12" fill="#C92A06"/><circle cx="416" cy="138" r="12" fill="#F2B705"/><circle cx="416" cy="166" r="12" fill="#2E7D32"/>
+    <circle cx="390" cy="180" r="12" fill="#FFFFFF"/><circle cx="364" cy="166" r="12" fill="#0070D5"/><circle cx="364" cy="138" r="12" fill="#8A8E91"/>
+    <circle cx="390" cy="150" r="12" fill="#E07A1F"/>
+  </g>
+  <text class="l" x="335" y="230">Signal cable</text><text class="s" x="335" y="248">many conductors,</text><text class="s" x="335" y="264">cabinet to signal heads</text>
+  <!-- CAT6 -->
+  <circle cx="545" cy="150" r="42" fill="#3F7FBF"/><circle cx="545" cy="150" r="35" fill="#EEF3F8"/>
+  <path d="M545 118 V182 M513 150 H577" stroke="#9AA6B2" stroke-width="2"/>
+  <g stroke="#FFFFFF" stroke-width="1"><circle cx="530" cy="135" r="7" fill="#E07A1F"/><circle cx="560" cy="135" r="7" fill="#2E7D32"/><circle cx="530" cy="165" r="7" fill="#0070D5"/><circle cx="560" cy="165" r="7" fill="#8B5A2B"/></g>
+  <text class="l" x="500" y="230">CAT6</text><text class="s" x="500" y="248">four twisted pairs,</text><text class="s" x="500" y="264">Ethernet to devices</text>
+  <!-- fiber -->
+  <circle cx="700" cy="150" r="48" fill="#262626"/><circle cx="700" cy="150" r="40" fill="#F2B705" opacity="0.25"/>
+  <circle cx="700" cy="150" r="7" fill="#9AA6B2"/>
+  <g stroke="#262626" stroke-width="1.5"><circle cx="700" cy="122" r="11" fill="#0070D5"/><circle cx="728" cy="150" r="11" fill="#E07A1F"/><circle cx="700" cy="178" r="11" fill="#2E7D32"/><circle cx="672" cy="150" r="11" fill="#8B5A2B"/></g>
+  <text class="l" x="650" y="230">Fiber optic</text><text class="s" x="650" y="248">tubes of fibers around</text><text class="s" x="650" y="264">a strength member</text>
+
+  <text class="s" x="32" y="330">Illustration only, not to scale. Sizes, insulation, color codes and fiber counts follow the plans and specifications.</text>
+</svg>

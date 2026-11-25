@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 340" role="img" aria-labelledby="t d">
+  <title id="t">From specification to installed material</title>
+  <desc id="d">A flow: the specification lists what to submit; the PM builds the submittal log, prepares and sends the submittal; the Resident Engineer reviews it and either approves it or returns it for revision, which loops back; once approved, the purchase order is issued, the material is delivered and checked, then installed.</desc>
+  <defs><marker id="a" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#0070D5"/></marker>
+  <marker id="r" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#C92A06"/></marker></defs>
+  <style>
+    text { font-family: "Open Sans", Helvetica, Arial, sans-serif; fill: #262626; }
+    .h { font-size: 20px; font-weight: 600; } .l { font-size: 13px; font-weight: 600; } .s { font-size: 12px; fill: #595959; }
+    .box { fill: #F7F9FA; stroke: #D5D9DE; stroke-width: 1.5; }
+    .f { stroke: #0070D5; stroke-width: 2.5; fill: none; marker-end: url(#a); }
+  </style>
+  <rect width="800" height="340" fill="#FFFFFF"/>
+  <text class="h" x="32" y="40">From specification to installed material</text>
+
+  <rect class="box" x="24" y="80" width="130" height="70" rx="12"/><text class="l" x="38" y="106">Specifications</text><text class="s" x="38" y="124">every "submit"</text><text class="s" x="38" y="140">is a log line</text>
+  <path class="f" d="M156 115 H182"/>
+  <rect class="box" x="186" y="80" width="130" height="70" rx="12"/><text class="l" x="200" y="106">Submittal</text><text class="s" x="200" y="124">model highlighted,</text><text class="s" x="200" y="140">compliance shown</text>
+  <path class="f" d="M318 115 H344"/>
+  <rect class="box" x="348" y="80" width="130" height="70" rx="12"/><text class="l" x="362" y="106">RE review</text><text class="s" x="362" y="124">review time set</text><text class="s" x="362" y="140">by the specs</text>
+  <path class="f" d="M480 115 H506"/>
+  <rect x="510" y="80" width="110" height="70" rx="12" fill="#E8F5EA" stroke="#2E7D32"/><text class="l" x="524" y="111" style="fill:#2E7D32">Approved</text>
+  <path d="M413 152 V200 H251 V156" stroke="#C92A06" stroke-width="2.5" fill="none" marker-end="url(#r)"/>
+  <text class="s" x="270" y="220" style="fill:#C92A06">Returned: revise and resubmit (the clock restarts)</text>
+  <path class="f" d="M622 115 H648"/>
+  <rect class="box" x="652" y="80" width="124" height="70" rx="12"/><text class="l" x="666" y="106">Purchase order</text><text class="s" x="666" y="124">track fabrication</text><text class="s" x="666" y="140">weekly</text>
+  <path class="f" d="M714 152 V240 H640"/>
+  <rect class="box" x="476" y="244" width="160" height="70" rx="12"/><text class="l" x="490" y="270">Delivery</text><text class="s" x="490" y="288">check against the PO</text><text class="s" x="490" y="304">and the submittal</text>
+  <path class="f" d="M474 279 H448"/>
+  <rect class="box" x="312" y="244" width="132" height="70" rx="12"/><text class="l" x="326" y="270">Install</text><text class="s" x="326" y="288">only the approved</text><text class="s" x="326" y="304">model</text>
+
+  <text class="s" x="24" y="270">Long-lead items:</text><text class="s" x="24" y="286">submit them first.</text>
+</svg>

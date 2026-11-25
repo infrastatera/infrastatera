@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" role="img" aria-labelledby="t d">
+  <title id="t">What a good daily report records</title>
+  <desc id="d">A sample daily report form with fictional entries: date and locations, crew and hours, equipment, work done with quantities, materials received, inspections, delays and problems, safety meeting, and photos, with notes on why each part matters.</desc>
+  <style>
+    text { font-family: "Open Sans", Helvetica, Arial, sans-serif; fill: #262626; }
+    .h { font-size: 20px; font-weight: 600; } .k { font-size: 11px; font-weight: 600; fill: #595959; letter-spacing: 0.04em; } .v { font-size: 13px; } .s { font-size: 12px; fill: #595959; }
+    .tag { font-size: 13px; font-weight: 600; fill: #C92A06; }
+    .lead { stroke: #C92A06; stroke-width: 1.3; fill: none; }
+  </style>
+  <rect width="800" height="460" fill="#FFFFFF"/>
+  <text class="h" x="32" y="40">What a good daily report records</text>
+  <rect x="32" y="60" width="480" height="380" rx="12" fill="#FFFFFF" stroke="#D5D9DE"/>
+  <rect x="32" y="60" width="480" height="40" rx="12" fill="#F7F9FA"/>
+  <text class="v" x="48" y="86" style="font-weight:600">Daily report  ·  DR 42</text><text class="s" x="360" y="86">Tue, sample date</text>
+  <g>
+    <text class="k" x="48" y="126">LOCATIONS</text><text class="v" x="170" y="126">Loc 3, Loc 4 (ramp)</text>
+    <text class="k" x="48" y="156">CREW</text><text class="v" x="170" y="156">Foreman 10 h · 3 laborers 10 h</text>
+    <text class="k" x="48" y="186">EQUIPMENT</text><text class="v" x="170" y="186">Backhoe, truck T-20</text>
+    <text class="k" x="48" y="216">WORK DONE</text><text class="v" x="170" y="216">Trenched and placed 2" conduit:</text><text class="v" x="170" y="234">320 ft · set 3 pull boxes</text>
+    <text class="k" x="48" y="266">MATERIAL IN</text><text class="v" x="170" y="266">Pull boxes (6), conduit (500 ft)</text>
+    <text class="k" x="48" y="296">INSPECTION</text><text class="v" x="170" y="296">Caltrans inspector on site AM</text>
+    <text class="k" x="48" y="326">DELAYS</text><text class="v" x="170" y="326" style="fill:#C92A06">Unmarked water line at Sta 12+40,</text><text class="v" x="170" y="344" style="fill:#C92A06">crew stood by 2 h; RFI sent</text>
+    <text class="k" x="48" y="376">SAFETY</text><text class="v" x="170" y="376">Tailgate meeting: trench safety</text>
+    <text class="k" x="48" y="408">PHOTOS</text>
+    <g fill="#DDE1E5"><rect x="170" y="394" width="44" height="32" rx="4"/><rect x="220" y="394" width="44" height="32" rx="4"/><rect x="270" y="394" width="44" height="32" rx="4"/></g>
+  </g>
+  <path class="lead" d="M420 160 H540"/><text class="tag" x="546" y="156">Hours</text><text class="s" x="546" y="172">start timesheets and payroll</text>
+  <path class="lead" d="M420 228 H540"/><text class="tag" x="546" y="224">Quantities</text><text class="s" x="546" y="240">support final pay quantities</text>
+  <path class="lead" d="M420 334 H540"/><text class="tag" x="546" y="330">Delays</text><text class="s" x="546" y="346">the start of any change order:</text><text class="s" x="546" y="362">unwritten, hard to prove later</text>
+  <path class="lead" d="M318 410 H540"/><text class="tag" x="546" y="406">Photos</text><text class="s" x="546" y="422">conditions, before and after</text>
+  <text class="s" x="32" y="456">Fictional example. Filed the same day, from the field.</text>
+</svg>

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 360" role="img" aria-labelledby="t d">
+  <title id="t">From a field problem to a change order</title>
+  <desc id="d">A flow: a conflict is found in the field and documented with photos and the daily report; an RFI goes to the Resident Engineer; if the answer doesn't change the work, build it as answered; if it does, give written notice, document the cost, agree a price or track force account, and receive a Contract Change Order with any time extension.</desc>
+  <defs><marker id="a" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#0070D5"/></marker></defs>
+  <style>
+    text { font-family: "Open Sans", Helvetica, Arial, sans-serif; fill: #262626; }
+    .h { font-size: 20px; font-weight: 600; } .l { font-size: 13px; font-weight: 600; } .s { font-size: 12px; fill: #595959; }
+    .box { fill: #F7F9FA; stroke: #D5D9DE; stroke-width: 1.5; }
+    .f { stroke: #0070D5; stroke-width: 2.5; fill: none; marker-end: url(#a); }
+  </style>
+  <rect width="800" height="360" fill="#FFFFFF"/>
+  <text class="h" x="32" y="40">From a field problem to a change order</text>
+
+  <rect class="box" x="24" y="70" width="140" height="80" rx="12"/><text class="l" x="38" y="96">Field conflict</text><text class="s" x="38" y="114">utility, grade, missing</text><text class="s" x="38" y="130">or unclear detail</text>
+  <path class="f" d="M166 110 H192"/>
+  <rect class="box" x="196" y="70" width="140" height="80" rx="12"/><text class="l" x="210" y="96">Document</text><text class="s" x="210" y="114">photos, potholing,</text><text class="s" x="210" y="130">daily report</text>
+  <path class="f" d="M338 110 H364"/>
+  <rect class="box" x="368" y="70" width="150" height="80" rx="12"/><text class="l" x="382" y="96">RFI</text><text class="s" x="382" y="114">references, proposed</text><text class="s" x="382" y="130">solution, deadline</text>
+  <path class="f" d="M520 110 H546"/>
+  <rect class="box" x="550" y="70" width="140" height="80" rx="12"/><text class="l" x="564" y="96">Written answer</text><text class="s" x="564" y="114">from the Resident</text><text class="s" x="564" y="130">Engineer</text>
+  
+  <text class="s" x="550" y="64" style="fill:#2E7D32">No change? Build it as answered.</text>
+  <path class="f" d="M620 152 V196"/>
+  <text class="s" x="630" y="182" style="fill:#C92A06">work, cost or time changes</text>
+  <rect class="box" x="550" y="200" width="140" height="80" rx="12"/><text class="l" x="564" y="226">Notice in writing</text><text class="s" x="564" y="244">promptly, as the</text><text class="s" x="564" y="260">specs require</text>
+  <path class="f" d="M548 240 H522"/>
+  <rect class="box" x="368" y="200" width="150" height="80" rx="12"/><text class="l" x="382" y="226">Price</text><text class="s" x="382" y="244">agreed price or force</text><text class="s" x="382" y="260">account signed daily</text>
+  <path class="f" d="M366 240 H340"/>
+  <rect x="196" y="200" width="140" height="80" rx="12" fill="#E8F5EA" stroke="#2E7D32"/><text class="l" x="210" y="226" style="fill:#2E7D32">Change order</text><text class="s" x="210" y="244">signed CCO, with</text><text class="s" x="210" y="260">any time extension</text>
+
+  <text class="s" x="24" y="330">Illustration only. Notice periods and pricing methods follow the specifications of your contract.</text>
+</svg>

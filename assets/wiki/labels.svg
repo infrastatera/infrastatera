@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" role="img" aria-labelledby="t d">
+  <title id="t">Labels that match the as-builts</title>
+  <desc id="d">Four examples of labels with fictional names: a tag on a cable in a pull box, a fiber splice tray label, a marked pull box cover, and a breaker panel directory, all using the same names as the as-built plans.</desc>
+  <style>
+    text { font-family: "Open Sans", Helvetica, Arial, sans-serif; fill: #262626; }
+    .h { font-size: 20px; font-weight: 600; } .l { font-size: 14px; font-weight: 600; } .s { font-size: 12px; fill: #595959; }
+    .mono { font-family: "SFMono-Regular", Menlo, Consolas, monospace; font-size: 12px; }
+  </style>
+  <rect width="800" height="300" fill="#FFFFFF"/>
+  <text class="h" x="32" y="40">Labels that match the as-builts</text>
+
+  <!-- cable tag -->
+  <path d="M40 140 H200" stroke="#262626" stroke-width="10" stroke-linecap="round"/>
+  <path d="M110 134 L104 104" stroke="#8A8E91"/>
+  <rect x="60" y="74" width="120" height="34" rx="4" fill="#F2B705" stroke="#B98900"/>
+  <text class="mono" x="70" y="96">CKT 3 · LTG A</text>
+  <text class="l" x="40" y="190">Cable tag</text><text class="s" x="40" y="208">both ends and in every</text><text class="s" x="40" y="224">pull box</text>
+
+  <!-- splice tray -->
+  <rect x="230" y="74" width="150" height="70" rx="6" fill="#F4F5F6" stroke="#262626"/>
+  <rect x="238" y="82" width="134" height="20" fill="#FFFFFF" stroke="#8A8E91"/>
+  <text class="mono" x="244" y="97">TRAY 2 · F13–F24</text>
+  <path d="M244 116 H370 M244 126 H370 M244 136 H370" stroke="#0070D5"/>
+  <text class="l" x="230" y="190">Splice tray</text><text class="s" x="230" y="208">matches the splice</text><text class="s" x="230" y="224">diagram</text>
+
+  <!-- pull box cover -->
+  <rect x="420" y="74" width="140" height="80" rx="4" fill="#9EA4AB" stroke="#6B7178" stroke-width="2"/>
+  <text x="490" y="112" text-anchor="middle" style="font-size:14px;font-weight:600;fill:#FFFFFF">COMMUNICATION</text>
+  <text x="490" y="132" text-anchor="middle" style="font-size:11px;fill:#FFFFFF">PB-14</text>
+  <text class="l" x="420" y="190">Pull box cover</text><text class="s" x="420" y="208">system marking and</text><text class="s" x="420" y="224">box number</text>
+
+  <!-- breaker directory -->
+  <rect x="600" y="64" width="170" height="100" rx="4" fill="#FFFFFF" stroke="#262626"/>
+  <text class="mono" x="610" y="84">1  LIGHTING A</text><text class="mono" x="610" y="102">2  LIGHTING B</text><text class="mono" x="610" y="120">3  COMM CABINET</text><text class="mono" x="610" y="138">4  CCTV POLE</text><text class="mono" x="610" y="156">5  SPARE</text>
+  <text class="l" x="600" y="190">Panel directory</text><text class="s" x="600" y="208">every breaker named</text>
+
+  <text class="s" x="32" y="272">Fictional names. Use the label format, material and naming the specifications call for, and label as you go.</text>
+</svg>

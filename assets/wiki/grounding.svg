@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" role="img" aria-labelledby="t d">
+  <title id="t">Grounding and bonding on a roadside site</title>
+  <desc id="d">A service pedestal and a cabinet with ground rods, a metal pole bonded through its foundation, a pull box with its metal cover bonded, and a grounding conductor tying them together.</desc>
+  <defs><pattern id="soil" width="14" height="14" patternUnits="userSpaceOnUse"><rect width="14" height="14" fill="#E3D1AC"/><circle cx="4" cy="5" r="1.1" fill="#C9B587"/><circle cx="11" cy="11" r="0.9" fill="#C9B587"/></pattern></defs>
+  <style>
+    text { font-family: "Open Sans", Helvetica, Arial, sans-serif; fill: #262626; }
+    .h { font-size: 20px; font-weight: 600; } .l { font-size: 14px; } .s { font-size: 12px; fill: #595959; }
+    .gnd { stroke: #2E7D32; stroke-width: 3; fill: none; }
+  </style>
+  <rect width="800" height="460" fill="#FFFFFF"/>
+  <text class="h" x="32" y="40">Grounding and bonding on a roadside site</text>
+  <rect x="20" y="250" width="760" height="170" fill="url(#soil)"/>
+  <path d="M20 250 H780" stroke="#7A6A4C" stroke-width="2"/>
+
+  <!-- service pedestal -->
+  <rect x="70" y="150" width="60" height="100" rx="3" fill="#C9CED3" stroke="#6B7178" stroke-width="2"/>
+  <circle cx="100" cy="180" r="12" fill="#FFFFFF" stroke="#6B7178"/>
+  <rect x="96" y="250" width="6" height="140" fill="#B87333"/>
+  <path class="gnd" d="M100 240 V256"/>
+  <!-- cabinet -->
+  <rect x="240" y="140" width="90" height="110" rx="3" fill="#C9CED3" stroke="#6B7178" stroke-width="2"/>
+  <rect x="250" y="236" width="70" height="6" fill="#B87333"/>
+  <rect x="282" y="250" width="6" height="140" fill="#B87333"/>
+  <!-- pole -->
+  <rect x="472" y="70" width="16" height="180" fill="#AEB4BA" stroke="#6B7178"/>
+  <path d="M488 82 H600" stroke="#AEB4BA" stroke-width="8"/>
+  <rect x="440" y="250" width="80" height="120" fill="#D9DCDF" stroke="#6B7178"/>
+  <rect x="532" y="250" width="6" height="140" fill="#B87333"/>
+  <!-- pull box -->
+  <rect x="640" y="250" width="90" height="70" fill="#F4F1EA" stroke="#6B7178" stroke-width="4"/>
+  <rect x="634" y="244" width="102" height="8" fill="#6B7178"/>
+
+  <!-- grounding conductor -->
+  <path class="gnd" d="M100 300 H285 M285 300 H480 V250 M480 300 H535 M535 300 H690 V252"/>
+  <path class="gnd" d="M285 239 V300"/>
+  <g fill="#2E7D32"><circle cx="100" cy="300" r="4"/><circle cx="285" cy="300" r="4"/><circle cx="480" cy="300" r="4"/><circle cx="535" cy="300" r="4"/></g>
+
+  <!-- labels -->
+  <text class="l" x="52" y="138">Service</text>
+  <text class="l" x="236" y="128">Cabinet ground bar</text>
+  <text class="l" x="400" y="60">Metal pole, bonded</text>
+  <text class="l" x="612" y="232">Metal cover bonded</text>
+  <text class="l" x="40" y="412">Ground rods</text><text class="s" x="140" y="412">connect the system to earth; resistance is tested</text>
+  <text class="l" x="580" y="150" style="fill:#2E7D32">Grounding conductor</text><text class="s" x="580" y="168">ties all the metal together</text>
+
+  <text class="s" x="32" y="446">Illustration only. Rod locations, conductor sizes and connections follow the details and specifications of your contract.</text>
+</svg>

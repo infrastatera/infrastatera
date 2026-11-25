@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380" role="img" aria-labelledby="t d">
+  <title id="t">Reading a Bid Item List</title>
+  <desc id="d">A sample Bid Item List with fictional items: some are paid by the linear foot or each with estimated quantities, others as a lump sum. Notes explain that unit-price items are paid on measured quantities and lump-sum items as a whole.</desc>
+  <style>
+    text { font-family: "Open Sans", Helvetica, Arial, sans-serif; fill: #262626; }
+    .h { font-size: 20px; font-weight: 600; } .th { font-size: 12px; font-weight: 600; fill: #595959; } .td { font-size: 13px; } .s { font-size: 12px; fill: #595959; }
+    .tag { font-size: 13px; font-weight: 600; fill: #C92A06; }
+  </style>
+  <rect width="800" height="380" fill="#FFFFFF"/>
+  <text class="h" x="32" y="40">Reading a Bid Item List</text>
+  <rect x="32" y="60" width="520" height="250" rx="12" fill="#FFFFFF" stroke="#D5D9DE"/>
+  <rect x="32" y="60" width="520" height="34" rx="12" fill="#F7F9FA"/>
+  <g class="th"><text x="48" y="82">ITEM</text><text x="100" y="82">DESCRIPTION</text><text x="330" y="82">UNIT</text><text x="380" y="82">EST. QTY</text><text x="460" y="82">UNIT PRICE</text></g>
+  <g class="td">
+    <text x="48" y="124">1</text><text x="100" y="124">Conduit (2", PVC)</text><text x="330" y="124">LF</text><text x="380" y="124">1,850</text><text x="460" y="124">$ ____</text>
+    <text x="48" y="160">2</text><text x="100" y="160">Pull box</text><text x="330" y="160">EA</text><text x="380" y="160">24</text><text x="460" y="160">$ ____</text>
+    <text x="48" y="196">3</text><text x="100" y="196">Fiber optic cable</text><text x="330" y="196">LF</text><text x="380" y="196">3,200</text><text x="460" y="196">$ ____</text>
+    <text x="48" y="232">4</text><text x="100" y="232">Lighting system</text><text x="330" y="232">LS</text><text x="380" y="232">1</text><text x="460" y="232">$ ____</text>
+    <text x="48" y="268">5</text><text x="100" y="268">Traffic monitoring station</text><text x="330" y="268">LS</text><text x="380" y="268">1</text><text x="460" y="268">$ ____</text>
+  </g>
+  <path d="M40 140 H544 M40 176 H544 M40 212 H544 M40 248 H544" stroke="#F0F0F0"/>
+  <rect x="372" y="104" width="64" height="104" rx="6" fill="none" stroke="#0070D5" stroke-width="2"/>
+  <rect x="322" y="216" width="40" height="64" rx="6" fill="none" stroke="#C92A06" stroke-width="2"/>
+
+  <text class="tag" x="576" y="118" style="fill:#0070D5">Unit price items</text>
+  <text class="s" x="576" y="136">quantities are estimates;</text><text class="s" x="576" y="152">you are paid for what is</text><text class="s" x="576" y="168">installed and measured</text>
+  <text class="tag" x="576" y="226">Lump sum (LS)</text>
+  <text class="s" x="576" y="244">one price for the whole</text><text class="s" x="576" y="260">item: your takeoff must</text><text class="s" x="576" y="276">cover everything in it</text>
+
+  <text class="s" x="32" y="336">The payment clause in the specifications says what each item includes. Work that isn't its own item is included in others.</text>
+  <text class="s" x="32" y="356">Illustration only. Items, units and quantities here are fictional.</text>
+</svg>

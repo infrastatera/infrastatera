@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" role="img" aria-labelledby="t d">
+  <title id="t">Field devices reporting to the TMC</title>
+  <desc id="d">A CCTV camera on a pole and a changeable message sign over the freeway, each with a cabinet, connected over fiber or a cellular link to the Traffic Management Center, where operators watch video and post messages.</desc>
+  <defs><marker id="a" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#0070D5"/></marker></defs>
+  <style>
+    text { font-family: "Open Sans", Helvetica, Arial, sans-serif; fill: #262626; }
+    .h { font-size: 20px; font-weight: 600; } .l { font-size: 14px; font-weight: 600; } .s { font-size: 12px; fill: #595959; }
+  </style>
+  <rect width="800" height="460" fill="#FFFFFF"/>
+  <text class="h" x="32" y="40">Field devices reporting to the TMC</text>
+  <rect x="20" y="320" width="500" height="30" fill="#4A4D52"/>
+  <path d="M20 335 H520" stroke="#F4F4F4" stroke-width="2" stroke-dasharray="18 14"/>
+
+  <!-- CCTV -->
+  <rect x="80" y="110" width="8" height="210" fill="#AEB4BA"/>
+  <path d="M84 116 H120" stroke="#AEB4BA" stroke-width="5"/>
+  <circle cx="126" cy="130" r="14" fill="#262626"/><rect x="118" y="114" width="16" height="6" fill="#262626"/>
+  <path d="M126 140 L60 320 H220 Z" fill="#0070D5" opacity="0.1"/>
+  <rect x="96" y="268" width="36" height="46" rx="3" fill="#C9CED3" stroke="#6B7178" stroke-width="2"/>
+  <text class="l" x="30" y="96">CCTV camera</text><text class="s" x="30" y="78">pan-tilt-zoom</text>
+
+  <!-- CMS -->
+  <rect x="290" y="120" width="8" height="200" fill="#AEB4BA"/><rect x="470" y="120" width="8" height="200" fill="#AEB4BA"/>
+  <rect x="290" y="126" width="188" height="8" fill="#AEB4BA"/>
+  <rect x="310" y="140" width="150" height="62" rx="4" fill="#111"/>
+  <text x="385" y="166" text-anchor="middle" style="fill:#F2B705;font-size:14px;font-weight:600;font-family:monospace">ACCIDENT AHEAD</text>
+  <text x="385" y="188" text-anchor="middle" style="fill:#F2B705;font-size:14px;font-weight:600;font-family:monospace">RIGHT LANE CLOSED</text>
+  <rect x="490" y="268" width="36" height="46" rx="3" fill="#C9CED3" stroke="#6B7178" stroke-width="2"/>
+  <text class="l" x="300" y="112">Changeable message sign</text>
+
+  <!-- links -->
+  <path d="M132 300 C200 380 420 380 490 300" stroke="#2E7D32" stroke-width="3" fill="none" stroke-dasharray="8 5"/>
+  <text class="s" x="230" y="390" style="fill:#2E7D32">fiber in conduit</text>
+  <path d="M526 290 C590 260 610 230 636 220" stroke="#0070D5" stroke-width="3" fill="none" marker-end="url(#a)"/>
+  <text class="s" x="560" y="300" style="fill:#0070D5">fiber backbone</text><text class="s" x="560" y="316" style="fill:#0070D5">or cellular router</text>
+
+  <!-- TMC -->
+  <rect x="640" y="150" width="140" height="130" rx="14" fill="#F7F9FA" stroke="#D5D9DE" stroke-width="1.5"/>
+  <rect x="656" y="166" width="50" height="32" rx="2" fill="#262626"/><rect x="714" y="166" width="50" height="32" rx="2" fill="#262626"/>
+  <rect x="656" y="204" width="50" height="32" rx="2" fill="#262626"/><rect x="714" y="204" width="50" height="32" rx="2" fill="#262626"/>
+  <text class="l" x="656" y="262">TMC</text><text class="s" x="690" y="262">watch, post,</text><text class="s" x="656" y="276">control</text>
+
+  <text class="s" x="32" y="430">Each device gets an IP address from Caltrans and must be reachable from the TMC before acceptance.</text>
+  <text class="s" x="32" y="448">Illustration only. Devices, communication paths and protocols follow the plans and Special Provisions of your contract.</text>
+</svg>

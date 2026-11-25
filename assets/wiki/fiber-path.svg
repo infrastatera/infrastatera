@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" role="img" aria-labelledby="t d">
+  <title id="t">The path of a fiber link, device to TMC</title>
+  <desc id="d">A camera connects to a switch in the field cabinet; a fiber jumper goes from the switch's SFP port to the patch panel; drop fiber runs to a splice closure in a vault where it is fusion-spliced to the backbone; the backbone reaches a hub and the TMC. Inset: a splice tray holding splices in numbered positions.</desc>
+  <defs><marker id="a" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#2E7D32"/></marker></defs>
+  <style>
+    text { font-family: "Open Sans", Helvetica, Arial, sans-serif; fill: #262626; }
+    .h { font-size: 20px; font-weight: 600; } .l { font-size: 13px; font-weight: 600; } .s { font-size: 12px; fill: #595959; }
+    .box { fill: #F7F9FA; stroke: #D5D9DE; stroke-width: 1.5; }
+    .f { stroke: #2E7D32; stroke-width: 3; fill: none; marker-end: url(#a); }
+  </style>
+  <rect width="800" height="420" fill="#FFFFFF"/>
+  <text class="h" x="32" y="40">The path of a fiber link, device to TMC</text>
+
+  <rect class="box" x="24" y="80" width="110" height="80" rx="12"/><text class="l" x="38" y="108">Camera</text><text class="s" x="38" y="126">or other device</text><text class="s" x="38" y="144">(CAT6)</text>
+  <path class="f" d="M136 120 H166" style="stroke:#3F7FBF"/>
+  <rect class="box" x="170" y="80" width="170" height="80" rx="12"/><text class="l" x="184" y="108">Switch + SFP</text><text class="s" x="184" y="126">fiber jumper to the</text><text class="s" x="184" y="144">patch panel</text>
+  <path class="f" d="M342 120 H372"/>
+  <rect class="box" x="376" y="80" width="150" height="80" rx="12"/><text class="l" x="390" y="108">Patch panel</text><text class="s" x="390" y="126">fibers terminated</text><text class="s" x="390" y="144">with connectors</text>
+  <path class="f" d="M528 120 H558"/>
+  <rect class="box" x="562" y="80" width="214" height="80" rx="12"/><text class="l" x="576" y="108">Drop fiber in conduit</text><text class="s" x="576" y="126">to the nearest vault,</text><text class="s" x="576" y="144">with slack in pull boxes</text>
+  <path class="f" d="M670 162 V196"/>
+  <rect class="box" x="562" y="200" width="214" height="80" rx="12"/><text class="l" x="576" y="228">Splice closure</text><text class="s" x="576" y="246">fusion splices to the</text><text class="s" x="576" y="264">backbone, in a vault</text>
+  <path class="f" d="M560 240 H530"/>
+  <rect class="box" x="356" y="200" width="170" height="80" rx="12"/><text class="l" x="370" y="228">Backbone fiber</text><text class="s" x="370" y="246">high count, along</text><text class="s" x="370" y="264">the highway</text>
+  <path class="f" d="M354 240 H324"/>
+  <rect class="box" x="170" y="200" width="150" height="80" rx="12"/><text class="l" x="184" y="228">Hub</text><text class="s" x="184" y="246">larger cabinet or</text><text class="s" x="184" y="264">building</text>
+  <path class="f" d="M168 240 H138"/>
+  <rect x="24" y="200" width="110" height="80" rx="12" fill="#0070D5"/><text class="l" x="38" y="246" style="fill:#FFFFFF">TMC</text>
+
+  <!-- splice tray inset -->
+  <rect x="24" y="304" width="300" height="80" rx="12" fill="#FFFFFF" stroke="#D5D9DE" stroke-width="1.5"/>
+  <text class="l" x="38" y="326">Splice tray</text>
+  <g stroke="#262626" stroke-width="1">
+    <rect x="160" y="318" width="150" height="54" rx="6" fill="#F4F5F6"/>
+  </g>
+  <g fill="#9AA6B2"><rect x="178" y="326" width="14" height="6"/><rect x="178" y="338" width="14" height="6"/><rect x="178" y="350" width="14" height="6"/></g>
+  <path d="M168 329 H178 M192 329 H300 M168 341 H178 M192 341 H300 M168 353 H178 M192 353 H300" stroke="#0070D5" stroke-width="1.5"/>
+  <text class="s" x="38" y="346">each splice in a</text><text class="s" x="38" y="362">numbered position</text>
+
+  <text class="s" x="352" y="330">Tests: OTDR traces show each splice and connector;</text>
+  <text class="s" x="352" y="348">a power meter measures the loss end to end.</text>
+  <text class="s" x="352" y="376">Illustration only. Routes, fiber counts and splice</text>
+  <text class="s" x="352" y="392">plans follow your contract.</text>
+</svg>

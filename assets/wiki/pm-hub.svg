@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" role="img" aria-labelledby="t d">
+  <title id="t">Who the project manager works with</title>
+  <desc id="d">The project manager at the center, linked to the field crew, the Caltrans Resident Engineer and inspectors, suppliers, subcontractors, the utility company and the office, with what flows on each link.</desc>
+  <style>
+    text { font-family: "Open Sans", Helvetica, Arial, sans-serif; fill: #262626; }
+    .h { font-size: 20px; font-weight: 600; } .l { font-size: 14px; font-weight: 600; } .s { font-size: 12px; fill: #595959; }
+    .box { fill: #F7F9FA; stroke: #D5D9DE; stroke-width: 1.5; }
+    .ln { stroke: #B3CFF0; stroke-width: 3; }
+  </style>
+  <rect width="800" height="420" fill="#FFFFFF"/>
+  <text class="h" x="32" y="40">Who the project manager works with</text>
+  <g class="ln"><path d="M400 230 L150 110"/><path d="M400 230 L400 100"/><path d="M400 230 L650 110"/><path d="M400 230 L150 350"/><path d="M400 230 L400 370"/><path d="M400 230 L650 350"/></g>
+  <circle cx="400" cy="230" r="62" fill="#0070D5"/>
+  <text x="400" y="226" text-anchor="middle" style="fill:#FFFFFF;font-size:16px;font-weight:600">Project</text>
+  <text x="400" y="246" text-anchor="middle" style="fill:#FFFFFF;font-size:16px;font-weight:600">manager</text>
+
+  <rect class="box" x="40" y="70" width="220" height="74" rx="12"/><text class="l" x="56" y="96">Field crew</text><text class="s" x="56" y="114">daily reports, material needs,</text><text class="s" x="56" y="130">questions from the field</text>
+  <rect class="box" x="290" y="58" width="220" height="62" rx="12"/><text class="l" x="306" y="84">Resident Engineer</text><text class="s" x="306" y="102">submittals, RFIs, changes, pay</text>
+  <rect class="box" x="540" y="70" width="220" height="74" rx="12"/><text class="l" x="556" y="96">Suppliers</text><text class="s" x="556" y="114">quotes, lead times,</text><text class="s" x="556" y="130">deliveries, certificates</text>
+  <rect class="box" x="40" y="316" width="220" height="74" rx="12"/><text class="l" x="56" y="342">Office</text><text class="s" x="56" y="360">estimating, payroll,</text><text class="s" x="56" y="376">invoices</text>
+  <rect class="box" x="290" y="340" width="220" height="62" rx="12"/><text class="l" x="306" y="366">Utility company</text><text class="s" x="306" y="384">service connection, conflicts</text>
+  <rect class="box" x="540" y="316" width="220" height="74" rx="12"/><text class="l" x="556" y="342">Subcontractors</text><text class="s" x="556" y="360">boring, fiber splicing,</text><text class="s" x="556" y="376">striping, schedules</text>
+</svg>

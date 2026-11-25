@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 340" role="img" aria-labelledby="t d">
+  <title id="t">A battery backup system, normal and outage</title>
+  <desc id="d">Left: normal operation, utility power flows through the battery backup system to the signal cabinet while the batteries charge. Right: in an outage, the system transfers and the batteries feed the cabinet through the inverter, and an alarm goes to the TMC.</desc>
+  <defs>
+    <marker id="b" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#0070D5"/></marker>
+    <marker id="o" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#E07A1F"/></marker>
+  </defs>
+  <style>
+    text { font-family: "Open Sans", Helvetica, Arial, sans-serif; fill: #262626; }
+    .h { font-size: 20px; font-weight: 600; } .l { font-size: 14px; font-weight: 600; } .s { font-size: 12px; fill: #595959; }
+    .box { fill: #F7F9FA; stroke: #D5D9DE; stroke-width: 1.5; }
+  </style>
+  <rect width="800" height="340" fill="#FFFFFF"/>
+  <text class="h" x="32" y="40">A battery backup system, normal and outage</text>
+
+  <g>
+    <text class="l" x="32" y="80">Normal</text>
+    <rect class="box" x="32" y="96" width="100" height="56" rx="10"/><text class="l" x="48" y="129">Utility</text>
+    <path d="M134 124 H170" stroke="#0070D5" stroke-width="3" marker-end="url(#b)"/>
+    <rect class="box" x="174" y="96" width="110" height="56" rx="10"/><text class="l" x="190" y="122">BBS</text><text class="s" x="190" y="140">charging</text>
+    <path d="M286 124 H322" stroke="#0070D5" stroke-width="3" marker-end="url(#b)"/>
+    <rect class="box" x="326" y="96" width="60" height="56" rx="10"/><text class="s" x="334" y="129">Cabinet</text>
+    <rect x="190" y="180" width="80" height="44" rx="4" fill="#2F3236"/><text x="230" y="207" text-anchor="middle" style="fill:#FFFFFF;font-size:12px">batteries</text>
+    <path d="M229 154 V176" stroke="#0070D5" stroke-width="3" marker-end="url(#b)"/>
+  </g>
+  <path d="M400 70 V240" stroke="#E6E8EA" stroke-width="2"/>
+  <g transform="translate(400 0)">
+    <text class="l" x="32" y="80">Outage</text>
+    <rect class="box" x="32" y="96" width="100" height="56" rx="10" style="opacity:0.45"/><text class="l" x="48" y="129" style="fill:#8A8E91">Utility</text>
+    <path d="M134 116 L160 132 M160 116 L134 132" stroke="#C92A06" stroke-width="3"/>
+    <rect class="box" x="174" y="96" width="110" height="56" rx="10"/><text class="l" x="190" y="122">BBS</text><text class="s" x="190" y="140">inverter on</text>
+    <path d="M286 124 H322" stroke="#E07A1F" stroke-width="3" marker-end="url(#o)"/>
+    <rect class="box" x="326" y="96" width="60" height="56" rx="10"/><text class="s" x="334" y="129">Cabinet</text>
+    <rect x="190" y="180" width="80" height="44" rx="4" fill="#2F3236"/><text x="230" y="207" text-anchor="middle" style="fill:#FFFFFF;font-size:12px">batteries</text>
+    <path d="M229 178 V156" stroke="#E07A1F" stroke-width="3" marker-end="url(#o)"/>
+    <path d="M300 196 C330 200 350 200 372 186" stroke="#C92A06" stroke-width="2" stroke-dasharray="5 4" fill="none"/>
+    <text class="s" x="290" y="222" style="fill:#C92A06">alarm to the TMC</text>
+  </g>
+  <text class="s" x="32" y="270">A signal may run normally for a set time, then switch to flashing to stretch the batteries, as the specifications require.</text>
+  <text class="s" x="32" y="300">Illustration only. Run time, transfer and alarms follow your contract.</text>
+</svg>

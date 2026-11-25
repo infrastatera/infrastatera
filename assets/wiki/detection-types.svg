@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" role="img" aria-labelledby="t d">
+  <title id="t">Four ways to detect vehicles</title>
+  <desc id="d">A two-lane road seen from above with an inductive loop cut into one lane, small magnetometer sensors in the other lane with a roadside receiver, a pole-mounted video detection camera with zones drawn on the lanes, and a pole-mounted radar sensor.</desc>
+  <style>
+    text { font-family: "Open Sans", Helvetica, Arial, sans-serif; fill: #262626; }
+    .h { font-size: 20px; font-weight: 600; } .l { font-size: 14px; font-weight: 600; } .s { font-size: 12px; fill: #595959; }
+    .lead { stroke: #8A8E91; stroke-width: 1.2; fill: none; }
+  </style>
+  <rect width="800" height="420" fill="#FFFFFF"/>
+  <text class="h" x="32" y="40">Four ways to detect vehicles</text>
+  <rect x="20" y="130" width="760" height="150" fill="#4A4D52"/>
+  <path d="M20 205 H780" stroke="#F4F4F4" stroke-width="3" stroke-dasharray="20 14"/>
+  <rect x="20" y="70" width="760" height="60" fill="#DDE6D2"/><rect x="20" y="280" width="760" height="60" fill="#DDE6D2"/>
+
+  <!-- loop -->
+  <rect x="80" y="145" width="80" height="50" fill="none" stroke="#F2B705" stroke-width="3"/>
+  <path d="M120 145 V100" stroke="#F2B705" stroke-width="2" stroke-dasharray="4 3"/>
+  <rect x="110" y="88" width="20" height="14" fill="#F4F1EA" stroke="#6B7178"/>
+  <text class="l" x="60" y="310">Inductive loop</text><text class="s" x="60" y="328">wire sawcut into the pavement;</text><text class="s" x="60" y="344">lead-in to a pull box</text>
+
+  <!-- magnetometers -->
+  <g fill="#0070D5"><circle cx="280" cy="235" r="6"/><circle cx="310" cy="235" r="6"/><circle cx="340" cy="235" r="6"/></g>
+  <rect x="300" y="294" width="18" height="24" rx="3" fill="#C9CED3" stroke="#6B7178"/>
+  <path d="M280 235 Q290 270 306 294 M340 235 Q330 270 312 294" stroke="#0070D5" stroke-width="1.2" stroke-dasharray="3 3" fill="none"/>
+  <text class="l" x="240" y="368">Magnetometers</text><text class="s" x="240" y="386">small sensors in the lane,</text><text class="s" x="240" y="402">often wireless to a receiver</text>
+
+  <!-- video -->
+  <rect x="512" y="84" width="6" height="46" fill="#AEB4BA"/><rect x="504" y="78" width="24" height="12" rx="3" fill="#262626"/>
+  <path d="M516 90 L430 150 L620 150 Z" fill="#0070D5" opacity="0.12"/>
+  <rect x="460" y="152" width="50" height="40" fill="none" stroke="#0070D5" stroke-width="2" stroke-dasharray="5 4"/>
+  <rect x="530" y="152" width="50" height="40" fill="none" stroke="#0070D5" stroke-width="2" stroke-dasharray="5 4"/>
+  <text class="l" x="440" y="310">Video detection</text><text class="s" x="440" y="328">camera with detection zones</text><text class="s" x="440" y="344">drawn on each lane</text>
+
+  <!-- radar -->
+  <rect x="702" y="290" width="6" height="40" fill="#AEB4BA"/><rect x="694" y="282" width="22" height="16" rx="3" fill="#C92A06"/>
+  <path d="M705 282 L650 150 L760 150 Z" fill="#C92A06" opacity="0.1"/>
+  <text class="l" x="620" y="368">Radar</text><text class="s" x="620" y="386">roadside sensor for counts,</text><text class="s" x="620" y="402">speeds and presence</text>
+
+  <text class="s" x="32" y="62">Illustration only. The detection type and layout are set by the plans.</text>
+</svg>
