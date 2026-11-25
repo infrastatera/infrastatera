@@ -15,19 +15,21 @@ export { esc };
  */
 export function renderMarkdown(md, opts) {
   const linked = new Set();
+  // Terms match on their first use, ignoring case and a plural "s"; abbreviations (OTDR, RE) must match exactly,
+  // so "re" inside a sentence never links.
   const terms = (opts.glossary ?? [])
-    .flatMap((t) => [t.term, ...(t.aliases ?? [])].map((w) => ({ word: w, term: t.term })))
+    .flatMap((t) => [t.term, ...(t.aliases ?? [])].map((w) => ({ word: w, term: t.term, exact: /^[A-Z0-9]+$/.test(w) })))
     .filter((t) => t.word.trim().length > 1)
     .sort((a, b) => b.word.length - a.word.length);
-  const termRe = terms.length ? new RegExp(`(?<![\\w-])(${terms.map((t) => reEscape(t.word)).join('|')})(?![\\w-])`, 'g') : null;
+  const termRe = terms.length ? new RegExp(`(?<![\\w-])(${terms.map((t) => reEscape(t.word)).join('|')})(e?s)?(?![\\w-])`, 'gi') : null;
 
   const glossaryIn = (text) => {
     if (!termRe) return text;
-    return text.replace(termRe, (w) => {
-      const t = terms.find((x) => x.word === w);
-      if (!t || linked.has(t.term)) return w;
+    return text.replace(termRe, (all, w) => {
+      const t = terms.find((x) => (x.exact ? x.word === w : x.word.toLowerCase() === w.toLowerCase()));
+      if (!t || linked.has(t.term)) return all;
       linked.add(t.term);
-      return `<a class="wiki-term" href="${opts.base}/glossary/#${anchor(t.term)}">${w}</a>`;
+      return `<a class="wiki-term" href="${opts.base}/glossary/#${anchor(t.term)}">${all}</a>`;
     });
   };
 
