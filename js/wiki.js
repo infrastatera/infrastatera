@@ -99,4 +99,18 @@
     });
   });
   input.addEventListener('input', apply);
+
+  // Opening a material from the search (#its-row) clears the filter so the row shows, then marks it.
+  function reveal() {
+    var id = decodeURIComponent(location.hash.slice(1));
+    var row = id && document.getElementById(id);
+    if (!row || !row.closest('table.wiki-mat')) return;
+    input.value = '';
+    group = 'all';
+    chips.forEach(function (x) { x.setAttribute('aria-pressed', String(x.getAttribute('data-g') === 'all')); });
+    apply();
+    row.scrollIntoView({ block: 'center' });
+  }
+  window.addEventListener('hashchange', reveal);
+  reveal();
 })();

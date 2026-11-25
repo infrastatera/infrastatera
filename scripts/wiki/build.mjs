@@ -11,6 +11,7 @@
 import { mkdir, readFile, rm, writeFile } from 'node:fs/promises';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { createHash } from 'node:crypto';
 import { anchor, esc, outline, plain, renderMarkdown } from './markdown.mjs';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..', '..');
@@ -51,6 +52,16 @@ async function load() {
   return { categories, articles, tags, article_tags, links, glossary, related, materials };
 }
 
+// Browsers keep scripts and styles for a while; a version from their contents makes them load the new
+// file as soon as it changes.
+let VERSION = {};
+async function stamp() {
+  for (const f of ['css/style.css', 'css/wiki.css', 'js/main.js', 'js/wiki.js']) {
+    VERSION[f] = createHash('sha1').update(await readFile(join(ROOT, f))).digest('hex').slice(0, 8);
+  }
+}
+const asset = (up, f) => `${up}${f}?v=${VERSION[f]}`;
+
 // ── page frame (same header and footer as the rest of the site) ───────────
 function page({ up, title, description, path, body, crumbs = [], image, type = 'article', jsonLd = [] }) {
   const url = `${SITE}/${path}`;
@@ -79,8 +90,8 @@ function page({ up, title, description, path, body, crumbs = [], image, type = '
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&display=swap">
-  <link rel="stylesheet" href="${up}css/style.css">
-  <link rel="stylesheet" href="${up}css/wiki.css">
+  <link rel="stylesheet" href="${asset(up, 'css/style.css')}">
+  <link rel="stylesheet" href="${asset(up, 'css/wiki.css')}">
   <meta property="og:image" content="${ogImage}">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
@@ -163,8 +174,8 @@ ${body}
     </div>
   </footer>
 
-  <script src="${up}js/main.js" defer></script>
-  <script src="${up}js/wiki.js" defer></script>
+  <script src="${asset(up, 'js/main.js')}" defer></script>
+  <script src="${asset(up, 'js/wiki.js')}" defer></script>
 </body>
 </html>
 `;
@@ -183,6 +194,7 @@ const fmtDate = (d) => new Date(`${d}T12:00:00`).toLocaleDateString('en-US', { m
 
 // ── build ───────────────────────────────────────────────────────────────────
 async function main() {
+  await stamp();
   const d = await load();
   const articles = d.articles;
   const byId = new Map(articles.map((a) => [a.id, a]));
