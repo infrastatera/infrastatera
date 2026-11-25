@@ -104,7 +104,7 @@ const SPACE_CONFIG = {
     mistakes: 'Common mistakes',
     image: 'rc-cash-gap.svg',
     library: {
-      title: 'Key business documents', noun: 'documents', item: 'Document', col: 'Who uses it', colPrefix: '', showPhase: false, image: 'rc-statements.svg',
+      title: 'Key business documents', tab: 'Documents', noun: 'documents', item: 'Document', col: 'Who uses it', colPrefix: '', showPhase: false, image: 'rc-statements.svg',
       filter: 'Filter, e.g. cash, safety, contract',
       lead: 'The documents a small contractor keeps to run the business, what each one is for, who uses it and the article that explains it.',
       groups: [
@@ -176,7 +176,7 @@ function page({ up, title, description, path, body, crumbs = [], image, type = '
     ? `<a href="${w}" class="wiki-tab-all" title="All knowledge bases">All wikis</a>
         <a href="${w}${space.slug}/">${esc(space.short_title || space.title)}</a>
         ${c.phases ? `<a href="${w}${space.slug}/#lifecycle">Lifecycle</a>` : ''}
-        ${c.library ? `<a href="${w}${space.slug}/materials/">${esc(c.library.title.split(' ')[0])}</a>` : ''}
+        ${c.library ? `<a href="${w}${space.slug}/materials/">${esc(c.library.tab ?? c.library.title.split(' ')[0])}</a>` : ''}
         <a href="${w}${space.slug}/glossary/">Glossary</a>`
     : `<a href="${w}" aria-current="page">All knowledge bases</a>`;
   return `<!DOCTYPE html>
