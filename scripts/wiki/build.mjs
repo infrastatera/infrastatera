@@ -8,6 +8,7 @@
 // Everything in wiki/ is generated: edit articles in the database, not these files.
 // The GitHub Action .github/workflows/wiki.yml runs this nightly and on demand.
 
+import { existsSync } from 'node:fs';
 import { mkdir, readFile, rm, writeFile } from 'node:fs/promises';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -99,6 +100,12 @@ const SPACE_CONFIG = {
       ],
     },
   },
+  'contractor-license-study-guides': {
+    disclaimer: 'For learning only. Not affiliated with or endorsed by the CSLB. Exam outlines, fees and code editions change: check cslb.ca.gov and the current code books before you rely on a number.',
+    mistakes: 'Common mistakes',
+    image: 'pw-license-classes.svg',
+    library: null,
+  },
   'running-a-construction-company': {
     disclaimer: 'For learning only, not legal, tax, accounting or financial advice. Laws, amounts and deadlines change: check the official sources linked in each article, and talk to your CPA, attorney, surety agent or insurance broker before you decide.',
     mistakes: 'Common mistakes',
@@ -117,6 +124,12 @@ const SPACE_CONFIG = {
     },
   },
 };
+// Articles that moved to another knowledge base: their old address (under wiki/) and the article's slug. The old
+// address keeps a page that sends visitors on to wherever the article is now. Add a line when you move one.
+const MOVED_ARTICLES = [
+  ['public-works-contracting/c10-electrical-exam-study-guide', 'c10-electrical-exam-study-guide'],
+  ['public-works-contracting/class-a-general-engineering-exam-study-guide', 'class-a-general-engineering-exam-study-guide'],
+];
 const cfg = (slug) => ({ ...DEFAULT_SPACE, ...(SPACE_CONFIG[slug] ?? {}) });
 const WIKI_DISCLAIMER = 'For learning only, not professional, legal or engineering advice. Each knowledge base says what to check before you rely on it.';
 
@@ -652,6 +665,16 @@ ${spaces.map((sp) => `          <a class="wiki-home-card" href="wiki/${sp.slug}/
       await mkdir(join(OUT, slug), { recursive: true });
       await writeFile(join(OUT, slug, 'index.html'), moved(`wiki/${legacy.slug}/${slug}/`));
     }
+  }
+
+  // Moved articles: a forwarding page at the old address, unless a page is built there again.
+  for (const [old, slug] of MOVED_ARTICLES) {
+    const a = allArticles.find((x) => x.slug === slug);
+    if (!a) continue;
+    const to = `wiki/${spaceById.get(a.space_id).slug}/${a.slug}/`;
+    if (to === `wiki/${old}/` || existsSync(join(OUT, old, 'index.html'))) continue;
+    await mkdir(join(OUT, old), { recursive: true });
+    await writeFile(join(OUT, old, 'index.html'), moved(to));
   }
 
   // Search index for the wiki's search box (read in the browser, nothing else is called).
