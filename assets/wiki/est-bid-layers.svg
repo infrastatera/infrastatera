@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380" role="img" aria-labelledby="t d">
+  <title id="t">The layers of a bid</title>
+  <desc id="d">A stacked bar from bottom to top: direct work (labor, material, subs), equipment, job overhead including traffic control and supervision, bonds and insurance, company overhead, profit.</desc>
+  <defs><marker id="a" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#0070D5"/></marker><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#C92A06"/></marker><marker id="ag" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#2E7D32"/></marker><marker id="am" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#595959"/></marker><marker id="aa" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#B26A00"/></marker></defs>
+  <style>
+    text { font-family: "Open Sans", Helvetica, Arial, sans-serif; fill: #262626; }
+    .h { font-size: 20px; font-weight: 600; } .l { font-size: 13px; font-weight: 600; } .s { font-size: 12px; fill: #595959; } .n { font-size: 12px; font-weight: 600; fill: #FFFFFF; }
+  </style>
+  <rect width="800" height="380" fill="#FFFFFF"/>
+  <text class="h" x="32" y="40">The layers of a bid</text>
+    <rect x="120" y="230" width="200" height="110" fill="#EAF3FC" stroke="#0070D5" stroke-width="1.5"/>
+  <text class="l" x="340" y="289" style="fill:#0070D5">Direct work</text>
+  <text class="s" x="500" y="289">labor, material, subcontracts</text>
+  <rect x="120" y="190" width="200" height="40" fill="#EAF3FC" stroke="#0070D5" stroke-width="1.5"/>
+  <text class="l" x="340" y="214" style="fill:#0070D5">Equipment</text>
+  <text class="s" x="500" y="214">owned and rented, by days</text>
+  <rect x="120" y="135" width="200" height="55" fill="#FFF4E0" stroke="#B26A00" stroke-width="1.5"/>
+  <text class="l" x="340" y="166" style="fill:#B26A00">Job overhead</text>
+  <text class="s" x="500" y="166">traffic control, supervision, field costs</text>
+  <rect x="120" y="110" width="200" height="25" fill="#FFF4E0" stroke="#B26A00" stroke-width="1.5"/>
+  <text class="l" x="340" y="126" style="fill:#B26A00">Bonds and insurance</text>
+  <text class="s" x="500" y="126">rates from surety and broker</text>
+  <rect x="120" y="80" width="200" height="30" fill="#F2F3F5" stroke="#595959" stroke-width="1.5"/>
+  <text class="l" x="340" y="99">Company overhead</text>
+  <text class="s" x="500" y="99">recovery rate</text>
+  <rect x="120" y="55" width="200" height="25" fill="#EAF5EB" stroke="#2E7D32" stroke-width="1.5"/>
+  <text class="l" x="340" y="72" style="fill:#2E7D32">Profit</text>
+  <text class="s" x="500" y="72">for the risk</text>
+  <text class="s" x="32" y="366">Price job overhead from the schedule (per working day), not as a percentage.</text>
+</svg>

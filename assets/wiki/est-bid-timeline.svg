@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 260" role="img" aria-labelledby="t d">
+  <title id="t">From the ad to the bid opening</title>
+  <desc id="d">Over the three to seven weeks of advertisement: decide and get the package, read and ask questions, take off quantities, request quotes, price, bid day, opening.</desc>
+  <defs><marker id="a" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#0070D5"/></marker><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#C92A06"/></marker><marker id="ag" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#2E7D32"/></marker><marker id="am" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#595959"/></marker><marker id="aa" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#B26A00"/></marker></defs>
+  <style>
+    text { font-family: "Open Sans", Helvetica, Arial, sans-serif; fill: #262626; }
+    .h { font-size: 20px; font-weight: 600; } .l { font-size: 13px; font-weight: 600; } .s { font-size: 12px; fill: #595959; } .n { font-size: 12px; font-weight: 600; fill: #FFFFFF; }
+  </style>
+  <rect width="800" height="260" fill="#FFFFFF"/>
+  <text class="h" x="32" y="40">From the ad to the bid opening</text>
+    <path d="M40 96 H760" stroke="#D5D9DE" stroke-width="4"/>
+  <circle cx="100" cy="96" r="9" fill="#595959"/>
+  <text class="l" x="100" y="130" text-anchor="middle" style="fill:#595959">Ad</text>
+  <text class="s" x="100" y="150" text-anchor="middle">decide, get the</text>
+  <text class="s" x="100" y="165" text-anchor="middle">package</text>
+  <circle cx="220" cy="96" r="9" fill="#0070D5"/>
+  <text class="l" x="220" y="130" text-anchor="middle">Read</text>
+  <text class="s" x="220" y="150" text-anchor="middle">items, specs,</text>
+  <text class="s" x="220" y="165" text-anchor="middle">questions</text>
+  <circle cx="340" cy="96" r="9" fill="#0070D5"/>
+  <text class="l" x="340" y="130" text-anchor="middle">Take off</text>
+  <text class="s" x="340" y="150" text-anchor="middle">quantities by</text>
+  <text class="s" x="340" y="165" text-anchor="middle">item</text>
+  <circle cx="460" cy="96" r="9" fill="#B26A00"/>
+  <text class="l" x="460" y="130" text-anchor="middle" style="fill:#B26A00">Quotes</text>
+  <text class="s" x="460" y="150" text-anchor="middle">suppliers and</text>
+  <text class="s" x="460" y="165" text-anchor="middle">subs</text>
+  <circle cx="580" cy="96" r="9" fill="#B26A00"/>
+  <text class="l" x="580" y="130" text-anchor="middle" style="fill:#B26A00">Price</text>
+  <text class="s" x="580" y="150" text-anchor="middle">labor,</text>
+  <text class="s" x="580" y="165" text-anchor="middle">equipment,</text>
+  <text class="s" x="580" y="180" text-anchor="middle">indirects</text>
+  <circle cx="700" cy="96" r="9" fill="#2E7D32"/>
+  <text class="l" x="700" y="130" text-anchor="middle" style="fill:#2E7D32">Bid day</text>
+  <text class="s" x="700" y="150" text-anchor="middle">late numbers,</text>
+  <text class="s" x="700" y="165" text-anchor="middle">check, submit</text>
+  <text class="s" x="32" y="242">Caltrans advertises projects for three to seven weeks; first-time electronic bidders need about 7 days to register.</text>
+</svg>

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 233.0" role="img" aria-labelledby="t d">
+  <title id="t">Checks before you submit</title>
+  <desc id="d">Scope check, arithmetic and units, comparison with historic prices, balanced unit prices, and the risk questions.</desc>
+  <defs><marker id="a" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#0070D5"/></marker><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#C92A06"/></marker><marker id="ag" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#2E7D32"/></marker><marker id="am" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#595959"/></marker><marker id="aa" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#B26A00"/></marker></defs>
+  <style>
+    text { font-family: "Open Sans", Helvetica, Arial, sans-serif; fill: #262626; }
+    .h { font-size: 20px; font-weight: 600; } .l { font-size: 13px; font-weight: 600; } .s { font-size: 12px; fill: #595959; } .n { font-size: 12px; font-weight: 600; fill: #FFFFFF; }
+  </style>
+  <rect width="800" height="233.0" fill="#FFFFFF"/>
+  <text class="h" x="32" y="40">Checks before you submit</text>
+    <rect x="24" y="70" width="136" height="135" rx="12" fill="#EAF3FC" stroke="#0070D5" stroke-width="1.5"/>
+  <text class="l" x="38" y="94" style="fill:#0070D5">Scope</text>
+  <text class="s" x="38" y="113">Every item and</text>
+  <text class="s" x="38" y="129">sheet</text>
+  <text class="s" x="38" y="145">Addenda included</text>
+  <text class="s" x="38" y="161">Exclusions</text>
+  <text class="s" x="38" y="177">covered</text>
+  <rect x="178" y="70" width="136" height="135" rx="12" fill="#EAF3FC" stroke="#0070D5" stroke-width="1.5"/>
+  <text class="l" x="192" y="94" style="fill:#0070D5">Arithmetic</text>
+  <text class="s" x="192" y="113">Price × quantity</text>
+  <text class="s" x="192" y="129">= total</text>
+  <text class="s" x="192" y="145">Units match the</text>
+  <text class="s" x="192" y="161">list</text>
+  <rect x="332" y="70" width="136" height="135" rx="12" fill="#EAF5EB" stroke="#2E7D32" stroke-width="1.5"/>
+  <text class="l" x="346" y="94" style="fill:#2E7D32">History</text>
+  <text class="s" x="346" y="113">Contract Cost</text>
+  <text class="s" x="346" y="129">Data</text>
+  <text class="s" x="346" y="145">Your own past</text>
+  <text class="s" x="346" y="161">bids</text>
+  <rect x="486" y="70" width="136" height="135" rx="12" fill="#FFF4E0" stroke="#B26A00" stroke-width="1.5"/>
+  <text class="l" x="500" y="94" style="fill:#B26A00">Balance</text>
+  <text class="s" x="500" y="113">Unit prices near</text>
+  <text class="s" x="500" y="129">real cost</text>
+  <text class="s" x="500" y="145">No front-loading</text>
+  <rect x="640" y="70" width="136" height="135" rx="12" fill="#FDEDEA" stroke="#C92A06" stroke-width="1.5"/>
+  <text class="l" x="654" y="94" style="fill:#C92A06">Risk</text>
+  <text class="s" x="654" y="113">Top three risks</text>
+  <text class="s" x="654" y="129">priced?</text>
+  <text class="s" x="654" y="145">Can you staff</text>
+  <text class="s" x="654" y="161">it?</text>
+</svg>
