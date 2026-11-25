@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 330" role="img" aria-labelledby="t d">
+  <title id="t">Ultrasonic testing of steel</title>
+  <desc id="d">A straight-beam probe on a corroded plate reads the back-wall echo to measure remaining thickness; an angle-beam probe beside a weld sends sound into the weld and receives an echo from a flaw.</desc>
+  <defs><marker id="a" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#0070D5"/></marker><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#C92A06"/></marker><marker id="ag" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#2E7D32"/></marker><marker id="am" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#595959"/></marker><marker id="aa" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#B26A00"/></marker></defs>
+  <style>
+    text { font-family: "Open Sans", Helvetica, Arial, sans-serif; fill: #262626; }
+    .h { font-size: 20px; font-weight: 600; } .l { font-size: 13px; font-weight: 600; } .s { font-size: 12px; fill: #595959; } .n { font-size: 12px; font-weight: 600; fill: #FFFFFF; }
+  </style>
+  <rect width="800" height="330" fill="#FFFFFF"/>
+  <text class="h" x="32" y="40">Ultrasonic testing of steel</text>
+    <rect x="40" y="130" width="320" height="90" fill="#AEB8C2" stroke="#7A8794" stroke-width="2"/>
+  <path d="M40 220 H120 Q160 200 200 214 Q240 196 280 220 H360" fill="#FFFFFF" stroke="#A0522D" stroke-width="2"/>
+  <rect x="150" y="104" width="30" height="26" rx="4" fill="#0070D5"/>
+  <path d="M160 132 V200" stroke="#2E7D32" stroke-width="2" marker-end="url(#ag)"/><path d="M172 200 V134" stroke="#2E7D32" stroke-width="2" marker-end="url(#ag)"/>
+  <text class="s" x="200" y="96" text-anchor="middle">thickness = velocity × time / 2</text>
+  <text class="s" x="200" y="250" text-anchor="middle" style="fill:#A0522D">corroded back face</text>
+  <rect x="430" y="150" width="330" height="70" fill="#AEB8C2" stroke="#7A8794" stroke-width="2"/>
+  <path d="M580 150 L560 220 H620 L600 150 Z" fill="#8E9AA6" stroke="#7A8794"/>
+  <path d="M585 190 L595 196" stroke="#C92A06" stroke-width="3"/>
+  <rect x="470" y="124" width="40" height="26" rx="4" fill="#0070D5" transform="rotate(0)"/>
+  <path d="M500 152 L585 192" stroke="#2E7D32" stroke-width="2" marker-end="url(#ag)"/>
+  <text class="s" x="595" y="250" text-anchor="middle">angle beam into the weld; echo from a flaw</text>
+  <text class="s" x="32" y="300">Straight beam for thickness (ASTM E797); angle beam and phased array for welds (AWS D1.1, D1.5).</text>
+</svg>

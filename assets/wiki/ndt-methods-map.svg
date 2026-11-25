@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 330" role="img" aria-labelledby="t d">
+  <title id="t">From looking to testing to deciding</title>
+  <desc id="d">Visual inspection finds where to look; non-destructive tests answer what is below the surface; cores and coupons calibrate; analysis leads to ratings and recommendations.</desc>
+  <defs><marker id="a" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#0070D5"/></marker><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#C92A06"/></marker><marker id="ag" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#2E7D32"/></marker><marker id="am" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#595959"/></marker><marker id="aa" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#B26A00"/></marker></defs>
+  <style>
+    text { font-family: "Open Sans", Helvetica, Arial, sans-serif; fill: #262626; }
+    .h { font-size: 20px; font-weight: 600; } .l { font-size: 13px; font-weight: 600; } .s { font-size: 12px; fill: #595959; } .n { font-size: 12px; font-weight: 600; fill: #FFFFFF; }
+  </style>
+  <rect width="800" height="330" fill="#FFFFFF"/>
+  <text class="h" x="32" y="40">From looking to testing to deciding</text>
+    <rect x="24" y="80" width="172" height="170" rx="12" fill="#EAF3FC" stroke="#0070D5" stroke-width="1.5"/>
+  <text class="l" x="38" y="104" style="fill:#0070D5">Look</text>
+  <text class="s" x="38" y="123">Visual inspection</text>
+  <text class="s" x="38" y="139">Sounding</text>
+  <text class="s" x="38" y="155">Measure and</text>
+  <text class="s" x="38" y="171">photograph</text>
+  <path d="M198 165 H214" fill="none" stroke="#0070D5" stroke-width="2.5" marker-end="url(#a)"/>
+  <rect x="216" y="80" width="172" height="170" rx="12" fill="#EAF5EB" stroke="#2E7D32" stroke-width="1.5"/>
+  <text class="l" x="230" y="104" style="fill:#2E7D32">Test without damage</text>
+  <text class="s" x="230" y="123">Concrete: rebound,</text>
+  <text class="s" x="230" y="139">UPV, cover, GPR,</text>
+  <text class="s" x="230" y="155">half-cell,</text>
+  <text class="s" x="230" y="171">impact-echo</text>
+  <text class="s" x="230" y="187">Steel: UT, MT, PT,</text>
+  <text class="s" x="230" y="203">radiography</text>
+  <path d="M390 165 H406" fill="none" stroke="#0070D5" stroke-width="2.5" marker-end="url(#a)"/>
+  <rect x="408" y="80" width="172" height="170" rx="12" fill="#FFF4E0" stroke="#B26A00" stroke-width="1.5"/>
+  <text class="l" x="422" y="104" style="fill:#B26A00">Calibrate</text>
+  <text class="s" x="422" y="123">Cores, coupons, lab</text>
+  <text class="s" x="422" y="139">tests</text>
+  <path d="M582 165 H598" fill="none" stroke="#0070D5" stroke-width="2.5" marker-end="url(#a)"/>
+  <rect x="600" y="80" width="172" height="170" rx="12" fill="#EAF3FC" stroke="#0070D5" stroke-width="1.5"/>
+  <text class="l" x="614" y="104" style="fill:#0070D5">Decide</text>
+  <text class="s" x="614" y="123">Condition ratings</text>
+  <text class="s" x="614" y="139">Causes</text>
+  <text class="s" x="614" y="155">Recommendations</text>
+  <text class="s" x="32" y="290">Non-destructive tests go where the visual inspection says the question is.</text>
+</svg>

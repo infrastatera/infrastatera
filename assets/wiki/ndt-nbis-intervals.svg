@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 330" role="img" aria-labelledby="t d">
+  <title id="t">Inspection intervals under the 2022 NBIS</title>
+  <desc id="d">Routine inspection at most every 24 months by default; reduced to 12 months or less for higher risk; extended up to 48 months under set criteria; risk-based method categories of 12, 24, 48 or 72 months, with poor bridges capped at 24 and fair at 48.</desc>
+  <defs><marker id="a" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#0070D5"/></marker><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#C92A06"/></marker><marker id="ag" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#2E7D32"/></marker><marker id="am" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#595959"/></marker><marker id="aa" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#B26A00"/></marker></defs>
+  <style>
+    text { font-family: "Open Sans", Helvetica, Arial, sans-serif; fill: #262626; }
+    .h { font-size: 20px; font-weight: 600; } .l { font-size: 13px; font-weight: 600; } .s { font-size: 12px; fill: #595959; } .n { font-size: 12px; font-weight: 600; fill: #FFFFFF; }
+  </style>
+  <rect width="800" height="330" fill="#FFFFFF"/>
+  <text class="h" x="32" y="40">Inspection intervals under the 2022 NBIS</text>
+    <text class="l" x="210" y="102" text-anchor="end">Reduced</text>
+  <rect x="220" y="80" width="84" height="30" rx="4" fill="#FDEDEA" stroke="#C92A06" stroke-width="1.5"/>
+  <text class="s" x="312" y="101">12 months</text>
+  <text class="l" x="210" y="148" text-anchor="end">Default routine</text>
+  <rect x="220" y="126" width="168" height="30" rx="4" fill="#EAF3FC" stroke="#0070D5" stroke-width="1.5"/>
+  <text class="s" x="396" y="147">24 months</text>
+  <text class="l" x="210" y="194" text-anchor="end">Extended</text>
+  <rect x="220" y="172" width="336" height="30" rx="4" fill="#EAF5EB" stroke="#2E7D32" stroke-width="1.5"/>
+  <text class="s" x="564" y="193">48 months</text>
+  <text class="l" x="210" y="240" text-anchor="end">Risk-based, lowest risk</text>
+  <rect x="220" y="218" width="504" height="30" rx="4" fill="#EAF5EB" stroke="#2E7D32" stroke-width="1.5"/>
+  <text class="s" x="732" y="239">72 months</text>
+  <text class="s" x="32" y="284" style="fill:#C92A06">Caps: a bridge in poor condition can't exceed 24 months; in fair condition, 48 months.</text>
+  <text class="s" x="32" y="306">Underwater and NSTM inspections have their own intervals; first ones within 12 months of opening.</text>
+</svg>

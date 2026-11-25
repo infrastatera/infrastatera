@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 342" role="img" aria-labelledby="t d">
+  <title id="t">Certified payroll, every week of the job</title>
+  <desc id="d">Record daily hours by classification, run payroll at prevailing rates, prepare the certified payroll record and statement of compliance, submit electronically to DIR and copies to the agency, file no-work weeks, keep records.</desc>
+  <defs><marker id="a" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#0070D5"/></marker><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#C92A06"/></marker><marker id="ag" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#2E7D32"/></marker><marker id="am" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#595959"/></marker><marker id="aa" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#B26A00"/></marker></defs>
+  <style>
+    text { font-family: "Open Sans", Helvetica, Arial, sans-serif; fill: #262626; }
+    .h { font-size: 20px; font-weight: 600; } .l { font-size: 13px; font-weight: 600; } .s { font-size: 12px; fill: #595959; } .n { font-size: 12px; font-weight: 600; fill: #FFFFFF; }
+  </style>
+  <rect width="800" height="342" fill="#FFFFFF"/>
+  <text class="h" x="32" y="40">Certified payroll, every week of the job</text>
+    <rect x="24" y="70" width="232" height="92" rx="12" fill="#F7F9FA" stroke="#D5D9DE" stroke-width="1.5"/>
+  <text class="l" x="38" y="94">Time records</text>
+  <text class="s" x="38" y="113">hours by day and</text>
+  <text class="s" x="38" y="129">classification</text>
+  <circle cx="240" cy="86" r="10" fill="#0070D5"/>
+  <text class="n" x="240" y="90" text-anchor="middle">1</text>
+  <path d="M258 116 H280" fill="none" stroke="#0070D5" stroke-width="2.5" marker-end="url(#a)"/>
+  <rect x="284" y="70" width="232" height="92" rx="12" fill="#F7F9FA" stroke="#D5D9DE" stroke-width="1.5"/>
+  <text class="l" x="298" y="94">Payroll</text>
+  <text class="s" x="298" y="113">prevailing rate, fringe,</text>
+  <text class="s" x="298" y="129">overtime</text>
+  <circle cx="500" cy="86" r="10" fill="#0070D5"/>
+  <text class="n" x="500" y="90" text-anchor="middle">2</text>
+  <path d="M518 116 H540" fill="none" stroke="#0070D5" stroke-width="2.5" marker-end="url(#a)"/>
+  <rect x="544" y="70" width="232" height="92" rx="12" fill="#F7F9FA" stroke="#D5D9DE" stroke-width="1.5"/>
+  <text class="l" x="558" y="94">Certify</text>
+  <text class="s" x="558" y="113">record plus signed statement</text>
+  <text class="s" x="558" y="129">of compliance</text>
+  <circle cx="760" cy="86" r="10" fill="#0070D5"/>
+  <text class="n" x="760" y="90" text-anchor="middle">3</text>
+  <path d="M660 164 V182 H140 V198" fill="none" stroke="#0070D5" stroke-width="2.5" marker-end="url(#a)"/>
+  <rect x="24" y="202" width="232" height="92" rx="12" fill="#F7F9FA" stroke="#D5D9DE" stroke-width="1.5"/>
+  <text class="l" x="38" y="226">Submit</text>
+  <text class="s" x="38" y="245">electronically to DIR; copies</text>
+  <text class="s" x="38" y="261">to the agency if required</text>
+  <circle cx="240" cy="218" r="10" fill="#0070D5"/>
+  <text class="n" x="240" y="222" text-anchor="middle">4</text>
+  <path d="M258 248 H280" fill="none" stroke="#0070D5" stroke-width="2.5" marker-end="url(#a)"/>
+  <rect x="284" y="202" width="232" height="92" rx="12" fill="#F7F9FA" stroke="#D5D9DE" stroke-width="1.5"/>
+  <text class="l" x="298" y="226">No-work weeks</text>
+  <text class="s" x="298" y="245">file a no work statement</text>
+  <circle cx="500" cy="218" r="10" fill="#0070D5"/>
+  <text class="n" x="500" y="222" text-anchor="middle">5</text>
+  <path d="M518 248 H540" fill="none" stroke="#0070D5" stroke-width="2.5" marker-end="url(#a)"/>
+  <rect x="544" y="202" width="232" height="92" rx="12" fill="#F7F9FA" stroke="#D5D9DE" stroke-width="1.5"/>
+  <text class="l" x="558" y="226">Keep records</text>
+  <text class="s" x="558" y="245">produce them when asked</text>
+  <circle cx="760" cy="218" r="10" fill="#0070D5"/>
+  <text class="n" x="760" y="222" text-anchor="middle">6</text>
+</svg>

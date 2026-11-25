@@ -49,5 +49,6 @@ The homepage shows two featured demos as large tiles (hand-written in `index.htm
 - Preview from a saved copy of the data: `node scripts/wiki/build.mjs --from data.json`.
 - Pictures: put files in `assets/wiki/` and write `![description](file.svg "Caption")` on its own line in an article. The diagrams there are original drawings (not to scale), free to reuse on this site.
 - Share images: `scripts/wiki/og-images.sh` turns each illustration into `assets/wiki/og/<name>.png` (1200×630) for LinkedIn and search previews; the action runs it before building. An article uses the image of its first illustration.
-- Materials library: `wiki/materials/`, from the `kb_materials` table.
+- Several knowledge bases (`kb_spaces`): `wiki/` lists the published ones, each is built at `wiki/<space>/` with its own articles, glossary and library (`wiki/<space>/materials/`, from `kb_materials`: materials, forms or equipment). What differs between them (disclaimer, library title and groups, the Caltrans lifecycle) is in `SPACE_CONFIG` in `build.mjs`; a new knowledge base works without an entry.
+- Old addresses: Caltrans pages used to live directly under `wiki/`; the build writes small pages there that send visitors to `wiki/caltrans-electrical/...`.
 - Styles: `css/wiki.css`. Search box: `js/wiki.js`. The home page links to it from the menu, the Wiki band under the demos and the footer.

@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 330" role="img" aria-labelledby="t d">
+  <title id="t">From core location to lab results</title>
+  <desc id="d">Locate bars, choose a low-stress location, drill a core at least three times the aggregate size, label and photograph it, test strength to ASTM C42, and examine carbonation, chlorides and petrography; repair the hole.</desc>
+  <defs><marker id="a" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#0070D5"/></marker><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#C92A06"/></marker><marker id="ag" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#2E7D32"/></marker><marker id="am" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#595959"/></marker><marker id="aa" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#B26A00"/></marker></defs>
+  <style>
+    text { font-family: "Open Sans", Helvetica, Arial, sans-serif; fill: #262626; }
+    .h { font-size: 20px; font-weight: 600; } .l { font-size: 13px; font-weight: 600; } .s { font-size: 12px; fill: #595959; } .n { font-size: 12px; font-weight: 600; fill: #FFFFFF; }
+  </style>
+  <rect width="800" height="330" fill="#FFFFFF"/>
+  <text class="h" x="32" y="40">From core location to lab results</text>
+    <rect x="24" y="70" width="232" height="86" rx="12" fill="#F7F9FA" stroke="#D5D9DE" stroke-width="1.5"/>
+  <text class="l" x="38" y="94">Locate bars</text>
+  <text class="s" x="38" y="113">cover meter or GPR; avoid</text>
+  <text class="s" x="38" y="129">tendons</text>
+  <circle cx="240" cy="86" r="10" fill="#0070D5"/>
+  <text class="n" x="240" y="90" text-anchor="middle">1</text>
+  <path d="M258 113 H280" fill="none" stroke="#0070D5" stroke-width="2.5" marker-end="url(#a)"/>
+  <rect x="284" y="70" width="232" height="86" rx="12" fill="#F7F9FA" stroke="#D5D9DE" stroke-width="1.5"/>
+  <text class="l" x="298" y="94">Drill</text>
+  <text class="s" x="298" y="113">4 in diameter is common, at</text>
+  <text class="s" x="298" y="129">least 3x aggregate</text>
+  <circle cx="500" cy="86" r="10" fill="#0070D5"/>
+  <text class="n" x="500" y="90" text-anchor="middle">2</text>
+  <path d="M518 113 H540" fill="none" stroke="#0070D5" stroke-width="2.5" marker-end="url(#a)"/>
+  <rect x="544" y="70" width="232" height="86" rx="12" fill="#F7F9FA" stroke="#D5D9DE" stroke-width="1.5"/>
+  <text class="l" x="558" y="94">Label</text>
+  <text class="s" x="558" y="113">location, orientation, photo</text>
+  <circle cx="760" cy="86" r="10" fill="#0070D5"/>
+  <text class="n" x="760" y="90" text-anchor="middle">3</text>
+  <path d="M660 158 V176 H140 V192" fill="none" stroke="#0070D5" stroke-width="2.5" marker-end="url(#a)"/>
+  <rect x="24" y="196" width="232" height="86" rx="12" fill="#F7F9FA" stroke="#D5D9DE" stroke-width="1.5"/>
+  <text class="l" x="38" y="220">Strength</text>
+  <text class="s" x="38" y="239">ASTM C42, corrected for length</text>
+  <circle cx="240" cy="212" r="10" fill="#0070D5"/>
+  <text class="n" x="240" y="216" text-anchor="middle">4</text>
+  <path d="M258 239 H280" fill="none" stroke="#0070D5" stroke-width="2.5" marker-end="url(#a)"/>
+  <rect x="284" y="196" width="232" height="86" rx="12" fill="#F7F9FA" stroke="#D5D9DE" stroke-width="1.5"/>
+  <text class="l" x="298" y="220">Inside</text>
+  <text class="s" x="298" y="239">carbonation, chlorides,</text>
+  <text class="s" x="298" y="255">petrography</text>
+  <circle cx="500" cy="212" r="10" fill="#0070D5"/>
+  <text class="n" x="500" y="216" text-anchor="middle">5</text>
+  <path d="M518 239 H540" fill="none" stroke="#0070D5" stroke-width="2.5" marker-end="url(#a)"/>
+  <rect x="544" y="196" width="232" height="86" rx="12" fill="#F7F9FA" stroke="#D5D9DE" stroke-width="1.5"/>
+  <text class="l" x="558" y="220">Repair</text>
+  <text class="s" x="558" y="239">fill the hole</text>
+  <circle cx="760" cy="212" r="10" fill="#0070D5"/>
+  <text class="n" x="760" y="216" text-anchor="middle">6</text>
+</svg>

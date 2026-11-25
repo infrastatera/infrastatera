@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 360" role="img" aria-labelledby="t d">
+  <title id="t">Ground-penetrating radar</title>
+  <desc id="d">A GPR antenna rolls along the surface over bars; the scan shows depth against distance, and each bar crossed appears as a hyperbola whose peak marks the bar position and depth.</desc>
+  <defs><marker id="a" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#0070D5"/></marker><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#C92A06"/></marker><marker id="ag" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#2E7D32"/></marker><marker id="am" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#595959"/></marker><marker id="aa" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#B26A00"/></marker></defs>
+  <style>
+    text { font-family: "Open Sans", Helvetica, Arial, sans-serif; fill: #262626; }
+    .h { font-size: 20px; font-weight: 600; } .l { font-size: 13px; font-weight: 600; } .s { font-size: 12px; fill: #595959; } .n { font-size: 12px; font-weight: 600; fill: #FFFFFF; }
+  </style>
+  <rect width="800" height="360" fill="#FFFFFF"/>
+  <text class="h" x="32" y="40">Ground-penetrating radar</text>
+    <rect x="40" y="90" width="340" height="150" fill="#D9D6CF" stroke="#BDB8AE" stroke-width="2"/>
+  <circle cx="90" cy="135" r="8" fill="#7A8794"/>
+  <circle cx="160" cy="135" r="8" fill="#7A8794"/>
+  <circle cx="230" cy="135" r="8" fill="#7A8794"/>
+  <circle cx="300" cy="135" r="8" fill="#7A8794"/>
+  <circle cx="370" cy="135" r="8" fill="#7A8794"/>
+  <rect x="120" y="58" width="90" height="30" rx="6" fill="#0070D5"/>
+  <text class="n" x="165" y="78" text-anchor="middle">antenna</text>
+  <path d="M220 72 H330" fill="none" stroke="#0070D5" stroke-width="2.5" marker-end="url(#a)"/>
+  <text class="s" x="210" y="265" text-anchor="middle">concrete section</text>
+  <rect x="420" y="70" width="340" height="200" fill="#20262C"/>
+  <path d="M430 175 Q470 85 510 175" fill="none" stroke="#E8EEF4" stroke-width="3"/>
+  <path d="M500 175 Q540 85 580 175" fill="none" stroke="#E8EEF4" stroke-width="3"/>
+  <path d="M570 175 Q610 85 650 175" fill="none" stroke="#E8EEF4" stroke-width="3"/>
+  <path d="M640 175 Q680 85 720 175" fill="none" stroke="#E8EEF4" stroke-width="3"/>
+  <path d="M710 175 Q750 85 790 175" fill="none" stroke="#E8EEF4" stroke-width="3"/>
+  <path d="M420 230 H760" stroke="#8FA3B5" stroke-width="2" stroke-dasharray="6 4"/>
+  <text class="s" x="590" y="292" text-anchor="middle">scan: one hyperbola per bar; dashed line = bottom of slab</text>
+  <text class="s" x="410" y="190" transform="rotate(-90 410 190)">depth</text>
+  <text class="s" x="32" y="336">Calibrate the wave speed on a known depth before reporting cover or thickness.</text>
+</svg>

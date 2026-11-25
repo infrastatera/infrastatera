@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 340" role="img" aria-labelledby="t d">
+  <title id="t">Radiographic testing</title>
+  <desc id="d">A radiation source on one side of a weld and a film or digital detector on the other; voids and flaws show as density differences; a controlled exclusion zone with barriers keeps people out.</desc>
+  <defs><marker id="a" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#0070D5"/></marker><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#C92A06"/></marker><marker id="ag" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#2E7D32"/></marker><marker id="am" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#595959"/></marker><marker id="aa" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#B26A00"/></marker></defs>
+  <style>
+    text { font-family: "Open Sans", Helvetica, Arial, sans-serif; fill: #262626; }
+    .h { font-size: 20px; font-weight: 600; } .l { font-size: 13px; font-weight: 600; } .s { font-size: 12px; fill: #595959; } .n { font-size: 12px; font-weight: 600; fill: #FFFFFF; }
+  </style>
+  <rect width="800" height="340" fill="#FFFFFF"/>
+  <text class="h" x="32" y="40">Radiographic testing</text>
+    <circle cx="400" cy="180" r="112" fill="#FDEDEA" stroke="#C92A06" stroke-width="2" stroke-dasharray="8 6"/>
+  <text class="s" x="530" y="92" style="fill:#C92A06">exclusion zone: barriers,</text>
+  <text class="s" x="530" y="108" style="fill:#C92A06">signs and survey meters</text>
+  <rect x="300" y="160" width="40" height="40" rx="6" fill="#B26A00"/>
+  <text class="s" x="320" y="222" text-anchor="middle">source</text>
+  <path d="M340 170 L430 140 M340 190 L430 220" stroke="#B26A00" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <rect x="430" y="130" width="24" height="100" fill="#AEB8C2" stroke="#7A8794"/><circle cx="442" cy="176" r="5" fill="#FFFFFF" stroke="#262626"/>
+  <text class="s" x="442" y="248" text-anchor="middle">weld</text>
+  <rect x="470" y="120" width="10" height="120" fill="#262626"/>
+  <text class="s" x="488" y="200">film or</text>
+  <text class="s" x="488" y="216">detector</text>
+  <text class="s" x="32" y="318">Licensed radiographers only, with dosimeters; ASTM E94 is a general guide.</text>
+</svg>

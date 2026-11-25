@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 340" role="img" aria-labelledby="t d">
+  <title id="t">What makes a job public works</title>
+  <desc id="d">Construction work, done under contract, paid in whole or part with public funds, is public works; it triggers DIR registration, prevailing wage, certified payroll, apprentices, subcontractor listing, bonds and the stop payment notice remedies.</desc>
+  <defs><marker id="a" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#0070D5"/></marker><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#C92A06"/></marker><marker id="ag" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#2E7D32"/></marker><marker id="am" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#595959"/></marker><marker id="aa" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#B26A00"/></marker></defs>
+  <style>
+    text { font-family: "Open Sans", Helvetica, Arial, sans-serif; fill: #262626; }
+    .h { font-size: 20px; font-weight: 600; } .l { font-size: 13px; font-weight: 600; } .s { font-size: 12px; fill: #595959; } .n { font-size: 12px; font-weight: 600; fill: #FFFFFF; }
+  </style>
+  <rect width="800" height="340" fill="#FFFFFF"/>
+  <text class="h" x="32" y="40">What makes a job public works</text>
+    <rect x="24" y="74" width="210" height="79" rx="12" fill="#EAF3FC" stroke="#0070D5" stroke-width="1.5"/>
+  <text class="l" x="38" y="98" style="fill:#0070D5">Construction work</text>
+  <text class="s" x="38" y="117">build, alter, demolish,</text>
+  <text class="s" x="38" y="133">install, repair, maintain</text>
+  <rect x="24" y="148" width="210" height="56" rx="12" fill="#EAF3FC" stroke="#0070D5" stroke-width="1.5"/>
+  <text class="l" x="38" y="172" style="fill:#0070D5">Under contract</text>
+  <rect x="24" y="214" width="210" height="79" rx="12" fill="#EAF3FC" stroke="#0070D5" stroke-width="1.5"/>
+  <text class="l" x="38" y="238" style="fill:#0070D5">Paid with public funds</text>
+  <text class="s" x="38" y="257">in whole or in part,</text>
+  <text class="s" x="38" y="273">including subsidies</text>
+  <text class="s" x="129" y="304" text-anchor="middle">all three together</text>
+  <path d="M240 176 H300" fill="none" stroke="#0070D5" stroke-width="2.5" marker-end="url(#a)"/>
+  <rect x="306" y="140" width="150" height="72" rx="36" fill="#0070D5"/>
+  <text class="l" x="381" y="172" text-anchor="middle" style="fill:#FFFFFF;font-size:16px">Public works</text>
+  <text class="s" x="381" y="192" text-anchor="middle" style="fill:#FFFFFF">Labor Code 1720</text>
+  <path d="M460 176 C500 176 500 88 540 88" fill="none" stroke="#595959" stroke-width="1.5" marker-end="url(#am)"/>
+  <rect x="546" y="74" width="230" height="32" rx="12" fill="#F7F9FA" stroke="#D5D9DE" stroke-width="1.5"/>
+  <text class="l" x="560" y="93">DIR registration</text>
+  <path d="M460 176 C500 176 500 124 540 124" fill="none" stroke="#595959" stroke-width="1.5" marker-end="url(#am)"/>
+  <rect x="546" y="110" width="230" height="32" rx="12" fill="#F7F9FA" stroke="#D5D9DE" stroke-width="1.5"/>
+  <text class="l" x="560" y="129">Prevailing wage</text>
+  <path d="M460 176 C500 176 500 160 540 160" fill="none" stroke="#595959" stroke-width="1.5" marker-end="url(#am)"/>
+  <rect x="546" y="146" width="230" height="32" rx="12" fill="#F7F9FA" stroke="#D5D9DE" stroke-width="1.5"/>
+  <text class="l" x="560" y="165">Certified payroll</text>
+  <path d="M460 176 C500 176 500 196 540 196" fill="none" stroke="#595959" stroke-width="1.5" marker-end="url(#am)"/>
+  <rect x="546" y="182" width="230" height="32" rx="12" fill="#F7F9FA" stroke="#D5D9DE" stroke-width="1.5"/>
+  <text class="l" x="560" y="201">Apprentices</text>
+  <path d="M460 176 C500 176 500 232 540 232" fill="none" stroke="#595959" stroke-width="1.5" marker-end="url(#am)"/>
+  <rect x="546" y="218" width="230" height="32" rx="12" fill="#F7F9FA" stroke="#D5D9DE" stroke-width="1.5"/>
+  <text class="l" x="560" y="237">Subcontractor listing</text>
+  <path d="M460 176 C500 176 500 268 540 268" fill="none" stroke="#595959" stroke-width="1.5" marker-end="url(#am)"/>
+  <rect x="546" y="254" width="230" height="32" rx="12" fill="#F7F9FA" stroke="#D5D9DE" stroke-width="1.5"/>
+  <text class="l" x="560" y="273">Bonds over $25,000</text>
+  <path d="M460 176 C500 176 500 304 540 304" fill="none" stroke="#595959" stroke-width="1.5" marker-end="url(#am)"/>
+  <rect x="546" y="290" width="230" height="32" rx="12" fill="#F7F9FA" stroke="#D5D9DE" stroke-width="1.5"/>
+  <text class="l" x="560" y="309">Stop payment notices, no liens</text>
+</svg>

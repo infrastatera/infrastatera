@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 249.0" role="img" aria-labelledby="t d">
+  <title id="t">Inspection and testing equipment</title>
+  <desc id="d">Instruments grouped as visual and access, concrete testing, steel and weld testing, and monitoring.</desc>
+  <defs><marker id="a" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#0070D5"/></marker><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#C92A06"/></marker><marker id="ag" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#2E7D32"/></marker><marker id="am" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#595959"/></marker><marker id="aa" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#B26A00"/></marker></defs>
+  <style>
+    text { font-family: "Open Sans", Helvetica, Arial, sans-serif; fill: #262626; }
+    .h { font-size: 20px; font-weight: 600; } .l { font-size: 13px; font-weight: 600; } .s { font-size: 12px; fill: #595959; } .n { font-size: 12px; font-weight: 600; fill: #FFFFFF; }
+  </style>
+  <rect width="800" height="249.0" fill="#FFFFFF"/>
+  <text class="h" x="32" y="40">Inspection and testing equipment</text>
+    <rect x="24" y="70" width="174" height="151" rx="12" fill="#EAF3FC" stroke="#0070D5" stroke-width="1.5"/>
+  <text class="l" x="38" y="94" style="fill:#0070D5">Visual and access</text>
+  <text class="s" x="38" y="113">Crack gauge, hammer,</text>
+  <text class="s" x="38" y="129">borescope</text>
+  <text class="s" x="38" y="145">Lifts, inspection</text>
+  <text class="s" x="38" y="161">truck, drones</text>
+  <rect x="216" y="70" width="174" height="151" rx="12" fill="#EAF5EB" stroke="#2E7D32" stroke-width="1.5"/>
+  <text class="l" x="230" y="94" style="fill:#2E7D32">Concrete</text>
+  <text class="s" x="230" y="113">Rebound hammer, UPV</text>
+  <text class="s" x="230" y="129">Cover meter, GPR,</text>
+  <text class="s" x="230" y="145">half-cell</text>
+  <text class="s" x="230" y="161">Impact-echo, core</text>
+  <text class="s" x="230" y="177">drill</text>
+  <rect x="409" y="70" width="174" height="151" rx="12" fill="#FFF4E0" stroke="#B26A00" stroke-width="1.5"/>
+  <text class="l" x="423" y="94" style="fill:#B26A00">Steel and welds</text>
+  <text class="s" x="423" y="113">UT thickness gauge,</text>
+  <text class="s" x="423" y="129">flaw detector</text>
+  <text class="s" x="423" y="145">Magnetic yoke,</text>
+  <text class="s" x="423" y="161">penetrant kit</text>
+  <text class="s" x="423" y="177">Radiography</text>
+  <rect x="602" y="70" width="174" height="151" rx="12" fill="#F2F3F5" stroke="#595959" stroke-width="1.5"/>
+  <text class="l" x="616" y="94">Monitoring</text>
+  <text class="s" x="616" y="113">Crack meters, strain</text>
+  <text class="s" x="616" y="129">gauges</text>
+  <text class="s" x="616" y="145">Tiltmeters,</text>
+  <text class="s" x="616" y="161">accelerometers</text>
+  <text class="s" x="616" y="177">Data logger with</text>
+  <text class="s" x="616" y="193">cellular link</text>
+</svg>

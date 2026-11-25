@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" role="img" aria-labelledby="t d">
+  <title id="t">What happens to bid security</title>
+  <desc id="d">At bid opening every bidder has security; losing bidders get it back; the winner gets it back after signing and bonding, or loses it if it fails to sign in time.</desc>
+  <defs><marker id="a" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#0070D5"/></marker><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#C92A06"/></marker><marker id="ag" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#2E7D32"/></marker><marker id="am" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#595959"/></marker><marker id="aa" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#B26A00"/></marker></defs>
+  <style>
+    text { font-family: "Open Sans", Helvetica, Arial, sans-serif; fill: #262626; }
+    .h { font-size: 20px; font-weight: 600; } .l { font-size: 13px; font-weight: 600; } .s { font-size: 12px; fill: #595959; } .n { font-size: 12px; font-weight: 600; fill: #FFFFFF; }
+  </style>
+  <rect width="800" height="300" fill="#FFFFFF"/>
+  <text class="h" x="32" y="40">What happens to bid security</text>
+    <rect x="40" y="110" width="170" height="70" rx="12" fill="#EAF3FC" stroke="#0070D5" stroke-width="1.5"/>
+  <text class="l" x="125" y="134" text-anchor="middle" style="fill:#0070D5">Bid security</text>
+  <text class="s" x="125" y="153" text-anchor="middle">with every bid</text>
+  <rect x="300" y="60" width="210" height="63" rx="12" fill="#EAF5EB" stroke="#2E7D32" stroke-width="1.5"/>
+  <text class="l" x="405" y="84" text-anchor="middle" style="fill:#2E7D32">Losing bidders</text>
+  <text class="s" x="405" y="103" text-anchor="middle">security returned</text>
+  <rect x="300" y="170" width="210" height="63" rx="12" fill="#EAF3FC" stroke="#0070D5" stroke-width="1.5"/>
+  <text class="l" x="405" y="194" text-anchor="middle" style="fill:#0070D5">Winning bidder</text>
+  <text class="s" x="405" y="213" text-anchor="middle">security held</text>
+  <rect x="570" y="120" width="210" height="63" rx="12" fill="#EAF5EB" stroke="#2E7D32" stroke-width="1.5"/>
+  <text class="l" x="675" y="144" text-anchor="middle" style="fill:#2E7D32">Signs and bonds on time</text>
+  <text class="s" x="675" y="163" text-anchor="middle">security returned</text>
+  <rect x="570" y="214" width="210" height="63" rx="12" fill="#FDEDEA" stroke="#C92A06" stroke-width="1.5"/>
+  <text class="l" x="675" y="238" text-anchor="middle" style="fill:#C92A06">Fails to sign or bond</text>
+  <text class="s" x="675" y="257" text-anchor="middle">agency keeps it</text>
+  <path d="M212 130 L296 92" fill="none" stroke="#2E7D32" stroke-width="2.5" marker-end="url(#ag)"/>
+  <path d="M212 160 L296 198" fill="none" stroke="#0070D5" stroke-width="2.5" marker-end="url(#a)"/>
+  <path d="M512 192 L566 156" fill="none" stroke="#2E7D32" stroke-width="2.5" marker-end="url(#ag)"/>
+  <path d="M512 210 L566 240" fill="none" stroke="#C92A06" stroke-width="2.5" marker-end="url(#ar)"/>
+</svg>

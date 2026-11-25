@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 360" role="img" aria-labelledby="t d">
+  <title id="t">Common concrete defects</title>
+  <desc id="d">A concrete member section showing a hairline crack, a crack along a corroding bar, a delamination plane at bar level, a spall exposing a corroded bar, efflorescence and scaling at the surface.</desc>
+  <defs><marker id="a" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#0070D5"/></marker><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#C92A06"/></marker><marker id="ag" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#2E7D32"/></marker><marker id="am" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#595959"/></marker><marker id="aa" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#B26A00"/></marker></defs>
+  <style>
+    text { font-family: "Open Sans", Helvetica, Arial, sans-serif; fill: #262626; }
+    .h { font-size: 20px; font-weight: 600; } .l { font-size: 13px; font-weight: 600; } .s { font-size: 12px; fill: #595959; } .n { font-size: 12px; font-weight: 600; fill: #FFFFFF; }
+  </style>
+  <rect width="800" height="360" fill="#FFFFFF"/>
+  <text class="h" x="32" y="40">Common concrete defects</text>
+    <rect x="40" y="90" width="720" height="180" fill="#D9D6CF" stroke="#BDB8AE" stroke-width="2"/>
+  <circle cx="80" cy="130" r="9" fill="#7A8794"/>
+  <circle cx="160" cy="130" r="9" fill="#7A8794"/>
+  <circle cx="240" cy="130" r="9" fill="#7A8794"/>
+  <circle cx="320" cy="130" r="9" fill="#7A8794"/>
+  <circle cx="400" cy="130" r="9" fill="#7A8794"/>
+  <circle cx="480" cy="130" r="9" fill="#7A8794"/>
+  <circle cx="560" cy="130" r="9" fill="#7A8794"/>
+  <circle cx="640" cy="130" r="9" fill="#7A8794"/>
+  <circle cx="720" cy="130" r="9" fill="#7A8794"/>
+  <path d="M150 90 L156 120" stroke="#262626" stroke-width="1.5"/>
+  <text class="s" x="150" y="80" text-anchor="middle">hairline crack</text>
+  <path d="M318 90 L320 121" stroke="#262626" stroke-width="2.5"/><circle cx="320" cy="130" r="9" fill="#A0522D"/>
+  <text class="s" x="320" y="80" text-anchor="middle">crack along a corroding bar</text>
+  <path d="M420 132 H560" stroke="#C92A06" stroke-width="2.5" stroke-dasharray="6 4"/>
+  <circle cx="480" cy="130" r="9" fill="#A0522D"/><circle cx="560" cy="130" r="9" fill="#A0522D"/>
+  <text class="s" x="490" y="80" text-anchor="middle" style="fill:#C92A06">delamination at bar level</text>
+  <path d="M600 90 L615 112 L690 116 L705 90 Z" fill="#FFFFFF" stroke="#BDB8AE"/><circle cx="640" cy="130" r="9" fill="#A0522D"/>
+  <text class="s" x="655" y="80" text-anchor="middle">spall, bar exposed</text>
+  <path d="M60 270 q10 14 20 0 q10 14 20 0 q10 14 20 0" stroke="#FFFFFF" stroke-width="4" fill="none"/>
+  <text class="s" x="90" y="300" text-anchor="middle">efflorescence</text>
+  <path d="M230 270 l10 -6 l12 4 l10 -7 l14 6 l10 -5" stroke="#BDB8AE" stroke-width="3" fill="none"/>
+  <text class="s" x="260" y="300" text-anchor="middle">scaling</text>
+  <path d="M380 250 l20 -30 l30 10 l25 -25 M400 220 l-10 -20 M430 230 l20 15" stroke="#262626" stroke-width="1.2" fill="none"/>
+  <text class="s" x="420" y="300" text-anchor="middle">map cracking (possible ASR)</text>
+  <text class="s" x="32" y="338">Cracks: measure width, length, orientation, and whether they are still moving.</text>
+</svg>

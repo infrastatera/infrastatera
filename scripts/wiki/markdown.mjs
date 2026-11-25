@@ -41,7 +41,7 @@ export function renderMarkdown(md, opts) {
       .replace(/\[\[([a-z0-9-]+)(?:\|([^\]]*))?\]\]/g, (_, slug, label) => {
         const a = opts.articles[slug];
         const text = esc(label?.trim() || a?.title || slug.replace(/-/g, ' '));
-        return keep(a ? `<a class="wiki-link" href="${opts.base}/${slug}/">${text}</a>` : `<span class="wiki-link-missing" title="Coming soon">${text}</span>`);
+        return keep(a ? `<a class="wiki-link" href="${a.href ?? `${opts.base}/${slug}/`}">${text}</a>` : `<span class="wiki-link-missing" title="Coming soon">${text}</span>`);
       })
       .replace(/\[([^\]]+)\]\(([^)\s]+)\)/g, (_, text, url) => {
         const u = safeUrl(url);

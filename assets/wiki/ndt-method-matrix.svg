@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" role="img" aria-labelledby="t d">
+  <title id="t">Which method answers which question</title>
+  <desc id="d">A matrix of questions against methods: delamination by sounding, impact-echo and GPR; bars and cover by cover meter and GPR; corrosion by half-cell; strength by cores with rebound and UPV; steel thickness by UT; surface cracks by MT and PT; weld flaws by UT and radiography.</desc>
+  <defs><marker id="a" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#0070D5"/></marker><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#C92A06"/></marker><marker id="ag" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#2E7D32"/></marker><marker id="am" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#595959"/></marker><marker id="aa" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#B26A00"/></marker></defs>
+  <style>
+    text { font-family: "Open Sans", Helvetica, Arial, sans-serif; fill: #262626; }
+    .h { font-size: 20px; font-weight: 600; } .l { font-size: 13px; font-weight: 600; } .s { font-size: 12px; fill: #595959; } .n { font-size: 12px; font-weight: 600; fill: #FFFFFF; }
+  </style>
+  <rect width="800" height="400" fill="#FFFFFF"/>
+  <text class="h" x="32" y="40">Which method answers which question</text>
+    <text class="s" x="220" y="82" text-anchor="middle" style="font-weight:600">Sound</text>
+  <text class="s" x="270" y="82" text-anchor="middle" style="font-weight:600">IE</text>
+  <text class="s" x="320" y="82" text-anchor="middle" style="font-weight:600">GPR</text>
+  <text class="s" x="370" y="82" text-anchor="middle" style="font-weight:600">Cover</text>
+  <text class="s" x="420" y="82" text-anchor="middle" style="font-weight:600">HCP</text>
+  <text class="s" x="470" y="82" text-anchor="middle" style="font-weight:600">Rebound</text>
+  <text class="s" x="520" y="82" text-anchor="middle" style="font-weight:600">UPV</text>
+  <text class="s" x="570" y="82" text-anchor="middle" style="font-weight:600">Core</text>
+  <text class="s" x="620" y="82" text-anchor="middle" style="font-weight:600">UT</text>
+  <text class="s" x="670" y="82" text-anchor="middle" style="font-weight:600">MT/PT</text>
+  <text class="s" x="720" y="82" text-anchor="middle" style="font-weight:600">RT</text>
+  <rect x="24" y="96" width="752" height="30" fill="#F7F9FA"/>
+  <text class="l" x="32" y="116">Delamination</text>
+  <circle cx="220" cy="111" r="8" fill="#0070D5"/>
+  <circle cx="270" cy="111" r="8" fill="#0070D5"/>
+  <circle cx="320" cy="111" r="8" fill="#0070D5"/>
+  <rect x="24" y="130" width="752" height="30" fill="#FFFFFF"/>
+  <text class="l" x="32" y="150">Bars and cover</text>
+  <circle cx="320" cy="145" r="8" fill="#0070D5"/>
+  <circle cx="370" cy="145" r="8" fill="#0070D5"/>
+  <rect x="24" y="164" width="752" height="30" fill="#F7F9FA"/>
+  <text class="l" x="32" y="184">Rebar corrosion</text>
+  <circle cx="420" cy="179" r="8" fill="#0070D5"/>
+  <circle cx="570" cy="179" r="8" fill="#0070D5"/>
+  <rect x="24" y="198" width="752" height="30" fill="#FFFFFF"/>
+  <text class="l" x="32" y="218">Strength</text>
+  <circle cx="470" cy="213" r="8" fill="#0070D5"/>
+  <circle cx="520" cy="213" r="8" fill="#0070D5"/>
+  <circle cx="570" cy="213" r="8" fill="#0070D5"/>
+  <rect x="24" y="232" width="752" height="30" fill="#F7F9FA"/>
+  <text class="l" x="32" y="252">Uniformity</text>
+  <circle cx="270" cy="247" r="8" fill="#0070D5"/>
+  <circle cx="520" cy="247" r="8" fill="#0070D5"/>
+  <rect x="24" y="266" width="752" height="30" fill="#FFFFFF"/>
+  <text class="l" x="32" y="286">Steel thickness</text>
+  <circle cx="270" cy="281" r="8" fill="#0070D5"/>
+  <circle cx="620" cy="281" r="8" fill="#0070D5"/>
+  <rect x="24" y="300" width="752" height="30" fill="#F7F9FA"/>
+  <text class="l" x="32" y="320">Surface cracks (steel)</text>
+  <circle cx="670" cy="315" r="8" fill="#0070D5"/>
+  <rect x="24" y="334" width="752" height="30" fill="#FFFFFF"/>
+  <text class="l" x="32" y="354">Weld flaws</text>
+  <circle cx="620" cy="349" r="8" fill="#0070D5"/>
+  <circle cx="720" cy="349" r="8" fill="#0070D5"/>
+  <text class="s" x="32" y="384">IE: impact-echo. HCP: half-cell potential. RT: radiography. Combine two methods where the decision matters.</text>
+</svg>

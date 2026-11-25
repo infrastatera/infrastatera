@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 320" role="img" aria-labelledby="t d">
+  <title id="t">When a subcontractor must be listed</title>
+  <desc id="d">A sub is listed when its work exceeds one-half of 1% of the total bid; for streets, highways and bridges, one-half of 1% or $10,000, whichever is greater.</desc>
+  <defs><marker id="a" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#0070D5"/></marker><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#C92A06"/></marker><marker id="ag" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#2E7D32"/></marker><marker id="am" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#595959"/></marker><marker id="aa" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#B26A00"/></marker></defs>
+  <style>
+    text { font-family: "Open Sans", Helvetica, Arial, sans-serif; fill: #262626; }
+    .h { font-size: 20px; font-weight: 600; } .l { font-size: 13px; font-weight: 600; } .s { font-size: 12px; fill: #595959; } .n { font-size: 12px; font-weight: 600; fill: #FFFFFF; }
+  </style>
+  <rect width="800" height="320" fill="#FFFFFF"/>
+  <text class="h" x="32" y="40">When a subcontractor must be listed</text>
+    <text class="s" x="32" y="78">Example: a $1,500,000 highway bid. One-half of 1% is $7,500, so the $10,000 floor applies.</text>
+  <rect x="200" y="110" width="109" height="22" rx="4" fill="#EAF3FC" stroke="#0070D5" stroke-width="1.5"/>
+  <text class="l" x="188" y="126" text-anchor="end">Traffic control</text>
+  <text class="s" x="319" y="126" style="fill:#0070D5">$42,000  list it</text>
+  <rect x="200" y="146" width="47" height="22" rx="4" fill="#EAF3FC" stroke="#0070D5" stroke-width="1.5"/>
+  <text class="l" x="188" y="162" text-anchor="end">Striping</text>
+  <text class="s" x="257" y="162" style="fill:#0070D5">$18,000  list it</text>
+  <rect x="200" y="182" width="25" height="22" rx="4" fill="#F2F3F5" stroke="#595959" stroke-width="1.5"/>
+  <text class="l" x="188" y="198" text-anchor="end">Survey</text>
+  <text class="s" x="236" y="198" style="fill:#595959">$9,500  not required</text>
+  <rect x="200" y="218" width="10" height="22" rx="4" fill="#F2F3F5" stroke="#595959" stroke-width="1.5"/>
+  <text class="l" x="188" y="234" text-anchor="end">Sweeping</text>
+  <text class="s" x="236" y="234" style="fill:#595959">$4,000  not required</text>
+  <rect x="200" y="254" width="416" height="22" rx="4" fill="#EAF3FC" stroke="#0070D5" stroke-width="1.5"/>
+  <text class="l" x="188" y="270" text-anchor="end">Electrical sub</text>
+  <text class="s" x="626" y="270" style="fill:#0070D5">$160,000  list it</text>
+  <path d="M226 98 V292" stroke="#C92A06" stroke-width="2" stroke-dasharray="5 4"/>
+  <text class="s" x="232" y="302" style="fill:#C92A06">threshold $10,000</text>
+</svg>

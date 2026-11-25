@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 260" role="img" aria-labelledby="t d">
+  <title id="t">Prompt payment down the chain</title>
+  <desc id="d">The agency pays the prime; the prime pays first-tier subs within 7 days of receipt; each sub pays its own subs within 7 days of being paid; retention follows the same rule.</desc>
+  <defs><marker id="a" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#0070D5"/></marker><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#C92A06"/></marker><marker id="ag" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#2E7D32"/></marker><marker id="am" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#595959"/></marker><marker id="aa" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#B26A00"/></marker></defs>
+  <style>
+    text { font-family: "Open Sans", Helvetica, Arial, sans-serif; fill: #262626; }
+    .h { font-size: 20px; font-weight: 600; } .l { font-size: 13px; font-weight: 600; } .s { font-size: 12px; fill: #595959; } .n { font-size: 12px; font-weight: 600; fill: #FFFFFF; }
+  </style>
+  <rect width="800" height="260" fill="#FFFFFF"/>
+  <text class="h" x="32" y="40">Prompt payment down the chain</text>
+    <rect x="30" y="90" width="166" height="70" rx="12" fill="#EAF3FC" stroke="#0070D5" stroke-width="1.5"/>
+  <text class="l" x="113" y="114" text-anchor="middle" style="fill:#0070D5">Agency</text>
+  <path d="M198 125 H218" fill="none" stroke="#0070D5" stroke-width="2.5" marker-end="url(#a)"/>
+  <text class="l" x="208" y="186" text-anchor="middle" style="fill:#0070D5">30 days</text>
+  <rect x="222" y="90" width="166" height="70" rx="12" fill="#F7F9FA" stroke="#D5D9DE" stroke-width="1.5"/>
+  <text class="l" x="305" y="114" text-anchor="middle">Prime</text>
+  <path d="M390 125 H410" fill="none" stroke="#0070D5" stroke-width="2.5" marker-end="url(#a)"/>
+  <text class="l" x="400" y="186" text-anchor="middle" style="fill:#0070D5">7 days</text>
+  <rect x="414" y="90" width="166" height="70" rx="12" fill="#F7F9FA" stroke="#D5D9DE" stroke-width="1.5"/>
+  <text class="l" x="497" y="114" text-anchor="middle">First-tier sub</text>
+  <path d="M582 125 H602" fill="none" stroke="#0070D5" stroke-width="2.5" marker-end="url(#a)"/>
+  <text class="l" x="592" y="186" text-anchor="middle" style="fill:#0070D5">7 days</text>
+  <rect x="606" y="90" width="166" height="70" rx="12" fill="#F7F9FA" stroke="#D5D9DE" stroke-width="1.5"/>
+  <text class="l" x="689" y="114" text-anchor="middle">Lower-tier sub</text>
+  <text class="s" x="32" y="222">Late payment can cost 2% per month plus attorney fees. Withhold only for a good-faith dispute, in writing.</text>
+</svg>

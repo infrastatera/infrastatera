@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380" role="img" aria-labelledby="t d">
+  <title id="t">Who is who on a public works job</title>
+  <desc id="d">The awarding body contracts with the prime contractor, who contracts with subcontractors and suppliers; the surety bonds the prime; the agency engineer administers the contract; DIR, the Labor Commissioner, DAS and CSLB oversee.</desc>
+  <defs><marker id="a" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#0070D5"/></marker><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#C92A06"/></marker><marker id="ag" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#2E7D32"/></marker><marker id="am" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#595959"/></marker><marker id="aa" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#B26A00"/></marker></defs>
+  <style>
+    text { font-family: "Open Sans", Helvetica, Arial, sans-serif; fill: #262626; }
+    .h { font-size: 20px; font-weight: 600; } .l { font-size: 13px; font-weight: 600; } .s { font-size: 12px; fill: #595959; } .n { font-size: 12px; font-weight: 600; fill: #FFFFFF; }
+  </style>
+  <rect width="800" height="380" fill="#FFFFFF"/>
+  <text class="h" x="32" y="40">Who is who on a public works job</text>
+    <rect x="300" y="66" width="200" height="79" rx="12" fill="#EAF3FC" stroke="#0070D5" stroke-width="1.5"/>
+  <text class="l" x="400" y="90" text-anchor="middle" style="fill:#0070D5">Awarding body</text>
+  <text class="s" x="400" y="109" text-anchor="middle">city, county, district,</text>
+  <text class="s" x="400" y="125" text-anchor="middle">Caltrans</text>
+  <rect x="560" y="66" width="200" height="63" rx="12" fill="#F7F9FA" stroke="#D5D9DE" stroke-width="1.5"/>
+  <text class="l" x="660" y="90" text-anchor="middle">Agency engineer</text>
+  <text class="s" x="660" y="109" text-anchor="middle">RE, city engineer, CM</text>
+  <rect x="300" y="176" width="200" height="63" rx="12" fill="#EAF3FC" stroke="#0070D5" stroke-width="1.5"/>
+  <text class="l" x="400" y="200" text-anchor="middle" style="fill:#0070D5">Prime contractor</text>
+  <text class="s" x="400" y="219" text-anchor="middle">signs with the agency</text>
+  <rect x="40" y="176" width="200" height="63" rx="12" fill="#FFF4E0" stroke="#B26A00" stroke-width="1.5"/>
+  <text class="l" x="140" y="200" text-anchor="middle" style="fill:#B26A00">Surety</text>
+  <text class="s" x="140" y="219" text-anchor="middle">bonds the prime</text>
+  <rect x="200" y="286" width="180" height="63" rx="12" fill="#F7F9FA" stroke="#D5D9DE" stroke-width="1.5"/>
+  <text class="l" x="290" y="310" text-anchor="middle">Subcontractors</text>
+  <text class="s" x="290" y="329" text-anchor="middle">and lower tiers</text>
+  <rect x="420" y="286" width="180" height="63" rx="12" fill="#F7F9FA" stroke="#D5D9DE" stroke-width="1.5"/>
+  <text class="l" x="510" y="310" text-anchor="middle">Suppliers</text>
+  <text class="s" x="510" y="329" text-anchor="middle">materials</text>
+  <rect x="560" y="176" width="200" height="79" rx="12" fill="#F2F3F5" stroke="#595959" stroke-width="1.5"/>
+  <text class="l" x="660" y="200" text-anchor="middle">Oversight</text>
+  <text class="s" x="660" y="219" text-anchor="middle">DIR, Labor Commissioner,</text>
+  <text class="s" x="660" y="235" text-anchor="middle">DAS, CSLB</text>
+  <path d="M400 128 V172" fill="none" stroke="#0070D5" stroke-width="2.5" marker-end="url(#a)"/>
+  <text class="s" x="410" y="156">contract</text>
+  <path d="M380 238 L300 282" fill="none" stroke="#0070D5" stroke-width="2.5" marker-end="url(#a)"/>
+  <path d="M420 238 L500 282" fill="none" stroke="#0070D5" stroke-width="2.5" marker-end="url(#a)"/>
+  <path d="M502 96 H556" fill="none" stroke="#595959" stroke-width="2.5" stroke-dasharray="6 5" marker-end="url(#am)"/>
+  <text class="s" x="512" y="88">acts for</text>
+  <path d="M242 206 H296" fill="none" stroke="#B26A00" stroke-width="2.5" stroke-dasharray="6 5" marker-end="url(#aa)"/>
+  <text class="s" x="250" y="198">bonds</text>
+  <path d="M558 214 H504" fill="none" stroke="#595959" stroke-width="2.5" stroke-dasharray="6 5" marker-end="url(#am)"/>
+  <text class="s" x="32" y="366">Solid arrows: contracts. Dashed: guarantees, oversight and administration.</text>
+</svg>

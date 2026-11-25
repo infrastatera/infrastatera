@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 467.0" role="img" aria-labelledby="t d">
+  <title id="t">Insurance on a public contract</title>
+  <desc id="d">Typical coverages: general liability, auto, workers compensation and employer liability, umbrella; endorsements: additional insured, primary and non-contributory, waiver of subrogation, notice of cancellation.</desc>
+  <defs><marker id="a" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#0070D5"/></marker><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#C92A06"/></marker><marker id="ag" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#2E7D32"/></marker><marker id="am" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#595959"/></marker><marker id="aa" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#B26A00"/></marker></defs>
+  <style>
+    text { font-family: "Open Sans", Helvetica, Arial, sans-serif; fill: #262626; }
+    .h { font-size: 20px; font-weight: 600; } .l { font-size: 13px; font-weight: 600; } .s { font-size: 12px; fill: #595959; } .n { font-size: 12px; font-weight: 600; fill: #FFFFFF; }
+  </style>
+  <rect width="800" height="467.0" fill="#FFFFFF"/>
+  <text class="h" x="32" y="40">Insurance on a public contract</text>
+    <text class="s" x="32" y="74">Blue: coverages. Amber: endorsements the agency usually wants to see. Send the contract section to your broker before bidding.</text>
+  <rect x="24" y="94" width="239" height="103" rx="12" fill="#EAF3FC" stroke="#0070D5" stroke-width="1.5"/>
+  <text class="l" x="38" y="118" style="fill:#0070D5">General liability</text>
+  <text class="s" x="38" y="137">Per occurrence and aggregate</text>
+  <text class="s" x="38" y="153">Completed operations</text>
+  <rect x="281" y="94" width="239" height="103" rx="12" fill="#EAF3FC" stroke="#0070D5" stroke-width="1.5"/>
+  <text class="l" x="295" y="118" style="fill:#0070D5">Commercial auto</text>
+  <text class="s" x="295" y="137">Owned, hired, non-owned</text>
+  <rect x="537" y="94" width="239" height="103" rx="12" fill="#EAF3FC" stroke="#0070D5" stroke-width="1.5"/>
+  <text class="l" x="551" y="118" style="fill:#0070D5">Workers compensation</text>
+  <text class="s" x="551" y="137">Statutory, plus employer</text>
+  <text class="s" x="551" y="153">liability</text>
+  <rect x="24" y="215" width="239" height="103" rx="12" fill="#EAF3FC" stroke="#0070D5" stroke-width="1.5"/>
+  <text class="l" x="38" y="239" style="fill:#0070D5">Umbrella or excess</text>
+  <text class="s" x="38" y="258">Reaches the total limits</text>
+  <text class="s" x="38" y="274">required</text>
+  <rect x="281" y="215" width="239" height="103" rx="12" fill="#FFF4E0" stroke="#B26A00" stroke-width="1.5"/>
+  <text class="l" x="295" y="239" style="fill:#B26A00">Additional insured</text>
+  <text class="s" x="295" y="258">Agency, officers, employees</text>
+  <text class="s" x="295" y="274">Ongoing and completed</text>
+  <text class="s" x="295" y="290">operations</text>
+  <rect x="537" y="215" width="239" height="103" rx="12" fill="#FFF4E0" stroke="#B26A00" stroke-width="1.5"/>
+  <text class="l" x="551" y="239" style="fill:#B26A00">Primary and non-contributory</text>
+  <text class="s" x="551" y="258">Your policy pays first</text>
+  <rect x="24" y="336" width="239" height="103" rx="12" fill="#FFF4E0" stroke="#B26A00" stroke-width="1.5"/>
+  <text class="l" x="38" y="360" style="fill:#B26A00">Waiver of subrogation</text>
+  <text class="s" x="38" y="379">No recovery from the agency</text>
+  <rect x="281" y="336" width="239" height="103" rx="12" fill="#FFF4E0" stroke="#B26A00" stroke-width="1.5"/>
+  <text class="l" x="295" y="360" style="fill:#B26A00">Notice of cancellation</text>
+  <text class="s" x="295" y="379">Advance notice to the agency</text>
+  <rect x="537" y="336" width="239" height="103" rx="12" fill="#F2F3F5" stroke="#595959" stroke-width="1.5"/>
+  <text class="l" x="551" y="360">Sometimes</text>
+  <text class="s" x="551" y="379">Pollution, professional,</text>
+  <text class="s" x="551" y="395">builder's risk, railroad</text>
+  <text class="s" x="551" y="411">protective</text>
+</svg>

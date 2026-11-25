@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" role="img" aria-labelledby="t d">
+  <title id="t">DIR registration follows the fiscal year</title>
+  <desc id="d">Registration runs July 1 to June 30 for one, two or three years ($400, $800, $1,200 as of 2026); renew before July 1; late renewal and working unregistered bring penalties.</desc>
+  <defs><marker id="a" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#0070D5"/></marker><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#C92A06"/></marker><marker id="ag" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#2E7D32"/></marker><marker id="am" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#595959"/></marker><marker id="aa" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#B26A00"/></marker></defs>
+  <style>
+    text { font-family: "Open Sans", Helvetica, Arial, sans-serif; fill: #262626; }
+    .h { font-size: 20px; font-weight: 600; } .l { font-size: 13px; font-weight: 600; } .s { font-size: 12px; fill: #595959; } .n { font-size: 12px; font-weight: 600; fill: #FFFFFF; }
+  </style>
+  <rect width="800" height="300" fill="#FFFFFF"/>
+  <text class="h" x="32" y="40">DIR registration follows the fiscal year</text>
+    <rect x="60" y="110" width="680" height="40" rx="8" fill="#EAF5EB" stroke="#2E7D32" stroke-width="1.5"/>
+  <text class="l" x="400" y="135" text-anchor="middle" style="fill:#2E7D32">Registered: you can bid and work on public works</text>
+  <path d="M60 96 V164" stroke="#262626" stroke-width="2"/>
+  <text class="l" x="60" y="184" text-anchor="middle">July 1</text>
+  <path d="M740 96 V164" stroke="#262626" stroke-width="2"/>
+  <text class="l" x="740" y="184" text-anchor="middle">June 30</text>
+  <text class="s" x="60" y="88">Fiscal year starts</text>
+  <text class="s" x="740" y="88" text-anchor="end" style="fill:#C92A06">Renew before this date</text>
+  <rect x="60" y="210" width="210" height="79" rx="12" fill="#F7F9FA" stroke="#D5D9DE" stroke-width="1.5"/>
+  <text class="l" x="74" y="234">One year: $400</text>
+  <text class="s" x="74" y="253">Two years: $800. Three:</text>
+  <text class="s" x="74" y="269">$1,200.</text>
+  <rect x="290" y="210" width="220" height="79" rx="12" fill="#FFF4E0" stroke="#B26A00" stroke-width="1.5"/>
+  <text class="l" x="304" y="234" style="fill:#B26A00">Late renewal</text>
+  <text class="s" x="304" y="253">July 1 to September 30:</text>
+  <text class="s" x="304" y="269">penalty</text>
+  <rect x="530" y="210" width="210" height="79" rx="12" fill="#FDEDEA" stroke="#C92A06" stroke-width="1.5"/>
+  <text class="l" x="544" y="234" style="fill:#C92A06">Bid or work unregistered</text>
+  <text class="s" x="544" y="253">larger penalties, for you</text>
+  <text class="s" x="544" y="269">and the prime</text>
+</svg>

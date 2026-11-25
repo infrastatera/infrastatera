@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 345" role="img" aria-labelledby="t d">
+  <title id="t">Half-cell potential survey</title>
+  <desc id="d">A reference electrode on the wet concrete surface connected through a voltmeter to the reinforcement; readings on a grid give a potential map; more negative than minus 350 millivolts indicates a high probability of corrosion.</desc>
+  <defs><marker id="a" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#0070D5"/></marker><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#C92A06"/></marker><marker id="ag" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#2E7D32"/></marker><marker id="am" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#595959"/></marker><marker id="aa" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#B26A00"/></marker></defs>
+  <style>
+    text { font-family: "Open Sans", Helvetica, Arial, sans-serif; fill: #262626; }
+    .h { font-size: 20px; font-weight: 600; } .l { font-size: 13px; font-weight: 600; } .s { font-size: 12px; fill: #595959; } .n { font-size: 12px; font-weight: 600; fill: #FFFFFF; }
+  </style>
+  <rect width="800" height="345" fill="#FFFFFF"/>
+  <text class="h" x="32" y="40">Half-cell potential survey</text>
+    <rect x="40" y="150" width="340" height="140" fill="#D9D6CF" stroke="#BDB8AE" stroke-width="2"/>
+  <path d="M40 200 H380" stroke="#7A8794" stroke-width="8"/>
+  <rect x="230" y="110" width="40" height="40" rx="6" fill="#B26A00"/>
+  <text class="s" x="280" y="136">half-cell</text>
+  <rect x="120" y="70" width="70" height="44" rx="6" fill="#FFFFFF" stroke="#262626" stroke-width="1.5"/>
+  <text class="l" x="155" y="98" text-anchor="middle">mV</text>
+  <path d="M190 92 H250 V110" stroke="#262626" stroke-width="1.5" fill="none"/><path d="M120 92 H70 V200" stroke="#262626" stroke-width="1.5" fill="none"/>
+  <text class="s" x="78" y="230">connection to the bar</text>
+  <text class="l" x="430" y="84">Potential map (mV, copper/copper sulfate)</text>
+  <rect x="430" y="100" width="76" height="52" fill="#EAF5EB" stroke="#2E7D32"/>
+  <text class="l" x="468" y="131" text-anchor="middle" style="fill:#2E7D32">-150</text>
+  <rect x="510" y="100" width="76" height="52" fill="#EAF5EB" stroke="#2E7D32"/>
+  <text class="l" x="548" y="131" text-anchor="middle" style="fill:#2E7D32">-180</text>
+  <rect x="590" y="100" width="76" height="52" fill="#FFF4E0" stroke="#B26A00"/>
+  <text class="l" x="628" y="131" text-anchor="middle" style="fill:#B26A00">-260</text>
+  <rect x="670" y="100" width="76" height="52" fill="#FDEDEA" stroke="#C92A06"/>
+  <text class="l" x="708" y="131" text-anchor="middle" style="fill:#C92A06">-380</text>
+  <rect x="430" y="156" width="76" height="52" fill="#EAF5EB" stroke="#2E7D32"/>
+  <text class="l" x="468" y="187" text-anchor="middle" style="fill:#2E7D32">-170</text>
+  <rect x="510" y="156" width="76" height="52" fill="#FFF4E0" stroke="#B26A00"/>
+  <text class="l" x="548" y="187" text-anchor="middle" style="fill:#B26A00">-230</text>
+  <rect x="590" y="156" width="76" height="52" fill="#FFF4E0" stroke="#B26A00"/>
+  <text class="l" x="628" y="187" text-anchor="middle" style="fill:#B26A00">-340</text>
+  <rect x="670" y="156" width="76" height="52" fill="#FDEDEA" stroke="#C92A06"/>
+  <text class="l" x="708" y="187" text-anchor="middle" style="fill:#C92A06">-420</text>
+  <rect x="430" y="212" width="76" height="52" fill="#EAF5EB" stroke="#2E7D32"/>
+  <text class="l" x="468" y="243" text-anchor="middle" style="fill:#2E7D32">-140</text>
+  <rect x="510" y="212" width="76" height="52" fill="#EAF5EB" stroke="#2E7D32"/>
+  <text class="l" x="548" y="243" text-anchor="middle" style="fill:#2E7D32">-190</text>
+  <rect x="590" y="212" width="76" height="52" fill="#FFF4E0" stroke="#B26A00"/>
+  <text class="l" x="628" y="243" text-anchor="middle" style="fill:#B26A00">-250</text>
+  <rect x="670" y="212" width="76" height="52" fill="#FFF4E0" stroke="#B26A00"/>
+  <text class="l" x="708" y="243" text-anchor="middle" style="fill:#B26A00">-310</text>
+  <text class="s" x="430" y="290">Green above −200 mV: likely no corrosion.</text>
+  <text class="s" x="430" y="306">Red below −350 mV: likely corroding.</text>
+  <text class="s" x="430" y="322">Look for steep gradients (ASTM C876).</text>
+</svg>

@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 330" role="img" aria-labelledby="t d">
+  <title id="t">How a prevailing wage rate is built</title>
+  <desc id="d">A prevailing wage rate for a craft and county is the basic hourly rate plus fringe benefits for health, pension, vacation and training; the determination also sets overtime, holiday, travel and subsistence rules.</desc>
+  <defs><marker id="a" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#0070D5"/></marker><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#C92A06"/></marker><marker id="ag" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#2E7D32"/></marker><marker id="am" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#595959"/></marker><marker id="aa" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#B26A00"/></marker></defs>
+  <style>
+    text { font-family: "Open Sans", Helvetica, Arial, sans-serif; fill: #262626; }
+    .h { font-size: 20px; font-weight: 600; } .l { font-size: 13px; font-weight: 600; } .s { font-size: 12px; fill: #595959; } .n { font-size: 12px; font-weight: 600; fill: #FFFFFF; }
+  </style>
+  <rect width="800" height="330" fill="#FFFFFF"/>
+  <text class="h" x="32" y="40">How a prevailing wage rate is built</text>
+    <rect x="60" y="90" width="422" height="60" fill="#EAF3FC" stroke="#0070D5" stroke-width="1.5"/>
+  <text class="l" x="271" y="125" text-anchor="middle">Basic hourly rate</text>
+  <rect x="482" y="90" width="88" height="60" fill="#EAF5EB" stroke="#2E7D32" stroke-width="1.5"/>
+  <rect x="570" y="90" width="82" height="60" fill="#EAF5EB" stroke="#2E7D32" stroke-width="1.5"/>
+  <rect x="652" y="90" width="54" height="60" fill="#EAF5EB" stroke="#2E7D32" stroke-width="1.5"/>
+  <rect x="706" y="90" width="34" height="60" fill="#FFF4E0" stroke="#B26A00" stroke-width="1.5"/>
+  <rect x="60" y="164" width="12" height="12" fill="#EAF5EB" stroke="#2E7D32"/>
+  <text class="s" x="78" y="175">Health and welfare</text>
+  <rect x="212.39999999999998" y="164" width="12" height="12" fill="#EAF5EB" stroke="#2E7D32"/>
+  <text class="s" x="230" y="175">Pension</text>
+  <rect x="290.0" y="164" width="12" height="12" fill="#EAF5EB" stroke="#2E7D32"/>
+  <text class="s" x="308" y="175">Vacation and holiday</text>
+  <rect x="456.0" y="164" width="12" height="12" fill="#FFF4E0" stroke="#B26A00"/>
+  <text class="s" x="474" y="175">Training</text>
+  <text class="s" x="740" y="175" text-anchor="end">Illustrative shares only</text>
+  <path d="M482 82 V158" stroke="#262626" stroke-width="1"/>
+  <text class="s" x="488" y="80">fringe benefits: into plans, as cash, or both</text>
+  <rect x="60" y="200" width="210" height="96" rx="12" fill="#F7F9FA" stroke="#D5D9DE" stroke-width="1.5"/>
+  <text class="l" x="74" y="224">By craft and county</text>
+  <text class="s" x="74" y="243">the work actually done</text>
+  <text class="s" x="74" y="259">rate fixed at advertisement</text>
+  <rect x="295" y="200" width="210" height="96" rx="12" fill="#F7F9FA" stroke="#D5D9DE" stroke-width="1.5"/>
+  <text class="l" x="309" y="224">Overtime and holidays</text>
+  <text class="s" x="309" y="243">daily, weekly, weekends</text>
+  <text class="s" x="309" y="259">as the determination says</text>
+  <rect x="530" y="200" width="210" height="96" rx="12" fill="#F7F9FA" stroke="#D5D9DE" stroke-width="1.5"/>
+  <text class="l" x="544" y="224">Travel and subsistence</text>
+  <text class="s" x="544" y="243">where the determination</text>
+  <text class="s" x="544" y="259">provides it</text>
+</svg>

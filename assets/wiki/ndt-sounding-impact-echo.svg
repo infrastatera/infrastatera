@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 330" role="img" aria-labelledby="t d">
+  <title id="t">Sounding, chain drag and impact-echo</title>
+  <desc id="d">Hammer sounding gives a hollow sound over a delamination; chains dragged on a deck do the same over large areas; impact-echo strikes the surface and reads the frequency of reflections from the back face or a flaw.</desc>
+  <defs><marker id="a" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#0070D5"/></marker><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#C92A06"/></marker><marker id="ag" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#2E7D32"/></marker><marker id="am" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#595959"/></marker><marker id="aa" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#B26A00"/></marker></defs>
+  <style>
+    text { font-family: "Open Sans", Helvetica, Arial, sans-serif; fill: #262626; }
+    .h { font-size: 20px; font-weight: 600; } .l { font-size: 13px; font-weight: 600; } .s { font-size: 12px; fill: #595959; } .n { font-size: 12px; font-weight: 600; fill: #FFFFFF; }
+  </style>
+  <rect width="800" height="330" fill="#FFFFFF"/>
+  <text class="h" x="32" y="40">Sounding, chain drag and impact-echo</text>
+    <rect x="30" y="130" width="230" height="120" fill="#D9D6CF" stroke="#BDB8AE" stroke-width="2"/>
+  <path d="M70 165 H220" stroke="#C92A06" stroke-width="2.5" stroke-dasharray="6 4"/>
+  <text class="l" x="145" y="280" text-anchor="middle">Hammer sounding</text>
+  <rect x="285" y="130" width="230" height="120" fill="#D9D6CF" stroke="#BDB8AE" stroke-width="2"/>
+  <path d="M325 165 H475" stroke="#C92A06" stroke-width="2.5" stroke-dasharray="6 4"/>
+  <text class="l" x="400" y="280" text-anchor="middle">Chain drag</text>
+  <rect x="540" y="130" width="230" height="120" fill="#D9D6CF" stroke="#BDB8AE" stroke-width="2"/>
+  <path d="M580 165 H730" stroke="#C92A06" stroke-width="2.5" stroke-dasharray="6 4"/>
+  <text class="l" x="655" y="280" text-anchor="middle">Impact-echo</text>
+  <path d="M95 80 L125 125" stroke="#262626" stroke-width="5"/><rect x="80" y="70" width="34" height="18" rx="3" fill="#7A8794"/>
+  <text class="s" x="150" y="100" style="fill:#C92A06">&quot;hollow&quot;</text>
+  <path d="M330 125 l8 -8 l8 8" fill="none" stroke="#7A8794" stroke-width="3"/>
+  <path d="M355 125 l8 -8 l8 8" fill="none" stroke="#7A8794" stroke-width="3"/>
+  <path d="M380 125 l8 -8 l8 8" fill="none" stroke="#7A8794" stroke-width="3"/>
+  <path d="M405 125 l8 -8 l8 8" fill="none" stroke="#7A8794" stroke-width="3"/>
+  <path d="M430 125 l8 -8 l8 8" fill="none" stroke="#7A8794" stroke-width="3"/>
+  <path d="M330 90 L450 120" stroke="#262626" stroke-width="2"/>
+  <text class="s" x="340" y="84">drag chains, listen</text>
+  <circle cx="590" cy="120" r="8" fill="#7A8794"/><rect x="620" y="108" width="24" height="22" rx="3" fill="#0070D5"/>
+  <path d="M590 132 V160 M600 162 V134" stroke="#2E7D32" stroke-width="2" marker-end="url(#ag)"/>
+  <path d="M570 140 V240" stroke="#595959" stroke-width="1.5" stroke-dasharray="3 3"/>
+  <text class="s" x="560" y="100" text-anchor="end">impact</text>
+  <text class="s" x="652" y="124">sensor</text>
+  <text class="s" x="32" y="312" style="fill:#C92A06">Dashed red line: a delamination at bar level.</text>
+</svg>

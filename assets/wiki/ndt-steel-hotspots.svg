@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 340" role="img" aria-labelledby="t d">
+  <title id="t">Where to look on a steel girder</title>
+  <desc id="d">Elevation of a steel girder: corrosion under a leaking joint and at the bearing, fatigue cracks at the ends of a welded cover plate and at web gaps where cross-frames connect, bolts at a splice.</desc>
+  <defs><marker id="a" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#0070D5"/></marker><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#C92A06"/></marker><marker id="ag" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#2E7D32"/></marker><marker id="am" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#595959"/></marker><marker id="aa" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#B26A00"/></marker></defs>
+  <style>
+    text { font-family: "Open Sans", Helvetica, Arial, sans-serif; fill: #262626; }
+    .h { font-size: 20px; font-weight: 600; } .l { font-size: 13px; font-weight: 600; } .s { font-size: 12px; fill: #595959; } .n { font-size: 12px; font-weight: 600; fill: #FFFFFF; }
+  </style>
+  <rect width="800" height="340" fill="#FFFFFF"/>
+  <text class="h" x="32" y="40">Where to look on a steel girder</text>
+    <rect x="60" y="110" width="680" height="16" fill="#7A8794"/><rect x="60" y="240" width="680" height="16" fill="#7A8794"/><rect x="60" y="126" width="680" height="114" fill="#AEB8C2"/>
+  <rect x="300" y="256" width="220" height="10" fill="#7A8794"/>
+  <rect x="60" y="80" width="80" height="30" fill="#D9D6CF" stroke="#BDB8AE"/><path d="M140 80 V110" stroke="#C92A06" stroke-width="3" stroke-dasharray="4 3"/>
+  <rect x="80" y="256" width="60" height="22" fill="#262626"/>
+  <circle cx="110" cy="250" r="18" fill="none" stroke="#C92A06" stroke-width="2.5"/>
+  <circle cx="150" cy="160" r="14" fill="none" stroke="#C92A06" stroke-width="2.5"/>
+  <text class="s" x="170" y="100" style="fill:#C92A06">leaking joint: corrosion below</text>
+  <text class="s" x="40" y="300" style="fill:#C92A06">bearing: corrosion, frozen or tipped</text>
+  <circle cx="300" cy="262" r="14" fill="none" stroke="#B26A00" stroke-width="2.5"/>
+  <circle cx="520" cy="262" r="14" fill="none" stroke="#B26A00" stroke-width="2.5"/>
+  <text class="s" x="410" y="320" text-anchor="middle" style="fill:#B26A00">cover plate ends: fatigue cracks</text>
+  <rect x="430" y="126" width="8" height="114" fill="#7A8794"/><circle cx="434" cy="136" r="14" fill="none" stroke="#B26A00" stroke-width="2.5"/>
+  <text class="s" x="450" y="100" style="fill:#B26A00">web gap at cross-frame: distortion cracks</text>
+  <circle cx="640" cy="140" r="3" fill="#262626"/>
+  <circle cx="660" cy="140" r="3" fill="#262626"/>
+  <circle cx="640" cy="158" r="3" fill="#262626"/>
+  <circle cx="660" cy="158" r="3" fill="#262626"/>
+  <circle cx="640" cy="176" r="3" fill="#262626"/>
+  <circle cx="660" cy="176" r="3" fill="#262626"/>
+  <circle cx="640" cy="194" r="3" fill="#262626"/>
+  <circle cx="660" cy="194" r="3" fill="#262626"/>
+  <circle cx="640" cy="212" r="3" fill="#262626"/>
+  <circle cx="660" cy="212" r="3" fill="#262626"/>
+  <circle cx="640" cy="230" r="3" fill="#262626"/>
+  <circle cx="660" cy="230" r="3" fill="#262626"/>
+  <path d="M650 126 V240" stroke="#262626" stroke-width="1"/>
+  <text class="s" x="650" y="300" text-anchor="middle">splice: bolts, pack rust</text>
+</svg>

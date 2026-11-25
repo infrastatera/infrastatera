@@ -6,17 +6,24 @@
   var input = box.querySelector('input');
   var list = box.querySelector('.wiki-search-results');
   var base = box.getAttribute('data-base');
+  var here = box.getAttribute('data-space');
   var index = null;
+  var names = {};
   var hits = [];
   var active = 0;
 
   function load() {
     if (index) return Promise.resolve(index);
-    return fetch(box.getAttribute('data-index')).then(function (r) { return r.json(); }).then(function (d) { index = d; return d; });
+    return fetch(box.getAttribute('data-index')).then(function (r) { return r.json(); }).then(function (d) {
+      // { spaces: {slug: name}, items: [...] }; older copies were a plain list.
+      index = Array.isArray(d) ? d : d.items;
+      names = d.spaces || {};
+      return index;
+    });
   }
   function esc(s) { return String(s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
 
-  // Every word must appear; title matches first.
+  // Every word must appear; title matches first, then this knowledge base before the others.
   function search(q) {
     var words = q.toLowerCase().split(/\s+/).filter(Boolean);
     return index
@@ -24,7 +31,7 @@
         var title = e.t.toLowerCase();
         var all = (e.t + ' ' + e.s + ' ' + e.x).toLowerCase();
         if (!words.every(function (w) { return all.indexOf(w) >= 0; })) return null;
-        var score = words.filter(function (w) { return title.indexOf(w) >= 0; }).length;
+        var score = words.filter(function (w) { return title.indexOf(w) >= 0; }).length * 2 + (here && e.b === here ? 1 : 0);
         return { e: e, score: score };
       })
       .filter(Boolean)
@@ -39,7 +46,7 @@
       hits = search(q);
       active = 0;
       list.innerHTML = hits.length
-        ? hits.map(function (h, i) { return '<a role="option" href="' + base + h.u + '" aria-selected="' + (i === 0) + '"><b>' + esc(h.t) + '</b><small>' + (h.k === 'Article' ? '' : h.k + ' · ') + esc(h.s) + '</small></a>'; }).join('')
+        ? hits.map(function (h, i) { return '<a role="option" href="' + base + h.u + '" aria-selected="' + (i === 0) + '"><b>' + esc(h.t) + '</b><small>' + (h.b && h.b !== here && names[h.b] ? '<span class="wiki-hit-space">' + esc(names[h.b]) + '</span> ' : '') + (h.k === 'Article' ? '' : h.k + ' · ') + esc(h.s) + '</small></a>'; }).join('')
         : '<p>Nothing found for “' + esc(q) + '”.</p>';
       list.hidden = false;
       input.setAttribute('aria-expanded', 'true');
@@ -114,7 +121,7 @@
     groups.forEach(function (g) { g.hidden = !g.querySelector('tbody tr:not([hidden])'); });
     none.hidden = shown > 0;
     if (count) count.textContent = (words.length || group !== 'all')
-      ? shown + ' of ' + rows.length + (shown === 1 ? ' material' : ' materials') + (words.length ? ' match \u201c' + q + '\u201d' : '')
+      ? shown + ' of ' + rows.length + ' ' + (count.getAttribute('data-noun') || 'materials') + (words.length ? ' match \u201c' + q + '\u201d' : '')
       : '';
     // Bring the first match up under the filter bar if the page was scrolled past it.
     if (scroll) {

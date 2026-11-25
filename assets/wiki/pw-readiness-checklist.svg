@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 467.0" role="img" aria-labelledby="t d">
+  <title id="t">Before your first public works bid</title>
+  <desc id="d">Checklist: license class, DIR registration, a surety relationship, insurance with endorsements, a source of bids, payroll able to produce certified payroll, prevailing wage rates, apprenticeship paperwork, subcontractor checks.</desc>
+  <defs><marker id="a" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#0070D5"/></marker><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#C92A06"/></marker><marker id="ag" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#2E7D32"/></marker><marker id="am" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#595959"/></marker><marker id="aa" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#B26A00"/></marker></defs>
+  <style>
+    text { font-family: "Open Sans", Helvetica, Arial, sans-serif; fill: #262626; }
+    .h { font-size: 20px; font-weight: 600; } .l { font-size: 13px; font-weight: 600; } .s { font-size: 12px; fill: #595959; } .n { font-size: 12px; font-weight: 600; fill: #FFFFFF; }
+  </style>
+  <rect width="800" height="467.0" fill="#FFFFFF"/>
+  <text class="h" x="32" y="40">Before your first public works bid</text>
+    <text class="s" x="32" y="74">Blue: before you bid. Green: before your crew starts. Amber: when the job has federal money.</text>
+  <rect x="24" y="94" width="239" height="103" rx="12" fill="#EAF3FC" stroke="#0070D5" stroke-width="1.5"/>
+  <text class="l" x="38" y="118" style="fill:#0070D5">1 License</text>
+  <text class="s" x="38" y="137">Class fits the work</text>
+  <text class="s" x="38" y="153">Active at bid time</text>
+  <rect x="281" y="94" width="239" height="103" rx="12" fill="#EAF3FC" stroke="#0070D5" stroke-width="1.5"/>
+  <text class="l" x="295" y="118" style="fill:#0070D5">2 DIR registration</text>
+  <text class="s" x="295" y="137">Renew by July 1</text>
+  <text class="s" x="295" y="153">1, 2 or 3 fiscal years</text>
+  <rect x="537" y="94" width="239" height="103" rx="12" fill="#EAF3FC" stroke="#0070D5" stroke-width="1.5"/>
+  <text class="l" x="551" y="118" style="fill:#0070D5">3 Surety</text>
+  <text class="s" x="551" y="137">Bid, performance and payment</text>
+  <text class="s" x="551" y="153">bonds</text>
+  <text class="s" x="551" y="169">Financials ready</text>
+  <rect x="24" y="215" width="239" height="103" rx="12" fill="#EAF3FC" stroke="#0070D5" stroke-width="1.5"/>
+  <text class="l" x="38" y="239" style="fill:#0070D5">4 Insurance</text>
+  <text class="s" x="38" y="258">CGL, auto, workers comp</text>
+  <text class="s" x="38" y="274">Additional insured endorsements</text>
+  <rect x="281" y="215" width="239" height="103" rx="12" fill="#EAF5EB" stroke="#2E7D32" stroke-width="1.5"/>
+  <text class="l" x="295" y="239" style="fill:#2E7D32">5 Certified payroll</text>
+  <text class="s" x="295" y="258">Hours by day and classification</text>
+  <text class="s" x="295" y="274">Electronic filing with DIR</text>
+  <rect x="537" y="215" width="239" height="103" rx="12" fill="#EAF5EB" stroke="#2E7D32" stroke-width="1.5"/>
+  <text class="l" x="551" y="239" style="fill:#2E7D32">6 Wage rates</text>
+  <text class="s" x="551" y="258">Determinations for each craft</text>
+  <text class="s" x="551" y="274">As of the advertisement date</text>
+  <rect x="24" y="336" width="239" height="103" rx="12" fill="#EAF5EB" stroke="#2E7D32" stroke-width="1.5"/>
+  <text class="l" x="38" y="360" style="fill:#2E7D32">7 Apprentices</text>
+  <text class="s" x="38" y="379">DAS 140 within 10 days</text>
+  <text class="s" x="38" y="395">DAS 142 to request</text>
+  <rect x="281" y="336" width="239" height="103" rx="12" fill="#EAF5EB" stroke="#2E7D32" stroke-width="1.5"/>
+  <text class="l" x="295" y="360" style="fill:#2E7D32">8 Subcontractors</text>
+  <text class="s" x="295" y="379">License and DIR checks</text>
+  <text class="s" x="295" y="395">Insurance before mobilizing</text>
+  <rect x="537" y="336" width="239" height="103" rx="12" fill="#FFF4E0" stroke="#B26A00" stroke-width="1.5"/>
+  <text class="l" x="551" y="360" style="fill:#B26A00">9 Federal-aid extras</text>
+  <text class="s" x="551" y="379">FHWA-1273, Davis-Bacon</text>
+  <text class="s" x="551" y="395">Buy America, DBE rules</text>
+</svg>

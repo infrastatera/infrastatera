@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 340" role="img" aria-labelledby="t d">
+  <title id="t">State and federal rules on a federal-aid job</title>
+  <desc id="d">California prevailing wage and the federal Davis-Bacon wage decision both apply; pay the higher rate per classification; certified payroll goes to DIR electronically and weekly to the agency; FHWA-1273, Buy America and DBE rules are added.</desc>
+  <defs><marker id="a" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#0070D5"/></marker><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#C92A06"/></marker><marker id="ag" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#2E7D32"/></marker><marker id="am" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#595959"/></marker><marker id="aa" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#B26A00"/></marker></defs>
+  <style>
+    text { font-family: "Open Sans", Helvetica, Arial, sans-serif; fill: #262626; }
+    .h { font-size: 20px; font-weight: 600; } .l { font-size: 13px; font-weight: 600; } .s { font-size: 12px; fill: #595959; } .n { font-size: 12px; font-weight: 600; fill: #FFFFFF; }
+  </style>
+  <rect width="800" height="340" fill="#FFFFFF"/>
+  <text class="h" x="32" y="40">State and federal rules on a federal-aid job</text>
+    <rect x="40" y="70" width="330" height="150" rx="12" fill="#EAF3FC" stroke="#0070D5" stroke-width="1.5"/>
+  <text class="l" x="54" y="94" style="fill:#0070D5">California law</text>
+  <text class="s" x="54" y="113">DIR prevailing wage determination</text>
+  <text class="s" x="54" y="129">Electronic certified payroll to DIR</text>
+  <text class="s" x="54" y="145">Apprentices (DAS 140, 142)</text>
+  <text class="s" x="54" y="161">DIR registration</text>
+  <rect x="430" y="70" width="330" height="150" rx="12" fill="#FFF4E0" stroke="#B26A00" stroke-width="1.5"/>
+  <text class="l" x="444" y="94" style="fill:#B26A00">Federal-aid additions</text>
+  <text class="s" x="444" y="113">Davis-Bacon wage decision</text>
+  <text class="s" x="444" y="129">FHWA-1273 in every subcontract</text>
+  <text class="s" x="444" y="145">Weekly payroll to the agency</text>
+  <text class="s" x="444" y="161">Buy America, DBE program</text>
+  <rect x="250" y="246" width="300" height="60" rx="30" fill="#0070D5"/>
+  <text class="l" x="400" y="272" text-anchor="middle" style="fill:#FFFFFF;font-size:15px">Pay the higher rate</text>
+  <text class="s" x="400" y="291" text-anchor="middle" style="fill:#FFFFFF">for each classification</text>
+  <path d="M205 222 L300 246" fill="none" stroke="#595959" stroke-width="2.5" marker-end="url(#am)"/>
+  <path d="M595 222 L500 246" fill="none" stroke="#595959" stroke-width="2.5" marker-end="url(#am)"/>
+</svg>

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 354.0" role="img" aria-labelledby="t d">
+  <title id="t">Roles and qualifications</title>
+  <desc id="d">Bridge inspection team leaders and program managers under the NBIS; NDT technicians at Levels I, II and III by method; welding inspectors; concrete testing and special inspectors; licensed engineers; licensed radiographers.</desc>
+  <defs><marker id="a" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#0070D5"/></marker><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#C92A06"/></marker><marker id="ag" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#2E7D32"/></marker><marker id="am" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#595959"/></marker><marker id="aa" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#B26A00"/></marker></defs>
+  <style>
+    text { font-family: "Open Sans", Helvetica, Arial, sans-serif; fill: #262626; }
+    .h { font-size: 20px; font-weight: 600; } .l { font-size: 13px; font-weight: 600; } .s { font-size: 12px; fill: #595959; } .n { font-size: 12px; font-weight: 600; fill: #FFFFFF; }
+  </style>
+  <rect width="800" height="354.0" fill="#FFFFFF"/>
+  <text class="h" x="32" y="40">Roles and qualifications</text>
+    <rect x="24" y="70" width="239" height="119" rx="12" fill="#EAF3FC" stroke="#0070D5" stroke-width="1.5"/>
+  <text class="l" x="38" y="94" style="fill:#0070D5">Bridge team leader</text>
+  <text class="s" x="38" y="113">NBIS training and national</text>
+  <text class="s" x="38" y="129">certification</text>
+  <text class="s" x="38" y="145">Leads every inspection</text>
+  <rect x="281" y="70" width="239" height="119" rx="12" fill="#EAF3FC" stroke="#0070D5" stroke-width="1.5"/>
+  <text class="l" x="295" y="94" style="fill:#0070D5">Program manager</text>
+  <text class="s" x="295" y="113">PE or NBIS experience route</text>
+  <text class="s" x="295" y="129">Runs the inspection program</text>
+  <rect x="537" y="70" width="239" height="119" rx="12" fill="#EAF5EB" stroke="#2E7D32" stroke-width="1.5"/>
+  <text class="l" x="551" y="94" style="fill:#2E7D32">NDT technician</text>
+  <text class="s" x="551" y="113">By method: UT, MT, PT, RT</text>
+  <text class="s" x="551" y="129">Level I, II or III</text>
+  <text class="s" x="551" y="145">SNT-TC-1A, CP-189, ACCP, ISO</text>
+  <text class="s" x="551" y="161">9712</text>
+  <rect x="24" y="207" width="239" height="119" rx="12" fill="#EAF5EB" stroke="#2E7D32" stroke-width="1.5"/>
+  <text class="l" x="38" y="231" style="fill:#2E7D32">Welding inspector</text>
+  <text class="s" x="38" y="250">AWS CWI</text>
+  <rect x="281" y="207" width="239" height="119" rx="12" fill="#FFF4E0" stroke="#B26A00" stroke-width="1.5"/>
+  <text class="l" x="295" y="231" style="fill:#B26A00">Concrete testing</text>
+  <text class="s" x="295" y="250">ACI certifications</text>
+  <text class="s" x="295" y="266">ICC special inspector</text>
+  <rect x="537" y="207" width="239" height="119" rx="12" fill="#FFF4E0" stroke="#B26A00" stroke-width="1.5"/>
+  <text class="l" x="551" y="231" style="fill:#B26A00">Engineer</text>
+  <text class="s" x="551" y="250">Licensed PE or SE</text>
+  <text class="s" x="551" y="266">Interprets and recommends</text>
+</svg>
