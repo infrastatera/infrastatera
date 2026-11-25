@@ -40,3 +40,11 @@ The homepage shows two featured demos as large tiles (hand-written in `index.htm
 - `sitemap.xml` lists every page. When you add a new page, add a `<url>` entry and update `<lastmod>`.
 - `robots.txt` points search engines to the sitemap and hides `/docs/`.
 - Structured data (Organization + WebSite) is in the `<head>` of `index.html`. Add the LinkedIn company page URL to a `"sameAs"` list there once it exists.
+
+## Wiki (infrastatera.com/wiki)
+
+`wiki/` is generated: don't edit it by hand. Articles and glossary terms are written and published in the InfraStatera platform database (knowledge base tables), and `scripts/wiki/build.mjs` turns the published ones into pages, a search index (`wiki/search.json`) and the wiki part of `sitemap.xml`.
+
+- The GitHub Action **Update wiki** (`.github/workflows/wiki.yml`) runs it every night and commits only if something changed. After publishing an article, run it right away from the Actions tab → Update wiki → Run workflow.
+- Preview from a saved copy of the data: `node scripts/wiki/build.mjs --from data.json`.
+- Styles: `css/wiki.css`. Search box: `js/wiki.js`. The home page links to it from the menu, the Wiki band under the demos and the footer.

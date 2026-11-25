@@ -1,0 +1,48 @@
+# Rebuilds infrastatera.com/wiki from the published knowledge base (InfraStatera platform database).
+# Runs every night, and on demand: Actions tab → "Update wiki" → Run workflow.
+# Commits only when an article, a term or the sitemap changed, then asks GitHub Pages to publish.
+name: Update wiki
+
+on:
+  schedule:
+    - cron: '17 11 * * *' # 3:17 am Los Angeles (11:17 UTC)
+  workflow_dispatch:
+  repository_dispatch:
+    types: [wiki-publish]
+
+permissions:
+  contents: write
+  pages: write
+
+concurrency:
+  group: wiki
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Build the wiki pages
+        run: node scripts/wiki/build.mjs
+        env:
+          # Production project and its public (publishable) key: it only reads published articles.
+          WIKI_SUPABASE_URL: https://ryngnhpafzmgzyhrimzm.supabase.co
+          WIKI_SUPABASE_KEY: sb_publishable_PxLrGoQkoAwEzA5Wm_VPEg_xt0VCyNd
+      - name: Commit and publish if something changed
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git add -A wiki sitemap.xml
+          if git diff --cached --quiet; then
+            echo "Nothing changed."
+            exit 0
+          fi
+          git -c user.name="InfraStatera Wiki" -c user.email="infrastatera@gmail.com" commit -m "Update wiki"
+          git push
+          # A push made by this workflow doesn't start a Pages build by itself, so request one.
+          gh api -X POST "repos/${GITHUB_REPOSITORY}/pages/builds" || echo "::warning::Couldn't request a Pages build; it will go out with the next push."
