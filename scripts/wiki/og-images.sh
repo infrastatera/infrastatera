@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 # Makes the share images (1200×630 PNG) that LinkedIn, Slack and search results show for wiki pages,
-# one per illustration in assets/wiki/. Only missing or outdated ones are made.
+# one per illustration in assets/wiki/. Only missing ones are made: after changing an illustration,
+# delete its PNG in assets/wiki/og/ so it is made again. (File dates aren't reliable after a git checkout.)
 # Needs Google Chrome (installed on GitHub's ubuntu runners). Run from the repo root:
 #   bash scripts/wiki/og-images.sh
 set -euo pipefail
@@ -12,7 +13,7 @@ made=0
 for svg in assets/wiki/*.svg; do
   name="$(basename "$svg" .svg)"
   out="assets/wiki/og/$name.png"
-  if [ -f "$out" ] && [ "$out" -nt "$svg" ]; then continue; fi
+  if [ -f "$out" ]; then continue; fi
   cat > "$tmp/$name.html" <<HTML
 <!DOCTYPE html><html><head><meta charset="utf-8"><style>
   html,body{margin:0;width:1200px;height:630px;background:#FFFFFF;font-family:"Open Sans",Helvetica,Arial,sans-serif}
