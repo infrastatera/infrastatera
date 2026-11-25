@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" role="img" aria-labelledby="t d">
+  <title id="t">Daily Log sections and the Caltrans daily report</title>
+  <desc id="d">Daily Log sections on the left mapped to what a Caltrans daily report needs on the right: manpower or timecards to labor, equipment to equipment, notes and quantities to work performed, weather, delays, safety, deliveries and photos.</desc>
+  <defs><marker id="a" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#0070D5"/></marker><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#C92A06"/></marker><marker id="ag" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#2E7D32"/></marker><marker id="am" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#595959"/></marker><marker id="aa" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#B26A00"/></marker></defs>
+  <style>
+    text { font-family: "Open Sans", Helvetica, Arial, sans-serif; fill: #262626; }
+    .h { font-size: 20px; font-weight: 600; } .l { font-size: 13px; font-weight: 600; } .s { font-size: 12px; fill: #595959; } .n { font-size: 12px; font-weight: 600; fill: #FFFFFF; }
+  </style>
+  <rect width="800" height="420" fill="#FFFFFF"/>
+  <text class="h" x="32" y="40">Daily Log sections and the Caltrans daily report</text>
+    <text class="l" x="40" y="68">Daily Log section</text>
+  <text class="l" x="470" y="68">Caltrans daily report</text>
+  <rect x="40" y="80" width="300" height="32" rx="8" fill="#EAF3FC" stroke="#0070D5" stroke-width="1.5"/>
+  <text class="l" x="54" y="101" style="fill:#0070D5">Manpower / Timecards</text>
+  <rect x="470" y="80" width="300" height="32" rx="8" fill="#EAF5EB" stroke="#2E7D32" stroke-width="1.5"/>
+  <text class="l" x="484" y="101" style="fill:#2E7D32">Labor by classification and hours</text>
+  <path d="M344 96 H464" fill="none" stroke="#595959" stroke-width="1.5" marker-end="url(#am)"/>
+  <rect x="40" y="120" width="300" height="32" rx="8" fill="#EAF3FC" stroke="#0070D5" stroke-width="1.5"/>
+  <text class="l" x="54" y="141" style="fill:#0070D5">Equipment</text>
+  <rect x="470" y="120" width="300" height="32" rx="8" fill="#EAF5EB" stroke="#2E7D32" stroke-width="1.5"/>
+  <text class="l" x="484" y="141" style="fill:#2E7D32">Equipment and hours</text>
+  <path d="M344 136 H464" fill="none" stroke="#595959" stroke-width="1.5" marker-end="url(#am)"/>
+  <rect x="40" y="160" width="300" height="32" rx="8" fill="#EAF3FC" stroke="#0070D5" stroke-width="1.5"/>
+  <text class="l" x="54" y="181" style="fill:#0070D5">Notes, Quantities</text>
+  <rect x="470" y="160" width="300" height="32" rx="8" fill="#EAF5EB" stroke="#2E7D32" stroke-width="1.5"/>
+  <text class="l" x="484" y="181" style="fill:#2E7D32">Work by location and bid item</text>
+  <path d="M344 176 H464" fill="none" stroke="#595959" stroke-width="1.5" marker-end="url(#am)"/>
+  <rect x="40" y="200" width="300" height="32" rx="8" fill="#EAF3FC" stroke="#0070D5" stroke-width="1.5"/>
+  <text class="l" x="54" y="221" style="fill:#0070D5">Weather</text>
+  <rect x="470" y="200" width="300" height="32" rx="8" fill="#EAF5EB" stroke="#2E7D32" stroke-width="1.5"/>
+  <text class="l" x="484" y="221" style="fill:#2E7D32">Weather and its effect</text>
+  <path d="M344 216 H464" fill="none" stroke="#595959" stroke-width="1.5" marker-end="url(#am)"/>
+  <rect x="40" y="240" width="300" height="32" rx="8" fill="#EAF3FC" stroke="#0070D5" stroke-width="1.5"/>
+  <text class="l" x="54" y="261" style="fill:#0070D5">Delays</text>
+  <rect x="470" y="240" width="300" height="32" rx="8" fill="#EAF5EB" stroke="#2E7D32" stroke-width="1.5"/>
+  <text class="l" x="484" y="261" style="fill:#2E7D32">Delays and cause</text>
+  <path d="M344 256 H464" fill="none" stroke="#595959" stroke-width="1.5" marker-end="url(#am)"/>
+  <rect x="40" y="280" width="300" height="32" rx="8" fill="#EAF3FC" stroke="#0070D5" stroke-width="1.5"/>
+  <text class="l" x="54" y="301" style="fill:#0070D5">Safety, Accidents</text>
+  <rect x="470" y="280" width="300" height="32" rx="8" fill="#EAF5EB" stroke="#2E7D32" stroke-width="1.5"/>
+  <text class="l" x="484" y="301" style="fill:#2E7D32">Safety meeting, incidents</text>
+  <path d="M344 296 H464" fill="none" stroke="#595959" stroke-width="1.5" marker-end="url(#am)"/>
+  <rect x="40" y="320" width="300" height="32" rx="8" fill="#EAF3FC" stroke="#0070D5" stroke-width="1.5"/>
+  <text class="l" x="54" y="341" style="fill:#0070D5">Deliveries</text>
+  <rect x="470" y="320" width="300" height="32" rx="8" fill="#EAF5EB" stroke="#2E7D32" stroke-width="1.5"/>
+  <text class="l" x="484" y="341" style="fill:#2E7D32">Materials delivered</text>
+  <path d="M344 336 H464" fill="none" stroke="#595959" stroke-width="1.5" marker-end="url(#am)"/>
+  <rect x="40" y="360" width="300" height="32" rx="8" fill="#EAF3FC" stroke="#0070D5" stroke-width="1.5"/>
+  <text class="l" x="54" y="381" style="fill:#0070D5">Photos</text>
+  <rect x="470" y="360" width="300" height="32" rx="8" fill="#EAF5EB" stroke="#2E7D32" stroke-width="1.5"/>
+  <text class="l" x="484" y="381" style="fill:#2E7D32">Photos</text>
+  <path d="M344 376 H464" fill="none" stroke="#595959" stroke-width="1.5" marker-end="url(#am)"/>
+  <text class="s" x="32" y="408">Turn on the sections your report uses; hours entered once, in Timesheets or Manpower.</text>
+</svg>

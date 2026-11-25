@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 214" role="img" aria-labelledby="t d">
+  <title id="t">From a failed check to a closed observation</title>
+  <desc id="d">An inspection checklist is filled on site; a failed item becomes an observation with an assignee and due date; the assignee fixes it and adds a photo; the creator verifies and closes.</desc>
+  <defs><marker id="a" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#0070D5"/></marker><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#C92A06"/></marker><marker id="ag" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#2E7D32"/></marker><marker id="am" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#595959"/></marker><marker id="aa" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#B26A00"/></marker></defs>
+  <style>
+    text { font-family: "Open Sans", Helvetica, Arial, sans-serif; fill: #262626; }
+    .h { font-size: 20px; font-weight: 600; } .l { font-size: 13px; font-weight: 600; } .s { font-size: 12px; fill: #595959; } .n { font-size: 12px; font-weight: 600; fill: #FFFFFF; }
+  </style>
+  <rect width="800" height="214" fill="#FFFFFF"/>
+  <text class="h" x="32" y="40">From a failed check to a closed observation</text>
+    <rect x="24" y="70" width="128" height="96" rx="12" fill="#EAF3FC" stroke="#0070D5" stroke-width="1.5"/>
+  <text class="l" x="38" y="94" style="fill:#0070D5">Checklist</text>
+  <text class="l" x="38" y="111" style="fill:#0070D5">on site</text>
+  <text class="s" x="38" y="130">trench, pull</text>
+  <text class="s" x="38" y="146">box, pre-pour</text>
+  <circle cx="136" cy="86" r="10" fill="#0070D5"/>
+  <text class="n" x="136" y="90" text-anchor="middle">1</text>
+  <path d="M154 118 H176" fill="none" stroke="#0070D5" stroke-width="2.5" marker-end="url(#a)"/>
+  <rect x="180" y="70" width="128" height="96" rx="12" fill="#FDEDEA" stroke="#C92A06" stroke-width="1.5"/>
+  <text class="l" x="194" y="94" style="fill:#C92A06">Item fails</text>
+  <text class="s" x="194" y="113">note and photo</text>
+  <circle cx="292" cy="86" r="10" fill="#0070D5"/>
+  <text class="n" x="292" y="90" text-anchor="middle">2</text>
+  <path d="M310 118 H332" fill="none" stroke="#0070D5" stroke-width="2.5" marker-end="url(#a)"/>
+  <rect x="336" y="70" width="128" height="96" rx="12" fill="#FFF4E0" stroke="#B26A00" stroke-width="1.5"/>
+  <text class="l" x="350" y="94" style="fill:#B26A00">Observation</text>
+  <text class="s" x="350" y="113">assignee, due</text>
+  <text class="s" x="350" y="129">date, location</text>
+  <circle cx="448" cy="86" r="10" fill="#0070D5"/>
+  <text class="n" x="448" y="90" text-anchor="middle">3</text>
+  <path d="M466 118 H488" fill="none" stroke="#0070D5" stroke-width="2.5" marker-end="url(#a)"/>
+  <rect x="492" y="70" width="128" height="96" rx="12" fill="#EAF3FC" stroke="#0070D5" stroke-width="1.5"/>
+  <text class="l" x="506" y="94" style="fill:#0070D5">Fix</text>
+  <text class="s" x="506" y="113">after photo,</text>
+  <text class="s" x="506" y="129">response</text>
+  <circle cx="604" cy="86" r="10" fill="#0070D5"/>
+  <text class="n" x="604" y="90" text-anchor="middle">4</text>
+  <path d="M622 118 H644" fill="none" stroke="#0070D5" stroke-width="2.5" marker-end="url(#a)"/>
+  <rect x="648" y="70" width="128" height="96" rx="12" fill="#EAF5EB" stroke="#2E7D32" stroke-width="1.5"/>
+  <text class="l" x="662" y="94" style="fill:#2E7D32">Verify and</text>
+  <text class="l" x="662" y="111" style="fill:#2E7D32">close</text>
+  <text class="s" x="662" y="130">creator checks</text>
+  <text class="s" x="662" y="146">the fix</text>
+  <circle cx="760" cy="86" r="10" fill="#0070D5"/>
+  <text class="n" x="760" y="90" text-anchor="middle">5</text>
+</svg>

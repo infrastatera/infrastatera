@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 322.0" role="img" aria-labelledby="t d">
+  <title id="t">Signs a construction platform will pay off</title>
+  <desc id="d">Five signs that a platform helps: several jobs at once, documentation disputes, field-to-office gaps, late plan revisions, growth. Three signs a lighter setup is enough for now.</desc>
+  <defs><marker id="a" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#0070D5"/></marker><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#C92A06"/></marker><marker id="ag" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#2E7D32"/></marker><marker id="am" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#595959"/></marker><marker id="aa" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#B26A00"/></marker></defs>
+  <style>
+    text { font-family: "Open Sans", Helvetica, Arial, sans-serif; fill: #262626; }
+    .h { font-size: 20px; font-weight: 600; } .l { font-size: 13px; font-weight: 600; } .s { font-size: 12px; fill: #595959; } .n { font-size: 12px; font-weight: 600; fill: #FFFFFF; }
+  </style>
+  <rect width="800" height="322.0" fill="#FFFFFF"/>
+  <text class="h" x="32" y="40">Signs a construction platform will pay off</text>
+    <rect x="24" y="70" width="239" height="103" rx="12" fill="#EAF5EB" stroke="#2E7D32" stroke-width="1.5"/>
+  <text class="l" x="38" y="94" style="fill:#2E7D32">Several jobs at once</text>
+  <text class="s" x="38" y="113">Logs in separate spreadsheets</text>
+  <text class="s" x="38" y="129">that drift apart</text>
+  <rect x="281" y="70" width="239" height="103" rx="12" fill="#EAF5EB" stroke="#2E7D32" stroke-width="1.5"/>
+  <text class="l" x="295" y="94" style="fill:#2E7D32">Documentation disputes</text>
+  <text class="s" x="295" y="113">Changes or delays lost for lack</text>
+  <text class="s" x="295" y="129">of records</text>
+  <rect x="537" y="70" width="239" height="103" rx="12" fill="#EAF5EB" stroke="#2E7D32" stroke-width="1.5"/>
+  <text class="l" x="551" y="94" style="fill:#2E7D32">Field-office gaps</text>
+  <text class="s" x="551" y="113">The office hears about problems</text>
+  <text class="s" x="551" y="129">days later</text>
+  <rect x="24" y="191" width="239" height="103" rx="12" fill="#EAF5EB" stroke="#2E7D32" stroke-width="1.5"/>
+  <text class="l" x="38" y="215" style="fill:#2E7D32">Late revisions</text>
+  <text class="s" x="38" y="234">Work built to an old sheet</text>
+  <rect x="281" y="191" width="239" height="103" rx="12" fill="#EAF5EB" stroke="#2E7D32" stroke-width="1.5"/>
+  <text class="l" x="295" y="215" style="fill:#2E7D32">Growth</text>
+  <text class="s" x="295" y="234">More crews, subs and contract</text>
+  <text class="s" x="295" y="250">value</text>
+  <rect x="537" y="191" width="239" height="103" rx="12" fill="#FFF4E0" stroke="#B26A00" stroke-width="1.5"/>
+  <text class="l" x="551" y="215" style="fill:#B26A00">Not yet if</text>
+  <text class="s" x="551" y="234">One or two jobs, no internal</text>
+  <text class="s" x="551" y="250">owner, a crew not ready for an</text>
+  <text class="s" x="551" y="266">app</text>
+</svg>

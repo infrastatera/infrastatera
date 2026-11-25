@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 241.0" role="img" aria-labelledby="t d">
+  <title id="t">One project, three groups of tools</title>
+  <desc id="d">Field tools (daily log, photos, timesheets, inspections, punch list), document and office tools (drawings, specifications, RFIs, submittals, meetings) and financial tools (budget, commitments, change events, invoicing) on one shared project.</desc>
+  <defs><marker id="a" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#0070D5"/></marker><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#C92A06"/></marker><marker id="ag" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#2E7D32"/></marker><marker id="am" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#595959"/></marker><marker id="aa" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#B26A00"/></marker></defs>
+  <style>
+    text { font-family: "Open Sans", Helvetica, Arial, sans-serif; fill: #262626; }
+    .h { font-size: 20px; font-weight: 600; } .l { font-size: 13px; font-weight: 600; } .s { font-size: 12px; fill: #595959; } .n { font-size: 12px; font-weight: 600; fill: #FFFFFF; }
+  </style>
+  <rect width="800" height="241.0" fill="#FFFFFF"/>
+  <text class="h" x="32" y="40">One project, three groups of tools</text>
+    <text class="s" x="32" y="74">Company-level tools (directory, permissions, templates) sit above every project.</text>
+  <rect x="24" y="94" width="239" height="119" rx="12" fill="#EAF5EB" stroke="#2E7D32" stroke-width="1.5"/>
+  <text class="l" x="38" y="118" style="fill:#2E7D32">Field</text>
+  <text class="s" x="38" y="137">Daily Log, Photos</text>
+  <text class="s" x="38" y="153">Timesheets, Inspections</text>
+  <text class="s" x="38" y="169">Observations, Punch List</text>
+  <text class="s" x="38" y="185">Mostly on the phone</text>
+  <rect x="281" y="94" width="239" height="119" rx="12" fill="#EAF3FC" stroke="#0070D5" stroke-width="1.5"/>
+  <text class="l" x="295" y="118" style="fill:#0070D5">Documents and office</text>
+  <text class="s" x="295" y="137">Drawings, Specifications</text>
+  <text class="s" x="295" y="153">RFIs, Submittals</text>
+  <text class="s" x="295" y="169">Meetings, Correspondence</text>
+  <text class="s" x="295" y="185">Office and field</text>
+  <rect x="537" y="94" width="239" height="119" rx="12" fill="#FFF4E0" stroke="#B26A00" stroke-width="1.5"/>
+  <text class="l" x="551" y="118" style="fill:#B26A00">Money</text>
+  <text class="s" x="551" y="137">Budget, Prime Contract</text>
+  <text class="s" x="551" y="153">Commitments, Change Events</text>
+  <text class="s" x="551" y="169">Change Orders, Invoicing</text>
+  <text class="s" x="551" y="185">Office and accounting</text>
+</svg>

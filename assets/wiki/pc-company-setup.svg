@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 246" role="img" aria-labelledby="t d">
+  <title id="t">Company setup, inherited by every project</title>
+  <desc id="d">Company directory, permission templates, cost codes and templates are set once at company level, then each new project starts from them.</desc>
+  <defs><marker id="a" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#0070D5"/></marker><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#C92A06"/></marker><marker id="ag" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#2E7D32"/></marker><marker id="am" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#595959"/></marker><marker id="aa" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#B26A00"/></marker></defs>
+  <style>
+    text { font-family: "Open Sans", Helvetica, Arial, sans-serif; fill: #262626; }
+    .h { font-size: 20px; font-weight: 600; } .l { font-size: 13px; font-weight: 600; } .s { font-size: 12px; fill: #595959; } .n { font-size: 12px; font-weight: 600; fill: #FFFFFF; }
+  </style>
+  <rect width="800" height="246" fill="#FFFFFF"/>
+  <text class="h" x="32" y="40">Company setup, inherited by every project</text>
+    <rect x="24" y="70" width="128" height="128" rx="12" fill="#EAF3FC" stroke="#0070D5" stroke-width="1.5"/>
+  <text class="l" x="38" y="94" style="fill:#0070D5">Directory</text>
+  <text class="s" x="38" y="113">employees,</text>
+  <text class="s" x="38" y="129">subs,</text>
+  <text class="s" x="38" y="145">suppliers</text>
+  <circle cx="136" cy="86" r="10" fill="#0070D5"/>
+  <text class="n" x="136" y="90" text-anchor="middle">1</text>
+  <path d="M154 134 H176" fill="none" stroke="#0070D5" stroke-width="2.5" marker-end="url(#a)"/>
+  <rect x="180" y="70" width="128" height="128" rx="12" fill="#EAF3FC" stroke="#0070D5" stroke-width="1.5"/>
+  <text class="l" x="194" y="94" style="fill:#0070D5">Permission</text>
+  <text class="l" x="194" y="111" style="fill:#0070D5">templates</text>
+  <text class="s" x="194" y="130">None, Read</text>
+  <text class="s" x="194" y="146">Only,</text>
+  <text class="s" x="194" y="162">Standard,</text>
+  <text class="s" x="194" y="178">Admin per tool</text>
+  <circle cx="292" cy="86" r="10" fill="#0070D5"/>
+  <text class="n" x="292" y="90" text-anchor="middle">2</text>
+  <path d="M310 134 H332" fill="none" stroke="#0070D5" stroke-width="2.5" marker-end="url(#a)"/>
+  <rect x="336" y="70" width="128" height="128" rx="12" fill="#EAF3FC" stroke="#0070D5" stroke-width="1.5"/>
+  <text class="l" x="350" y="94" style="fill:#0070D5">Cost codes</text>
+  <text class="s" x="350" y="113">one per bid</text>
+  <text class="s" x="350" y="129">item or group</text>
+  <circle cx="448" cy="86" r="10" fill="#0070D5"/>
+  <text class="n" x="448" y="90" text-anchor="middle">3</text>
+  <path d="M466 134 H488" fill="none" stroke="#0070D5" stroke-width="2.5" marker-end="url(#a)"/>
+  <rect x="492" y="70" width="128" height="128" rx="12" fill="#EAF3FC" stroke="#0070D5" stroke-width="1.5"/>
+  <text class="l" x="506" y="94" style="fill:#0070D5">Templates</text>
+  <text class="s" x="506" y="113">checklists,</text>
+  <text class="s" x="506" y="129">daily log</text>
+  <text class="s" x="506" y="145">sections,</text>
+  <text class="s" x="506" y="161">punch types</text>
+  <circle cx="604" cy="86" r="10" fill="#0070D5"/>
+  <text class="n" x="604" y="90" text-anchor="middle">4</text>
+  <path d="M622 134 H644" fill="none" stroke="#0070D5" stroke-width="2.5" marker-end="url(#a)"/>
+  <rect x="648" y="70" width="128" height="128" rx="12" fill="#EAF5EB" stroke="#2E7D32" stroke-width="1.5"/>
+  <text class="l" x="662" y="94" style="fill:#2E7D32">New</text>
+  <text class="l" x="662" y="111" style="fill:#2E7D32">project</text>
+  <text class="s" x="662" y="130">starts from</text>
+  <text class="s" x="662" y="146">all of the</text>
+  <text class="s" x="662" y="162">above</text>
+  <circle cx="760" cy="86" r="10" fill="#0070D5"/>
+  <text class="n" x="760" y="90" text-anchor="middle">5</text>
+</svg>

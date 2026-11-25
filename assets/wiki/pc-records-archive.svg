@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 248" role="img" aria-labelledby="t d">
+  <title id="t">From the live project to a kept archive</title>
+  <desc id="d">Export each tool with attachments, check the export opens and is complete, store it on company storage with a backup, and keep it for the longest retention period that applies.</desc>
+  <defs><marker id="a" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#0070D5"/></marker><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#C92A06"/></marker><marker id="ag" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#2E7D32"/></marker><marker id="am" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#595959"/></marker><marker id="aa" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#B26A00"/></marker></defs>
+  <style>
+    text { font-family: "Open Sans", Helvetica, Arial, sans-serif; fill: #262626; }
+    .h { font-size: 20px; font-weight: 600; } .l { font-size: 13px; font-weight: 600; } .s { font-size: 12px; fill: #595959; } .n { font-size: 12px; font-weight: 600; fill: #FFFFFF; }
+  </style>
+  <rect width="800" height="248" fill="#FFFFFF"/>
+  <text class="h" x="32" y="40">From the live project to a kept archive</text>
+    <rect x="24" y="70" width="167" height="96" rx="12" fill="#EAF3FC" stroke="#0070D5" stroke-width="1.5"/>
+  <text class="l" x="38" y="94" style="fill:#0070D5">Export</text>
+  <text class="s" x="38" y="113">all tools, with</text>
+  <text class="s" x="38" y="129">attachments</text>
+  <circle cx="175" cy="86" r="10" fill="#0070D5"/>
+  <text class="n" x="175" y="90" text-anchor="middle">1</text>
+  <path d="M193 118 H215" fill="none" stroke="#0070D5" stroke-width="2.5" marker-end="url(#a)"/>
+  <rect x="219" y="70" width="167" height="96" rx="12" fill="#FFF4E0" stroke="#B26A00" stroke-width="1.5"/>
+  <text class="l" x="233" y="94" style="fill:#B26A00">Check</text>
+  <text class="s" x="233" y="113">open it, count</text>
+  <text class="s" x="233" y="129">records</text>
+  <circle cx="370" cy="86" r="10" fill="#0070D5"/>
+  <text class="n" x="370" y="90" text-anchor="middle">2</text>
+  <path d="M388 118 H410" fill="none" stroke="#0070D5" stroke-width="2.5" marker-end="url(#a)"/>
+  <rect x="414" y="70" width="167" height="96" rx="12" fill="#EAF5EB" stroke="#2E7D32" stroke-width="1.5"/>
+  <text class="l" x="428" y="94" style="fill:#2E7D32">Store</text>
+  <text class="s" x="428" y="113">company storage plus</text>
+  <text class="s" x="428" y="129">backup</text>
+  <circle cx="565" cy="86" r="10" fill="#0070D5"/>
+  <text class="n" x="565" y="90" text-anchor="middle">3</text>
+  <path d="M583 118 H605" fill="none" stroke="#0070D5" stroke-width="2.5" marker-end="url(#a)"/>
+  <rect x="609" y="70" width="167" height="96" rx="12" fill="#EAF5EB" stroke="#2E7D32" stroke-width="1.5"/>
+  <text class="l" x="623" y="94" style="fill:#2E7D32">Keep</text>
+  <text class="s" x="623" y="113">longest retention</text>
+  <text class="s" x="623" y="129">that applies</text>
+  <circle cx="760" cy="86" r="10" fill="#0070D5"/>
+  <text class="n" x="760" y="90" text-anchor="middle">4</text>
+  <text class="s" x="28" y="212">An archive download link may expire: download it the day it is ready.</text>
+</svg>

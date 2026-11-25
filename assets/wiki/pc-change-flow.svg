@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 320" role="img" aria-labelledby="t d">
+  <title id="t">From a change event to signed changes</title>
+  <desc id="d">A field issue or RFI answer starts a change event; it is priced with RFQs to subs; the agency issues a contract change order recorded as a prime contract change order; the subs involved get commitment change orders.</desc>
+  <defs><marker id="a" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#0070D5"/></marker><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#C92A06"/></marker><marker id="ag" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#2E7D32"/></marker><marker id="am" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#595959"/></marker><marker id="aa" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#B26A00"/></marker></defs>
+  <style>
+    text { font-family: "Open Sans", Helvetica, Arial, sans-serif; fill: #262626; }
+    .h { font-size: 20px; font-weight: 600; } .l { font-size: 13px; font-weight: 600; } .s { font-size: 12px; fill: #595959; } .n { font-size: 12px; font-weight: 600; fill: #FFFFFF; }
+  </style>
+  <rect width="800" height="320" fill="#FFFFFF"/>
+  <text class="h" x="32" y="40">From a change event to signed changes</text>
+    <rect x="24" y="120" width="160" height="80" rx="12" fill="#F2F3F5" stroke="#595959" stroke-width="1.5"/>
+  <text class="l" x="38" y="144">Field issue / RFI</text>
+  <text class="s" x="38" y="163">photos, notice to</text>
+  <text class="s" x="38" y="179">RE</text>
+  <path d="M186 160 H214" fill="none" stroke="#0070D5" stroke-width="2.5" marker-end="url(#a)"/>
+  <rect x="218" y="120" width="160" height="80" rx="12" fill="#EAF3FC" stroke="#0070D5" stroke-width="1.5"/>
+  <text class="l" x="232" y="144" style="fill:#0070D5">Change event</text>
+  <text class="s" x="232" y="163">cost, schedule,</text>
+  <text class="s" x="232" y="179">status</text>
+  <path d="M380 145 Q400 100 420 95" fill="none" stroke="#B26A00" stroke-width="2.5" marker-end="url(#aa)"/>
+  <rect x="424" y="60" width="160" height="70" rx="12" fill="#FFF4E0" stroke="#B26A00" stroke-width="1.5"/>
+  <text class="l" x="438" y="84" style="fill:#B26A00">RFQs to subs</text>
+  <text class="s" x="438" y="103">price their part</text>
+  <path d="M380 175 Q400 220 420 225" fill="none" stroke="#0070D5" stroke-width="2.5" marker-end="url(#a)"/>
+  <rect x="424" y="190" width="160" height="79" rx="12" fill="#EAF5EB" stroke="#2E7D32" stroke-width="1.5"/>
+  <text class="l" x="438" y="214" style="fill:#2E7D32">Prime contract CO</text>
+  <text class="s" x="438" y="233">records the</text>
+  <text class="s" x="438" y="249">Caltrans CCO</text>
+  <path d="M586 225 H614" fill="none" stroke="#2E7D32" stroke-width="2.5" marker-end="url(#ag)"/>
+  <rect x="618" y="190" width="160" height="79" rx="12" fill="#EAF5EB" stroke="#2E7D32" stroke-width="1.5"/>
+  <text class="l" x="632" y="214" style="fill:#2E7D32">Commitment COs</text>
+  <text class="s" x="632" y="233">to the subs</text>
+  <text class="s" x="632" y="249">involved</text>
+  <text class="s" x="32" y="300">The contract's written notice comes first: the event tracks it, it does not replace it.</text>
+</svg>

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 370" role="img" aria-labelledby="t d">
+  <title id="t">Systems that can connect to the project</title>
+  <desc id="d">The project platform in the center with accounting, payroll, certified payroll and labor compliance, scheduling, estimating and storage around it.</desc>
+  <defs><marker id="a" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#0070D5"/></marker><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#C92A06"/></marker><marker id="ag" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#2E7D32"/></marker><marker id="am" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#595959"/></marker><marker id="aa" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#B26A00"/></marker></defs>
+  <style>
+    text { font-family: "Open Sans", Helvetica, Arial, sans-serif; fill: #262626; }
+    .h { font-size: 20px; font-weight: 600; } .l { font-size: 13px; font-weight: 600; } .s { font-size: 12px; fill: #595959; } .n { font-size: 12px; font-weight: 600; fill: #FFFFFF; }
+  </style>
+  <rect width="800" height="370" fill="#FFFFFF"/>
+  <text class="h" x="32" y="40">Systems that can connect to the project</text>
+    <rect x="310" y="140" width="180" height="70" rx="12" fill="#EAF3FC" stroke="#0070D5" stroke-width="1.5"/>
+  <text class="l" x="400" y="164" text-anchor="middle" style="fill:#0070D5">Project platform</text>
+  <text class="s" x="400" y="183" text-anchor="middle">the job's record</text>
+  <rect x="40" y="70" width="200" height="63" rx="12" fill="#F2F3F5" stroke="#595959" stroke-width="1.5"/>
+  <text class="l" x="54" y="94">Accounting / ERP</text>
+  <text class="s" x="54" y="113">vendors, costs, invoices</text>
+  <rect x="40" y="230" width="200" height="63" rx="12" fill="#F2F3F5" stroke="#595959" stroke-width="1.5"/>
+  <text class="l" x="54" y="254">Payroll</text>
+  <text class="s" x="54" y="273">approved hours</text>
+  <rect x="300" y="260" width="200" height="63" rx="12" fill="#F2F3F5" stroke="#595959" stroke-width="1.5"/>
+  <text class="l" x="314" y="284">Certified payroll</text>
+  <text class="s" x="314" y="303">rates, DIR filing</text>
+  <rect x="560" y="230" width="200" height="63" rx="12" fill="#F2F3F5" stroke="#595959" stroke-width="1.5"/>
+  <text class="l" x="574" y="254">Scheduling</text>
+  <text class="s" x="574" y="273">baseline and updates</text>
+  <rect x="560" y="70" width="200" height="63" rx="12" fill="#F2F3F5" stroke="#595959" stroke-width="1.5"/>
+  <text class="l" x="574" y="94">Estimating</text>
+  <text class="s" x="574" y="113">bid items to budget</text>
+  <rect x="300" y="54" width="200" height="63" rx="12" fill="#F2F3F5" stroke="#595959" stroke-width="1.5"/>
+  <text class="l" x="314" y="78">Storage</text>
+  <text class="s" x="314" y="97">office files</text>
+  <path d="M242 100 L306 160" stroke="#595959" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <path d="M242 255 L306 195" stroke="#595959" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <path d="M400 256 V214" stroke="#595959" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <path d="M558 255 L494 195" stroke="#595959" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <path d="M558 100 L494 160" stroke="#595959" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <path d="M400 116 V138" stroke="#595959" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text class="s" x="32" y="358">Connect one system at a time, after the core tools are stable.</text>
+</svg>

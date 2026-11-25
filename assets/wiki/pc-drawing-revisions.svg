@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" role="img" aria-labelledby="t d">
+  <title id="t">Drawing revisions and the current set</title>
+  <desc id="d">A plan set is uploaded, sheet numbers are read and reviewed, the set is published; when a revision arrives, the new sheet becomes current and the old one moves to the history.</desc>
+  <defs><marker id="a" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#0070D5"/></marker><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#C92A06"/></marker><marker id="ag" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#2E7D32"/></marker><marker id="am" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#595959"/></marker><marker id="aa" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#B26A00"/></marker></defs>
+  <style>
+    text { font-family: "Open Sans", Helvetica, Arial, sans-serif; fill: #262626; }
+    .h { font-size: 20px; font-weight: 600; } .l { font-size: 13px; font-weight: 600; } .s { font-size: 12px; fill: #595959; } .n { font-size: 12px; font-weight: 600; fill: #FFFFFF; }
+  </style>
+  <rect width="800" height="300" fill="#FFFFFF"/>
+  <text class="h" x="32" y="40">Drawing revisions and the current set</text>
+    <rect x="24" y="70" width="172" height="80" rx="12" fill="#EAF3FC" stroke="#0070D5" stroke-width="1.5"/>
+  <text class="l" x="38" y="94" style="fill:#0070D5">Upload PDF</text>
+  <text class="s" x="38" y="113">whole set</text>
+  <path d="M198 110 H214" fill="none" stroke="#0070D5" stroke-width="2.5" marker-end="url(#a)"/>
+  <rect x="216" y="70" width="172" height="80" rx="12" fill="#EAF3FC" stroke="#0070D5" stroke-width="1.5"/>
+  <text class="l" x="230" y="94" style="fill:#0070D5">Read sheets</text>
+  <text class="s" x="230" y="113">number, title,</text>
+  <text class="s" x="230" y="129">discipline</text>
+  <path d="M390 110 H406" fill="none" stroke="#0070D5" stroke-width="2.5" marker-end="url(#a)"/>
+  <rect x="408" y="70" width="172" height="80" rx="12" fill="#EAF3FC" stroke="#0070D5" stroke-width="1.5"/>
+  <text class="l" x="422" y="94" style="fill:#0070D5">Review</text>
+  <text class="s" x="422" y="113">fix what was misread</text>
+  <path d="M582 110 H598" fill="none" stroke="#0070D5" stroke-width="2.5" marker-end="url(#a)"/>
+  <rect x="600" y="70" width="172" height="80" rx="12" fill="#EAF5EB" stroke="#2E7D32" stroke-width="1.5"/>
+  <text class="l" x="614" y="94" style="fill:#2E7D32">Publish</text>
+  <text class="s" x="614" y="113">current set for</text>
+  <text class="s" x="614" y="129">everyone</text>
+  <rect x="40" y="190" width="220" height="70" rx="12" fill="#F2F3F5" stroke="#595959" stroke-width="1.5"/>
+  <text class="l" x="54" y="214">E-3 Rev 0</text>
+  <text class="s" x="54" y="233">superseded, kept in history</text>
+  <path d="M264 225 H330" fill="none" stroke="#2E7D32" stroke-width="2.5" marker-end="url(#ag)"/>
+  <rect x="340" y="190" width="220" height="70" rx="12" fill="#EAF5EB" stroke="#2E7D32" stroke-width="1.5"/>
+  <text class="l" x="354" y="214" style="fill:#2E7D32">E-3 Rev 1</text>
+  <text class="s" x="354" y="233">current, on every phone</text>
+  <text class="s" x="590" y="220">Compare the two revisions</text>
+  <text class="s" x="590" y="238">before you build.</text>
+</svg>

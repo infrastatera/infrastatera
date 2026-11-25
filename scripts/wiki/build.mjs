@@ -82,6 +82,23 @@ const SPACE_CONFIG = {
       ],
     },
   },
+  'procore-for-electrical-gcs': {
+    disclaimer: 'Procore is a registered trademark of Procore Technologies, Inc. InfraStatera is not affiliated with or endorsed by Procore. An independent guide written from Procore\'s public help pages: features change, so Procore\'s own help is the reference.',
+    mistakes: 'Common mistakes',
+    image: 'pc-tools-map.svg',
+    library: {
+      title: 'Tools at a glance', noun: 'tools', item: 'Tool', col: 'Caltrans equivalent', colPrefix: '', showPhase: false, image: 'pc-tools-map.svg',
+      filter: 'Filter, e.g. RFI, budget, photos',
+      lead: 'Each Procore tool an electrical GC is likely to use, what it is for, the Caltrans document or practice it lines up with, and the article that explains it.',
+      groups: [
+        ['field', 'Field', 'Used on site, mostly from the phone'],
+        ['documents', 'Documents', 'Plans, specifications and files'],
+        ['office', 'Office', 'Questions, submittals and the written record'],
+        ['money', 'Money', 'Budget, contracts, changes and billing'],
+        ['admin', 'Administration', 'People, permissions and records'],
+      ],
+    },
+  },
 };
 const cfg = (slug) => ({ ...DEFAULT_SPACE, ...(SPACE_CONFIG[slug] ?? {}) });
 const WIKI_DISCLAIMER = 'For learning only, not professional, legal or engineering advice. Each knowledge base says what to check before you rely on it.';

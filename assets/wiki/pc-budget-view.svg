@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 330" role="img" aria-labelledby="t d">
+  <title id="t">Reading the budget for one cost code</title>
+  <desc id="d">Bars for one bid item: original budget, approved changes, committed, actual cost and forecast to complete, compared with the revised budget to show projected over or under.</desc>
+  <defs><marker id="a" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#0070D5"/></marker><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#C92A06"/></marker><marker id="ag" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#2E7D32"/></marker><marker id="am" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#595959"/></marker><marker id="aa" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#B26A00"/></marker></defs>
+  <style>
+    text { font-family: "Open Sans", Helvetica, Arial, sans-serif; fill: #262626; }
+    .h { font-size: 20px; font-weight: 600; } .l { font-size: 13px; font-weight: 600; } .s { font-size: 12px; fill: #595959; } .n { font-size: 12px; font-weight: 600; fill: #FFFFFF; }
+  </style>
+  <rect width="800" height="330" fill="#FFFFFF"/>
+  <text class="h" x="32" y="40">Reading the budget for one cost code</text>
+    <text class="l" x="40" y="90">Original budget</text>
+  <rect x="230" y="74" width="300" height="24" rx="4" fill="#EAF3FC" stroke="#0070D5" stroke-width="1.5"/>
+  <text class="l" x="40" y="134">+ Approved changes</text>
+  <rect x="530" y="118" width="40" height="24" rx="4" fill="#EAF3FC" stroke="#0070D5" stroke-width="1.5"/>
+  <text class="l" x="40" y="178">Committed</text>
+  <rect x="230" y="162" width="230" height="24" rx="4" fill="#FFF4E0" stroke="#B26A00" stroke-width="1.5"/>
+  <text class="l" x="40" y="222">Actual cost</text>
+  <rect x="230" y="206" width="180" height="24" rx="4" fill="#F2F3F5" stroke="#595959" stroke-width="1.5"/>
+  <text class="l" x="40" y="266">Forecast at completion</text>
+  <rect x="230" y="250" width="360" height="24" rx="4" fill="#FDEDEA" stroke="#C92A06" stroke-width="1.5"/>
+  <path d="M570 66 V292" stroke="#262626" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text class="s" x="574" y="300">revised budget</text>
+  <text class="s" x="32" y="318" style="fill:#C92A06">Forecast past the revised budget: act now, while the work is still ahead.</text>
+</svg>

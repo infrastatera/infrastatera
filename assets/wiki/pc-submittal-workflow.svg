@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 318" role="img" aria-labelledby="t d">
+  <title id="t">From the spec book to an approved submittal</title>
+  <desc id="d">Build the register from the special provisions, the sub or supplier prepares the submittal, the PM reviews, it goes to the RE, the response is recorded, and a revision is created if resubmittal is needed.</desc>
+  <defs><marker id="a" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#0070D5"/></marker><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#C92A06"/></marker><marker id="ag" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#2E7D32"/></marker><marker id="am" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#595959"/></marker><marker id="aa" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#B26A00"/></marker></defs>
+  <style>
+    text { font-family: "Open Sans", Helvetica, Arial, sans-serif; fill: #262626; }
+    .h { font-size: 20px; font-weight: 600; } .l { font-size: 13px; font-weight: 600; } .s { font-size: 12px; fill: #595959; } .n { font-size: 12px; font-weight: 600; fill: #FFFFFF; }
+  </style>
+  <rect width="800" height="318" fill="#FFFFFF"/>
+  <text class="h" x="32" y="40">From the spec book to an approved submittal</text>
+    <rect x="24" y="70" width="232" height="80" rx="12" fill="#EAF3FC" stroke="#0070D5" stroke-width="1.5"/>
+  <text class="l" x="38" y="94" style="fill:#0070D5">Register</text>
+  <text class="s" x="38" y="113">every item the contract asks</text>
+  <text class="s" x="38" y="129">for</text>
+  <circle cx="240" cy="86" r="10" fill="#0070D5"/>
+  <text class="n" x="240" y="90" text-anchor="middle">1</text>
+  <path d="M258 110 H280" fill="none" stroke="#0070D5" stroke-width="2.5" marker-end="url(#a)"/>
+  <rect x="284" y="70" width="232" height="80" rx="12" fill="#EAF3FC" stroke="#0070D5" stroke-width="1.5"/>
+  <text class="l" x="298" y="94" style="fill:#0070D5">Prepare</text>
+  <text class="s" x="298" y="113">sub or supplier submits</text>
+  <circle cx="500" cy="86" r="10" fill="#0070D5"/>
+  <text class="n" x="500" y="90" text-anchor="middle">2</text>
+  <path d="M518 110 H540" fill="none" stroke="#0070D5" stroke-width="2.5" marker-end="url(#a)"/>
+  <rect x="544" y="70" width="232" height="80" rx="12" fill="#EAF3FC" stroke="#0070D5" stroke-width="1.5"/>
+  <text class="l" x="558" y="94" style="fill:#0070D5">PM review</text>
+  <text class="s" x="558" y="113">check against the spec, stamp</text>
+  <circle cx="760" cy="86" r="10" fill="#0070D5"/>
+  <text class="n" x="760" y="90" text-anchor="middle">3</text>
+  <path d="M660 152 V170 H140 V186" fill="none" stroke="#0070D5" stroke-width="2.5" marker-end="url(#a)"/>
+  <rect x="24" y="190" width="232" height="80" rx="12" fill="#FFF4E0" stroke="#B26A00" stroke-width="1.5"/>
+  <text class="l" x="38" y="214" style="fill:#B26A00">To the RE</text>
+  <text class="s" x="38" y="233">in the contract's format</text>
+  <circle cx="240" cy="206" r="10" fill="#0070D5"/>
+  <text class="n" x="240" y="210" text-anchor="middle">4</text>
+  <path d="M258 230 H280" fill="none" stroke="#0070D5" stroke-width="2.5" marker-end="url(#a)"/>
+  <rect x="284" y="190" width="232" height="80" rx="12" fill="#EAF5EB" stroke="#2E7D32" stroke-width="1.5"/>
+  <text class="l" x="298" y="214" style="fill:#2E7D32">Response</text>
+  <text class="s" x="298" y="233">approved, as noted, revise</text>
+  <circle cx="500" cy="206" r="10" fill="#0070D5"/>
+  <text class="n" x="500" y="210" text-anchor="middle">5</text>
+  <path d="M518 230 H540" fill="none" stroke="#0070D5" stroke-width="2.5" marker-end="url(#a)"/>
+  <rect x="544" y="190" width="232" height="80" rx="12" fill="#FDEDEA" stroke="#C92A06" stroke-width="1.5"/>
+  <text class="l" x="558" y="214" style="fill:#C92A06">Revision</text>
+  <text class="s" x="558" y="233">resubmit on the same record</text>
+  <circle cx="760" cy="206" r="10" fill="#0070D5"/>
+  <text class="n" x="760" y="210" text-anchor="middle">6</text>
+</svg>

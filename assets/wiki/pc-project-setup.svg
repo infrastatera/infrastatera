@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 318" role="img" aria-labelledby="t d">
+  <title id="t">From the contract to a ready project</title>
+  <desc id="d">Project information with the contract number, the team and its templates, only the tools the job needs, plans and special provisions, the bid items as budget, then save as a project template.</desc>
+  <defs><marker id="a" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#0070D5"/></marker><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#C92A06"/></marker><marker id="ag" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#2E7D32"/></marker><marker id="am" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#595959"/></marker><marker id="aa" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#B26A00"/></marker></defs>
+  <style>
+    text { font-family: "Open Sans", Helvetica, Arial, sans-serif; fill: #262626; }
+    .h { font-size: 20px; font-weight: 600; } .l { font-size: 13px; font-weight: 600; } .s { font-size: 12px; fill: #595959; } .n { font-size: 12px; font-weight: 600; fill: #FFFFFF; }
+  </style>
+  <rect width="800" height="318" fill="#FFFFFF"/>
+  <text class="h" x="32" y="40">From the contract to a ready project</text>
+    <rect x="24" y="70" width="232" height="80" rx="12" fill="#F7F9FA" stroke="#D5D9DE" stroke-width="1.5"/>
+  <text class="l" x="38" y="94">Project info</text>
+  <text class="s" x="38" y="113">contract no., route, dates</text>
+  <circle cx="240" cy="86" r="10" fill="#0070D5"/>
+  <text class="n" x="240" y="90" text-anchor="middle">1</text>
+  <path d="M258 110 H280" fill="none" stroke="#0070D5" stroke-width="2.5" marker-end="url(#a)"/>
+  <rect x="284" y="70" width="232" height="80" rx="12" fill="#F7F9FA" stroke="#D5D9DE" stroke-width="1.5"/>
+  <text class="l" x="298" y="94">Team</text>
+  <text class="s" x="298" y="113">people, templates, subs</text>
+  <circle cx="500" cy="86" r="10" fill="#0070D5"/>
+  <text class="n" x="500" y="90" text-anchor="middle">2</text>
+  <path d="M518 110 H540" fill="none" stroke="#0070D5" stroke-width="2.5" marker-end="url(#a)"/>
+  <rect x="544" y="70" width="232" height="80" rx="12" fill="#F7F9FA" stroke="#D5D9DE" stroke-width="1.5"/>
+  <text class="l" x="558" y="94">Tools</text>
+  <text class="s" x="558" y="113">turn on only what you use</text>
+  <circle cx="760" cy="86" r="10" fill="#0070D5"/>
+  <text class="n" x="760" y="90" text-anchor="middle">3</text>
+  <path d="M660 152 V170 H140 V186" fill="none" stroke="#0070D5" stroke-width="2.5" marker-end="url(#a)"/>
+  <rect x="24" y="190" width="232" height="80" rx="12" fill="#F7F9FA" stroke="#D5D9DE" stroke-width="1.5"/>
+  <text class="l" x="38" y="214">Documents</text>
+  <text class="s" x="38" y="233">plans, special provisions, bid</text>
+  <text class="s" x="38" y="249">package</text>
+  <circle cx="240" cy="206" r="10" fill="#0070D5"/>
+  <text class="n" x="240" y="210" text-anchor="middle">4</text>
+  <path d="M258 230 H280" fill="none" stroke="#0070D5" stroke-width="2.5" marker-end="url(#a)"/>
+  <rect x="284" y="190" width="232" height="80" rx="12" fill="#F7F9FA" stroke="#D5D9DE" stroke-width="1.5"/>
+  <text class="l" x="298" y="214">Budget and contract</text>
+  <text class="s" x="298" y="233">bid items, schedule of values</text>
+  <circle cx="500" cy="206" r="10" fill="#0070D5"/>
+  <text class="n" x="500" y="210" text-anchor="middle">5</text>
+  <path d="M518 230 H540" fill="none" stroke="#0070D5" stroke-width="2.5" marker-end="url(#a)"/>
+  <rect x="544" y="190" width="232" height="80" rx="12" fill="#F7F9FA" stroke="#D5D9DE" stroke-width="1.5"/>
+  <text class="l" x="558" y="214">Template</text>
+  <text class="s" x="558" y="233">reuse on the next job</text>
+  <circle cx="760" cy="206" r="10" fill="#0070D5"/>
+  <text class="n" x="760" y="210" text-anchor="middle">6</text>
+</svg>

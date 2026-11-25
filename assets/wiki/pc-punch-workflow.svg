@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 248" role="img" aria-labelledby="t d">
+  <title id="t">The life of a punch item</title>
+  <desc id="d">Created on the walk with a photo and a pin on the drawing; the punch item manager assigns it; the assignee fixes it and marks it ready for review; the final approver verifies and closes, or marks work not accepted.</desc>
+  <defs><marker id="a" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#0070D5"/></marker><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#C92A06"/></marker><marker id="ag" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#2E7D32"/></marker><marker id="am" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#595959"/></marker><marker id="aa" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 Z" fill="#B26A00"/></marker></defs>
+  <style>
+    text { font-family: "Open Sans", Helvetica, Arial, sans-serif; fill: #262626; }
+    .h { font-size: 20px; font-weight: 600; } .l { font-size: 13px; font-weight: 600; } .s { font-size: 12px; fill: #595959; } .n { font-size: 12px; font-weight: 600; fill: #FFFFFF; }
+  </style>
+  <rect width="800" height="248" fill="#FFFFFF"/>
+  <text class="h" x="32" y="40">The life of a punch item</text>
+    <rect x="24" y="70" width="128" height="96" rx="12" fill="#F2F3F5" stroke="#595959" stroke-width="1.5"/>
+  <text class="l" x="38" y="94">Create</text>
+  <text class="s" x="38" y="113">photo, pin on</text>
+  <text class="s" x="38" y="129">drawing, type</text>
+  <circle cx="136" cy="86" r="10" fill="#0070D5"/>
+  <text class="n" x="136" y="90" text-anchor="middle">1</text>
+  <path d="M154 118 H176" fill="none" stroke="#0070D5" stroke-width="2.5" marker-end="url(#a)"/>
+  <rect x="180" y="70" width="128" height="96" rx="12" fill="#EAF3FC" stroke="#0070D5" stroke-width="1.5"/>
+  <text class="l" x="194" y="94" style="fill:#0070D5">Assign</text>
+  <text class="s" x="194" y="113">punch item</text>
+  <text class="s" x="194" y="129">manager, due</text>
+  <text class="s" x="194" y="145">date</text>
+  <circle cx="292" cy="86" r="10" fill="#0070D5"/>
+  <text class="n" x="292" y="90" text-anchor="middle">2</text>
+  <path d="M310 118 H332" fill="none" stroke="#0070D5" stroke-width="2.5" marker-end="url(#a)"/>
+  <rect x="336" y="70" width="128" height="96" rx="12" fill="#FFF4E0" stroke="#B26A00" stroke-width="1.5"/>
+  <text class="l" x="350" y="94" style="fill:#B26A00">Work</text>
+  <text class="l" x="350" y="111" style="fill:#B26A00">required</text>
+  <text class="s" x="350" y="130">crew or sub</text>
+  <text class="s" x="350" y="146">fixes</text>
+  <circle cx="448" cy="86" r="10" fill="#0070D5"/>
+  <text class="n" x="448" y="90" text-anchor="middle">3</text>
+  <path d="M466 118 H488" fill="none" stroke="#0070D5" stroke-width="2.5" marker-end="url(#a)"/>
+  <rect x="492" y="70" width="128" height="96" rx="12" fill="#EAF3FC" stroke="#0070D5" stroke-width="1.5"/>
+  <text class="l" x="506" y="94" style="fill:#0070D5">Ready for</text>
+  <text class="l" x="506" y="111" style="fill:#0070D5">review</text>
+  <text class="s" x="506" y="130">after photo</text>
+  <circle cx="604" cy="86" r="10" fill="#0070D5"/>
+  <text class="n" x="604" y="90" text-anchor="middle">4</text>
+  <path d="M622 118 H644" fill="none" stroke="#0070D5" stroke-width="2.5" marker-end="url(#a)"/>
+  <rect x="648" y="70" width="128" height="96" rx="12" fill="#EAF5EB" stroke="#2E7D32" stroke-width="1.5"/>
+  <text class="l" x="662" y="94" style="fill:#2E7D32">Closed</text>
+  <text class="s" x="662" y="113">final approver</text>
+  <text class="s" x="662" y="129">verifies</text>
+  <circle cx="760" cy="86" r="10" fill="#0070D5"/>
+  <text class="n" x="760" y="90" text-anchor="middle">5</text>
+  <text class="s" x="28" y="212">Not fixed? Work not accepted sends it back to the assignee.</text>
+</svg>
