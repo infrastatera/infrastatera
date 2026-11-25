@@ -78,7 +78,7 @@ export function renderMarkdown(md, opts) {
       const [, alt, src, caption] = img;
       // Relative paths are files in assets/wiki/ of this site; full addresses are allowed as they are.
       const url = /^https?:\/\//i.test(src) ? src : /^[\w./-]+$/.test(src) && !src.includes('..') ? `${opts.assets ?? ''}${src}` : null;
-      if (url) html.push(`<figure class="wiki-figure"><img src="${esc(url)}" alt="${esc(alt)}" loading="lazy">${caption ? `<figcaption>${esc(caption)}</figcaption>` : ''}</figure>`);
+      if (url) html.push(`<figure class="wiki-figure"><a href="${esc(url)}" target="_blank" rel="noopener" title="Open full size"><img src="${esc(url)}" alt="${esc(alt)}" loading="lazy"></a>${caption ? `<figcaption>${esc(caption)}</figcaption>` : ''}</figure>`);
       i++;
       continue;
     }
