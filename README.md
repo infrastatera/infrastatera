@@ -46,6 +46,7 @@ The homepage shows two featured demos as large tiles (hand-written in `index.htm
 `wiki/` is generated: don't edit it by hand. Articles and glossary terms are written and published in the InfraStatera platform database (knowledge base tables), and `scripts/wiki/build.mjs` turns the published ones into pages, a search index (`wiki/search.json`) and the wiki part of `sitemap.xml`.
 
 - The GitHub Action **Update wiki** (`.github/workflows/wiki.yml`) runs it every night and commits only if something changed. After publishing an article, run it right away from the Actions tab → Update wiki → Run workflow.
+- The home page's Wiki band (`index.html`, between the `wiki-home` markers) is also generated: one card per published knowledge base, so a new one appears there on the next run.
 - Preview from a saved copy of the data: `node scripts/wiki/build.mjs --from data.json`.
 - Pictures: put files in `assets/wiki/` and write `![description](file.svg "Caption")` on its own line in an article. The diagrams there are original drawings (not to scale), free to reuse on this site.
 - Share images: `scripts/wiki/og-images.sh` turns each illustration into `assets/wiki/og/<name>.png` (1200×630) for LinkedIn and search previews; the action runs it before building. An article uses the image of its first illustration.

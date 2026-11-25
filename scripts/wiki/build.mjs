@@ -587,7 +587,7 @@ async function main() {
   }).join('\n        ');
   await writeFile(join(OUT, 'index.html'), page({
     up: '../',
-    title: 'Wiki — practical knowledge bases for public works — InfraStatera',
+    title: 'Wiki — practical guides for contractors and inspectors — InfraStatera',
     description: `Free, practical knowledge bases for contractors and engineers on public works: ${spaces.map((s) => s.title.toLowerCase()).join(', ')}.`,
     path: 'wiki/',
     type: 'website',
@@ -599,7 +599,7 @@ async function main() {
     body: `
     <section class="page-head">
       <p class="tier">Wiki</p>
-      <h1>Public works, explained</h1>
+      <h1>Construction, explained</h1>
       <p class="page-head-lead">Practical knowledge bases written from the job: how the work is actually done, the documents behind it and the words people use. Pick a subject, or search them all at once.</p>
     </section>
     <section class="wiki-wrap">
@@ -609,6 +609,23 @@ async function main() {
     </section>`,
   }));
   sitemapUrls.unshift({ loc: 'wiki/', lastmod: today });
+
+  // Home page band: one card per published knowledge base, between the wiki-home markers in index.html.
+  const homePath = join(ROOT, 'index.html');
+  const home = await readFile(homePath, 'utf8');
+  const articleTotal = spaces.reduce((n, s) => n + s._counts.articles, 0);
+  const homeLead = `<p class="section-lead">Free guides for contractors and inspectors, written from real projects. ${spaces.length} knowledge bases, ${articleTotal} articles, searchable all at once.</p>`;
+  const homeCards = `<div class="wiki-home-cards">
+${spaces.map((sp) => `          <a class="wiki-home-card" href="wiki/${sp.slug}/">
+            <span class="wiki-home-pic"><img src="assets/wiki/${cfg(sp.slug).image}" alt="" loading="lazy"></span>
+            <span class="wiki-home-name">${esc(sp.title)}</span>
+            <span class="wiki-home-count">${plural(sp._counts.articles, 'article')}</span>
+          </a>`).join('\n')}
+        </div>`;
+  const homeNext = home
+    .replace(/(<!-- wiki-home:lead:start[^>]*-->)[\s\S]*?(\s*<!-- wiki-home:lead:end -->)/, `$1\n            ${homeLead}$2`)
+    .replace(/(<!-- wiki-home:cards:start[^>]*-->)[\s\S]*?(\s*<!-- wiki-home:cards:end -->)/, `$1\n        ${homeCards}$2`);
+  if (homeNext !== home) await writeFile(homePath, homeNext);
 
   // Old addresses (before several knowledge bases): Caltrans electrical work lived directly under /wiki/.
   const legacy = spaces.find((s) => s.slug === 'caltrans-electrical');
