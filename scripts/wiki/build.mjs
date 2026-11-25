@@ -413,7 +413,8 @@ async function main() {
           <button type="button" aria-pressed="true" data-g="all">All ${d.materials.length}</button>
           ${GROUPS.map(([g, label]) => `<button type="button" aria-pressed="false" data-g="${g}">${label} ${d.materials.filter((m) => m.system_group === g).length}</button>`).join('')}
         </div>
-        <input type="search" aria-label="Filter materials" placeholder="Filter, e.g. fiber, box, battery">
+        <input type="search" aria-label="Filter materials" placeholder="Filter, e.g. conduit, fiber, battery">
+        <p class="wiki-mat-count" data-mat-count aria-live="polite"></p>
       </div>
       ${matSections}
       <p class="wiki-empty" data-mat-none hidden>No material matches.</p>

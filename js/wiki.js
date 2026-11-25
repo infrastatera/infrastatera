@@ -77,28 +77,68 @@
   var rows = document.querySelectorAll('table.wiki-mat tbody tr');
   var groups = document.querySelectorAll('.wiki-mat-group');
   var none = document.querySelector('[data-mat-none]');
+  var count = tools.querySelector('[data-mat-count]');
   var group = 'all';
+  var original = new Map();
+  rows.forEach(function (r) { original.set(r, r.innerHTML); });
 
-  function apply() {
-    var words = input.value.toLowerCase().split(/\s+/).filter(Boolean);
+  function escRe(s) { return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'); }
+  // Marks the typed words in a row's text (never inside tags), so a match is easy to see.
+  function mark(r, words) {
+    r.innerHTML = original.get(r);
+    if (!words.length) return;
+    var re = new RegExp('(' + words.map(escRe).join('|') + ')', 'gi');
+    var walker = document.createTreeWalker(r, NodeFilter.SHOW_TEXT);
+    var nodes = [];
+    while (walker.nextNode()) nodes.push(walker.currentNode);
+    nodes.forEach(function (n) {
+      if (!re.test(n.nodeValue)) return;
+      re.lastIndex = 0;
+      var span = document.createElement('span');
+      span.innerHTML = n.nodeValue.replace(/[&<>]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;' }[c]; }).replace(re, '<mark>$1</mark>');
+      n.parentNode.replaceChild(span, n);
+    });
+  }
+
+  function apply(scroll) {
+    var q = input.value.trim();
+    var words = q.toLowerCase().split(/\s+/).filter(Boolean);
     var shown = 0;
     rows.forEach(function (r) {
-      var text = r.textContent.toLowerCase();
+      var text = original.get(r).replace(/<[^>]*>/g, ' ').replace(/&amp;/g, '&').toLowerCase();
       var ok = (group === 'all' || r.getAttribute('data-group') === group) && words.every(function (w) { return text.indexOf(w) >= 0; });
       r.hidden = !ok;
+      mark(r, ok ? words : []);
       if (ok) shown++;
     });
     groups.forEach(function (g) { g.hidden = !g.querySelector('tbody tr:not([hidden])'); });
     none.hidden = shown > 0;
+    if (count) count.textContent = (words.length || group !== 'all')
+      ? shown + ' of ' + rows.length + (shown === 1 ? ' material' : ' materials') + (words.length ? ' match \u201c' + q + '\u201d' : '')
+      : '';
+    // Bring the first match up under the filter bar if the page was scrolled past it.
+    if (scroll) {
+      var first = document.querySelector('.wiki-mat-group:not([hidden])');
+      var barBottom = tools.getBoundingClientRect().bottom;
+      if (first && first.getBoundingClientRect().top < barBottom) {
+        window.scrollTo({ top: window.scrollY + first.getBoundingClientRect().top - barBottom - 8 });
+      }
+    }
   }
   chips.forEach(function (c) {
     c.addEventListener('click', function () {
       group = c.getAttribute('data-g');
       chips.forEach(function (x) { x.setAttribute('aria-pressed', String(x === c)); });
-      apply();
+      apply(true);
     });
   });
-  input.addEventListener('input', apply);
+  input.addEventListener('input', function () { apply(true); });
+  input.addEventListener('keydown', function (e) {
+    if (e.key !== 'Enter') return;
+    e.preventDefault();
+    var first = document.querySelector('table.wiki-mat tbody tr:not([hidden])');
+    if (first) first.scrollIntoView({ block: 'center', behavior: 'smooth' });
+  });
 
   // Opening a material from the search (#its-row) clears the filter so the row shows, then marks it.
   function reveal() {
@@ -121,12 +161,24 @@
   var side = document.querySelector('[data-wiki-side]');
   if (!side) return;
   var wide = window.matchMedia('(min-width: 901px)');
-  function sync() { side.open = wide.matches; }
+  var bar = document.querySelector('.wiki-bar');
+  // On phones the panel sticks just under the wiki bar, whose height changes with the screen.
+  function place() {
+    side.style.top = (!wide.matches && bar) ? (parseFloat(getComputedStyle(bar).top) || 0) + bar.offsetHeight + 8 + 'px' : '';
+  }
+  function sync() { side.open = wide.matches; place(); }
   sync();
+  window.addEventListener('resize', place);
   if (wide.addEventListener) wide.addEventListener('change', sync);
   var cur = side.querySelector('[aria-current="page"]');
-  if (cur && wide.matches) {
-    var top = cur.offsetTop - side.clientHeight / 2;
-    if (top > 0) side.scrollTop = top;
+  var nav = side.querySelector('nav');
+  function centre() {
+    if (!cur) return;
+    var box = wide.matches ? side : nav;
+    var top = cur.getBoundingClientRect().top - box.getBoundingClientRect().top + box.scrollTop - box.clientHeight / 2;
+    if (top > 0) box.scrollTop = top;
   }
+  centre();
+  // On phones the panel opens over the page; show where you are in the list.
+  side.addEventListener('toggle', function () { if (side.open && !wide.matches) centre(); });
 })();
