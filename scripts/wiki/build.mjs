@@ -130,6 +130,11 @@ const MOVED_ARTICLES = [
   ['public-works-contracting/c10-electrical-exam-study-guide', 'c10-electrical-exam-study-guide'],
   ['public-works-contracting/class-a-general-engineering-exam-study-guide', 'class-a-general-engineering-exam-study-guide'],
 ];
+// Hand-made pages that used to live under wiki/ and now live elsewhere on the site: old address under wiki/ → new path.
+const MOVED_PAGES = [
+  ['contractor-license-study-guides/law-and-business-quiz', 'cslb-quiz/'],
+  ['contractor-license-study-guides/law-and-business-cheat-sheet', 'cslb-cheat-sheet/'],
+];
 const cfg = (slug) => ({ ...DEFAULT_SPACE, ...(SPACE_CONFIG[slug] ?? {}) });
 const WIKI_DISCLAIMER = 'For learning only, not professional, legal or engineering advice. Each knowledge base says what to check before you rely on it.';
 
@@ -673,6 +678,12 @@ ${spaces.map((sp) => `          <a class="wiki-home-card" href="wiki/${sp.slug}/
     if (!a) continue;
     const to = `wiki/${spaceById.get(a.space_id).slug}/${a.slug}/`;
     if (to === `wiki/${old}/` || existsSync(join(OUT, old, 'index.html'))) continue;
+    await mkdir(join(OUT, old), { recursive: true });
+    await writeFile(join(OUT, old, 'index.html'), moved(to));
+  }
+
+  for (const [old, to] of MOVED_PAGES) {
+    if (existsSync(join(OUT, old, 'index.html'))) continue;
     await mkdir(join(OUT, old), { recursive: true });
     await writeFile(join(OUT, old, 'index.html'), moved(to));
   }
