@@ -105,8 +105,8 @@
       <label for="email">Email</label>
       <input type="email" id="email" required autocomplete="email" placeholder="you@example.com">
       <label for="license">Which license are you going for?</label>
-      <select id="license">
-        <option value="">Choose one (optional)</option>
+      <select id="license" required>
+        <option value="">Choose one</option>
         <option>A – General Engineering</option>
         <option>B – General Building</option>
         <option>C-10 – Electrical</option>
@@ -116,7 +116,6 @@
       </select>
       <div id="gateErr" class="err hidden"></div>
       <button class="btn" type="submit" id="gateBtn" style="width:100%">Show my score</button>
-      <p class="small">No spam. Unsubscribe anytime.</p>
     </form>
   </section>
 
@@ -203,6 +202,7 @@ async function submitEmail(ev){
   ev.preventDefault();
   const email = $("email").value.trim();
   if(!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)){showErr("Please enter a valid email.");return;}
+  if(!$("license").value){showErr("Please choose the license you're going for.");return;}
   const score = answers.reduce((n,a,k)=>n+(a===Q[k].a?1:0),0);
   const data = {email, first_name:$("fname").value.trim(), license:$("license").value, score, total:Q.length, source:"cslb-law-quiz"};
   $("gateBtn").disabled = true; $("gateBtn").textContent = "Loading…";
